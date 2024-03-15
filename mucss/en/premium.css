@@ -1,0 +1,542 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.premium_td_txt1 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px 3px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt2 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -57px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt3 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -117px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt4 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -177px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt5 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -237px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt6 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -297px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt7 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -357px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt8 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -417px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt9 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -477px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt10 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -537px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt11 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -597px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt12 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -657px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt13 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -717px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt14 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -777px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt15 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -837px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt16 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -897px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_highest {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -957px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_low {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1137px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_unlimited {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1017px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_1 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1197px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_lowest {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1497px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_200gb {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1257px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_2gb {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1317px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_none {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1557px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_limited {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1377px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_500mb {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1617px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_medium {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1437px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_very_limited {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1677px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_little {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1077px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_maximum {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1737px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_features {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:-192px -1818px;
+	background-repeat:no-repeat;
+	height:30px;
+}
+.premium_td_premium {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1858px;
+	background-repeat:no-repeat;
+	height:30px;
+}
+.premium_td_members {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1898px;
+	background-repeat:no-repeat;
+	height:30px;
+}
+.premium_td_nonmember {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -1938px;
+	background-repeat:no-repeat;
+	height:30px;
+}
+.premium_sites_txt {
+	height:49px;
+	background-image: url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/login_text.png);
+	background-position:center -173px;
+	background-repeat:no-repeat
+}
+.premium_top_txt {
+	height:317px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text.png);
+	background-position:left 231px;
+	background-repeat:no-repeat
+}
+.premium_td_txt17 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -1977px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt18 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -2037px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_txt19 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:9px -2037px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.premium_td_14_sec {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_table_txt.png);
+	background-position:center -2097px;
+	background-repeat:no-repeat;
+	height:50px;
+}
+a.pr_buy_now, a.pr_buy_now:link, a.pr_buy_now:visited, a.pr_buy_now:active {
+	display:block;
+	background-image: url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_buttons.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width:102px;
+	height:28px;
+	margin-right:28px;
+	float:right
+}
+a.pr_buy_now:hover {
+	display:block;
+	background-image: url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_buttons.png);
+	background-position:left -28px;
+	background-repeat:no-repeat;
+	width:102px;
+	height:28px;
+	margin-right:28px;
+	float:right
+}
+.pr_membership_bl6 a.pr_buy_now, .pr_membership_bl6 a.pr_buy_now:link, .pr_membership_bl6 a.pr_buy_now:visited, .pr_membership_bl6 a.pr_buy_now:active {
+	margin-left:27px;
+	float:left;
+}
+.pr_membership_bl6 a.pr_buy_now:hover {
+	margin-left:27px;
+	float:left
+}
+.pr_membership_bl1 .premium_mem_txt {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_memberships.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:194px;
+}
+.pr_membership_bl2 .premium_mem_txt {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_memberships.png);
+	background-position:-169px top;
+	background-repeat:no-repeat;
+	height:194px;
+}
+.pr_membership_bl3 .premium_mem_txt {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_memberships.png);
+	background-position:-329px top;
+	background-repeat:no-repeat;
+	height:194px;
+}
+.pr_membership_bl4 .premium_mem_txt {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_memberships.png);
+	background-position:-489px top;
+	background-repeat:no-repeat;
+	height:194px;
+}
+.pr_membership_bl5 .premium_mem_txt {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_memberships.png);
+	background-position:-649px top;
+	background-repeat:no-repeat;
+	height:194px;
+}
+.pr_membership_bl6 .premium_mem_txt {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_memberships.png);
+	background-position:-809px top;
+	background-repeat:no-repeat;
+	height:194px;
+}
+a.pr_benefits, a.pr_benefits:link, a.pr_benefits:visited, a.pr_benefits:active {
+	display:block;
+	background-image: url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_buttons.png);
+	background-position:left -56px;
+	background-repeat:no-repeat;
+	width:102px;
+	height:28px;
+	margin-right:28px;
+	margin-top:158px;
+	float:right
+}
+a.pr_benefits:hover {
+	display:block;
+	background-image: url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_buttons.png);
+	background-position:left -84px;
+	background-repeat:no-repeat;
+	width:102px;
+	height:28px;
+	margin-right:28px;
+	margin-top:158px;
+	float:right
+}
+.pr_membership_bl6 a.pr_benefits, .pr_membership_bl6 a.pr_benefits:link, .pr_membership_bl6 a.pr_benefits:visited, .pr_membership_bl6 a.pr_benefits:active {
+	margin-left:27px;
+	float:left
+}
+.pr_membership_bl6 a.pr_benefits:hover {
+	margin-left:27px;
+	float:left
+}
+.pr_membership_bl1 a.pr_benefits, .pr_membership_bl1 a.pr_benefits:link, .pr_membership_bl1 a.pr_benefits:visited, .pr_membership_bl1 a.pr_benefits:active, .pr_membership_bl2 a.pr_benefits, .pr_membership_bl2 a.pr_benefits:link, .pr_membership_bl2 a.pr_benefits:visited, .pr_membership_bl2 a.pr_benefits:active, .pr_membership_bl3 a.pr_benefits, .pr_membership_bl3 a.pr_benefits:link, .pr_membership_bl3 a.pr_benefits:visited, .pr_membership_bl3 a.pr_benefits:active, .pr_membership_bl4 a.pr_benefits, .pr_membership_bl4 a.pr_benefits:link, .pr_membership_bl4 a.pr_benefits:visited, .pr_membership_bl4 a.pr_benefits:active {
+	display:none;
+}
+.pr_membership_bl1 a.pr_benefits:hover, .pr_membership_bl2 a.pr_benefits:hover, .pr_membership_bl3 a.pr_benefits:hover, .pr_membership_bl4 a.pr_benefits:hover {
+	display:none;
+}
+a.pr_trouble_but, a.pr_trouble_but:link, a.pr_trouble_but:visited, a.pr_trouble_but:active {
+	width:390px;
+	height:38px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_limit_but.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:30px;
+	display:block;
+}
+a.pr_trouble_but:hover {
+	width:390px;
+	height:38px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_limit_but.png);
+	background-position:left -38px;
+	background-repeat:no-repeat;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:30px;
+	display:block;
+}
+a.pr_trouble_but1, a.pr_trouble_but1:link, a.pr_trouble_but1:visited, a.pr_trouble_but1:active {
+	width:390px;
+	height:38px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_limit_but.png);
+	background-position:left -76px;
+	background-repeat:no-repeat;
+	position:relative;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:30px;
+	display:block;
+}
+a.pr_trouble_but1:hover {
+	width:390px;
+	height:38px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_limit_but.png);
+	background-position:left -114px;
+	background-repeat:no-repeat;
+	position: relative;
+	z-index:1000;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:30px;
+	display:block;
+}
+.pr_downloads_troubleshooting {
+	height:99px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_trouble.png);
+	background-position:57px 44px;
+	background-repeat:no-repeat;
+}
+.pr_hover_head_txt {
+	background-position:center -78px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text.png);
+	background-repeat:no-repeat;
+	height:50px;
+}
+.pr_hover_lifetime1 {
+	height:64px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text.png);
+	background-position:27px -127px;
+	background-repeat:no-repeat
+}
+.pr_hover_lifetime2 {
+	height:220px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text.png);
+	background-position:27px -191px;
+	background-repeat:no-repeat
+}
+.pr_hover_hotlink1 {
+	height:64px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text.png);
+	background-position:-526px -127px;
+	background-repeat:no-repeat
+}
+.pr_hover_hotlink2 {
+	height:245px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text.png);
+	background-position:-526px -191px;
+	background-repeat:no-repeat
+}
+.download_table .pr_table_td1, .download_large_main .pr_table_td1 {
+	width:550px;
+}
+.download_table .pr_table_td2, .download_large_main .pr_table_td2 {
+	width:140px;
+}
+.download_table .pr_table_td3, .download_large_main .pr_table_td3 {
+	width:140px;
+}
+.download_table .pr_table_td4, .download_large_main .pr_table_td4 {
+	width:130px;
+}
+.pr_table_td3 .premium_td_unlimited, .pr_table_td4 .premium_td_unlimited {
+	background-image: url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/unlim_gray.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	height:50px;
+}
+.xmas .pr_membership_bl1 .premium_mem_txt, .xmas .pr_membership_bl2 .premium_mem_txt, .xmas .pr_membership_bl3 .premium_mem_txt, .xmas .pr_membership_bl4 .premium_mem_txt, .xmas .pr_membership_bl5 .premium_mem_txt, .xmas .pr_membership_bl6 .premium_mem_txt {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_memberships_x.png);
+	height:234px;
+}
+.xmas_block {
+	display:none;
+}
+.xmas .xmas_block {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/xmas_sale.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width:975px;
+	height:99px;
+	display:block;
+}
+.xmas .pr_membership_bl2 {
+	height:280px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/pr_bgs_x.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	width:157px;
+	float:left
+}
+.xmas .pr_membership_bl3 {
+	height:280px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/pr_bgs_x.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	width:157px;
+	float:left
+}
+.xmas .pr_membership_bl4 {
+	height:280px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/pr_bgs_x.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	width:157px;
+	float:left
+}
+.xmas .pr_membership_bl5 {
+	height:280px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/pr_bgs_x.png);
+	background-position:left -560px;
+	background-repeat:repeat-x;
+	width:157px;
+	float:left
+}
+.xmas .pr_membership_bl6 {
+	height:280px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/pr_bgs_x.png);
+	background-position:left -560px;
+	background-repeat:repeat-x;
+	width:165px;
+	float:left
+}
+.xmas .pr_mem_div {
+	width:3px;
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/pr_bgs_x.png);
+	background-position:left -280px;
+	background-repeat:repeat-x;
+	height:280px;
+	float:left;
+	font-size:1px;
+}
+.xmas a.pr_benefits, .xmas a.pr_benefits:link, .xmas a.pr_benefits:visited, .xmas a.pr_benefits:hover, .xmas a.pr_benefits:active {
+	margin-top: 198px;
+}
+.xmas .pr_hover_lifetime2 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text_x.png);
+	background-position:27px -191px;
+	background-repeat:no-repeat
+}
+.xmas .pr_hover_hotlink2 {
+	background-image:url(/web/20111231211812im_/http://wwwstatic.megaupload.com/muimg/en/pr_text_x.png);
+	background-position:-526px -191px;
+	background-repeat:no-repeat
+}
+/*
+     FILE ARCHIVED ON 21:18:12 Dec 31, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:02 Mar 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.244
+  exclusion.robots.policy: 0.223
+  cdx.remote: 0.173
+  esindex: 0.015
+  LoadShardBlock: 3210.434 (6)
+  PetaboxLoader3.datanode: 3059.439 (8)
+  load_resource: 444.639 (2)
+  PetaboxLoader3.resolve: 312.544 (2)
+*/

@@ -1,0 +1,464 @@
+@charset "utf-8";
+.top_butt1 {
+	width:162px;
+	height:46px;
+	float:left;
+}
+.top_butt2 {
+	width:163px;
+	height:46px;
+	float:left;
+}
+.top_butt3 {
+	width:162px;
+	height:46px;
+	float:left;
+}
+.top_butt4 {
+	width:162px;
+	height:46px;
+	float:left;
+}
+.top_butt5 {
+	width:163px;
+	height:46px;
+	float:left;
+}
+.top_butt6 {
+	width:163px;
+	height:46px;
+	float:left;
+}
+a.butt_1, a.butt_1:link, a.butt_1:visited, a.butt_1:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:left top;
+	width:162px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.butt_1:hover, a.butt_1.active, a.butt_1.active:link, a.butt_1.active:hover, a.butt_1.active:visited, a.butt_1.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:left -46px;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.butt_1_fm, a.butt_1_fm:link, a.butt_1_fm:visited, a.butt_1_fm:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-975px top;
+	width:162px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.butt_1_fm:hover, a.butt_1_fm.active, a.butt_1_fm.active:link, a.butt_1_fm.active:hover, a.butt_1_fm.active:visited, a.butt_1_fm.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-975px -46px;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.butt_2, a.butt_2:link, a.butt_2:visited, a.butt_2:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-162px top;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.butt_2:hover, a.butt_2.active, a.butt_2.active:link, a.butt_2.active:hover, a.butt_2.active:visited, a.butt_2.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-162px -46px;
+	width:164px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.butt_3, a.butt_3:link, a.butt_3:visited, a.butt_3:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-325px top;
+	width:162px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.butt_3:hover, a.butt_3.active, a.butt_3.active:link, a.butt_3.active:hover, a.butt_3.active:visited, a.butt_3.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-325px -46px;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.butt_4, a.butt_4:link, a.butt_4:visited, a.butt_4:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-487px top;
+	width:162px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.butt_4:hover, a.butt_4.active, a.butt_4.active:link, a.butt_4.active:hover, a.butt_4.active:visited, a.butt_4.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-487px -46px;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.butt_5, a.butt_5:link, a.butt_5:visited, a.butt_5:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-649px top;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.butt_5:hover, a.butt_5.active, a.butt_5.active:link, a.butt_5.active:hover, a.butt_5.active:visited, a.butt_5.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-649px -46px;
+	width:164px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.butt_6, a.butt_6:link, a.butt_6:visited, a.butt_6:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-812px top;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.butt_6:hover, a.butt_6.active, a.butt_6.active:link, a.butt_6.active:hover, a.butt_6.active:visited, a.butt_6.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_menu.png);
+	background-position:-812px -46px;
+	width:163px;
+	height:46px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+.foot_bg1 {
+	width:422px;
+	height:40px;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-553px top;
+	background-repeat:no-repeat;
+	float:right;
+	margin-right:6px;
+}
+.bott_butt1 {
+	width:106px;
+	height:40px;
+	float:left;
+}
+.bott_butt2 {
+	width:115px;
+	height:40px;
+	float:left;
+}
+.bott_butt3 {
+	width:73px;
+	height:40px;
+	float:left;
+}
+.bott_butt4 {
+	width:91px;
+	height:40px;
+	float:left;
+}
+.bott_butt5 {
+	width:104px;
+	height:40px;
+	float:left;
+}
+.bott_butt6 {
+	width:64px;
+	height:40px;
+	float:left;
+	display:block;
+}
+a.f_butt_1, a.f_butt_1:link, a.f_butt_1:visited, a.f_butt_1:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:left top;
+	width:106px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.f_butt_1:hover, a.f_butt_1.active, a.f_butt_1.active:link, a.f_butt_1.active:hover, a.f_butt_1.active:visited, a.f_butt_1.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:left -40px;
+	width:107px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.f_butt_2, a.f_butt_2:link, a.f_butt_2:visited, a.f_butt_2:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-106px top;
+	width:115px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.f_butt_2:hover, a.f_butt_2.active, a.f_butt_2.active:link, a.f_butt_2.active:hover, a.f_butt_2.active:visited, a.f_butt_2.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-106px -40px;
+	width:116px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.f_butt_3, a.f_butt_3:link, a.f_butt_3:visited, a.f_butt_3:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-221px top;
+	width:73px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.f_butt_3:hover, a.f_butt_3.active, a.f_butt_3.active:link, a.f_butt_3.active:hover, a.f_butt_3.active:visited, a.f_butt_3.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-221px -40px;
+	width:74px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.f_butt_4, a.f_butt_4:link, a.f_butt_4:visited, a.f_butt_4:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-294px top;
+	width:91px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.f_butt_4:hover, a.f_butt_4.active, a.f_butt_4.active:link, a.f_butt_4.active:hover, a.f_butt_4.active:visited, a.f_butt_4.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-294px -40px;
+	width:92px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.f_butt_5, a.f_butt_5:link, a.f_butt_5:visited, a.f_butt_5:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-385px top;
+	width:104px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.f_butt_5:hover, a.f_butt_5.active, a.f_butt_5.active:link, a.f_butt_5.active:hover, a.f_butt_5.active:visited, a.f_butt_5.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-385px -40px;
+	width:105px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.f_butt_6, a.f_butt_6:link, a.f_butt_6:visited, a.f_butt_6:active {
+	display:block;
+	background-image: url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-489px top;
+	width:64px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1000;
+}
+a.f_butt_6:hover, a.f_butt_6.active, a.f_butt_6.active:link, a.f_butt_6.active:hover, a.f_butt_6.active:visited, a.f_butt_6.active:active {
+	display:block;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/bott_menu_en.png);
+	background-position:-489px -40px;
+	width:64px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1001;
+}
+a.top_log_butt, a.top_log_butt:link, a.top_log_butt:visited, a.top_log_butt:active {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	display:block;
+	width:50px;
+	height:32px;
+}
+a.top_log_butt:hover {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:left -32px;
+	background-repeat:no-repeat;
+	display:block;
+	width:50px;
+	height:32px;
+}
+a.top_reg_butt, a.top_reg_butt:link, a.top_reg_butt:visited, a.top_reg_butt:active {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:-50px top;
+	background-repeat:no-repeat;
+	display:block;
+	width:65px;
+	height:32px;
+}
+a.top_reg_butt:hover {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:-50px -32px;
+	background-repeat:no-repeat;
+	display:block;
+	width:65px;
+	height:32px;
+}
+a.top_sign_butt, a.top_sign_butt:link, a.top_sign_butt:visited, a.top_sign_butt:active {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:-115px top;
+	background-repeat:no-repeat;
+	display:block;
+	width:65px;
+	height:32px;
+}
+a.top_sign_butt:hover {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:-115px -32px;
+	background-repeat:no-repeat;
+	display:block;
+	width:65px;
+	height:32px;
+}
+a.top_acc_butt, a.top_acc_butt:link, a.top_acc_butt:visited, a.top_acc_butt:active {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:-180px top;
+	background-repeat:no-repeat;
+	display:block;
+	width:82px;
+	height:32px;
+}
+a.top_acc_butt:hover {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/top_buttons.png);
+	background-position:-180px -32px;
+	background-repeat:no-repeat;
+	display:block;
+	width:82px;
+	height:32px;
+}
+.fm .foot_bg1 {
+	float: right;
+	width: 422px;
+	margin-right:0px;
+}
+.fm .foot_bg2 {
+	float: left;
+	width: 553px;
+}
+.fm .foot_bg3 {
+	height:40px;
+	margin-left:553px;
+	margin-right:422px;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/fm_bot_bg.gif);
+	background-position:left top;
+	background-repeat: repeat-x;
+}
+.fm_popup_message_txt {
+	height:63px;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-position:center -756px;
+	background-repeat: no-repeat;
+}
+.fm_popup_reverse_txt {
+	height:63px;
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/reset_txt.png);
+	background-position:center -147px;
+	background-repeat: no-repeat;
+}
+a.fm_message_ok, a.fm_message_ok:link, a.fm_message_ok:visited, a.fm_message_ok:active {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-position:left -1082px;
+	background-repeat:no-repeat;
+	display:block;
+	width:180px;
+	height:42px;
+	margin-left:auto;
+	margin-right:auto;
+}
+a.fm_message_ok:hover {
+	background-image:url(/web/20111231211633im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-position:left -1124px;
+	background-repeat:no-repeat;
+	display:block;
+	width:180px;
+	height:42px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*
+     FILE ARCHIVED ON 21:16:33 Dec 31, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:13:07 Mar 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.103
+  exclusion.robots.policy: 0.092
+  cdx.remote: 0.086
+  esindex: 0.01
+  LoadShardBlock: 94.877 (6)
+  PetaboxLoader3.datanode: 160.038 (8)
+  load_resource: 1398.945 (2)
+  PetaboxLoader3.resolve: 1302.721 (2)
+*/

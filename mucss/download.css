@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.downl_main {
+	margin-left:6px;
+	margin-right:6px;
+	background-color:#fafafa;
+	padding-top:50px;
+	padding-bottom:40px;
+}
+.download_gray_bg1 {
+	margin-left:57px;
+	float:left;
+	width:579px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-position:-1158px top;
+	background-repeat:repeat-y;
+}
+.download_gray_bg2 {
+	width:579px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-position:left top;
+	background-repeat: no-repeat;
+}
+.download_gray_bg3 {
+	width:579px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-position:-579px bottom;
+	background-repeat: no-repeat;
+	min-height:143px;
+}
+.download_gray_bg3 {
+	width:579px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-position:-579px bottom;
+	background-repeat: no-repeat;
+	min-height:143px;
+}
+.download_file_block {
+	padding-top:38px;
+	padding-bottom:35px;
+}
+.download_file_block.description {
+	padding-top:22px;
+	padding-bottom:6px;
+}
+.description_bl {
+	display:none;
+}
+.download_file_block.description .description_bl {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-position:left 7px;
+	background-repeat:repeat-x;
+	padding-bottom:7px;
+	font-size:13px;
+	color:#666666;
+	padding-top:20px;
+	line-height:21px;
+	padding-left:25px;
+	padding-right:25px;
+	display:block;
+}
+.download_file_name {
+	padding-left:25px;
+	font-size:26px;
+	line-height:29px;
+	color:#424345;
+	font-weight:bold;
+}
+.download_file_size {
+	font-size:26px;
+	line-height:29px;
+	color:#424345;
+	padding-top:7px;
+	padding-left:5px;
+	float:left
+}
+.download_white_bg1 {
+	margin-left:21px;
+	float:left;
+	width:261px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-position:-2259px top;
+	background-repeat:repeat-y;
+}
+.download_white_bg2 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-position:-1737px top;
+	background-repeat: no-repeat;
+}
+.download_white_bg3 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-position:-1998px bottom;
+	background-repeat: no-repeat;
+	margin:0px;
+}
+.download_but_bl1 {
+	padding-top:10px;
+	padding-bottom:9px;
+	padding-left:2px;
+}
+.download_but_bl2 {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:2px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-position:left top;
+	background-repeat:repeat-x;
+}
+.download_but_bl3 {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:2px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-position:left top;
+	background-repeat:repeat-x;
+}
+.download_member_bl {
+	margin-left:56px;
+	width:582px;
+	float:left;
+	padding-top:20px;
+}
+.download_clock_bl {
+	margin-left:23px;
+	width:295px;
+	float:left;
+	padding-top:12px;
+}
+.access_clock_bl {
+	margin-left:23px;
+	width:295px;
+	float:left;
+	padding-top:32px;
+}
+strong {
+	color:#333333;
+	font-size:14px;
+	line-height:21px;
+}
+.download_inp_bg1 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-repeat:repeat-x;
+	background-position:left -194px;
+	height: 40px;
+	width:404px;
+	float:left;
+}
+.reset_main_block .download_inp_bg1 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-repeat:repeat-x;
+	background-position:left -194px;
+	height: 40px;
+	width:404px;
+	float:left;
+	margin-bottom:14px;
+}
+.reset_main_block .download_inp_bg1 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-repeat:repeat-x;
+	background-position:left -194px;
+	height: 40px;
+	width:580px;
+	float:left;
+}
+.download_inp_bg2 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-repeat: no-repeat;
+	background-position:left -114px;
+	height: 40px;
+}
+.download_inp_bg3 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-repeat: no-repeat;
+	background-position:right -154px;
+	height: 40px;
+	padding-left:12px;
+	padding-right:38px;
+}
+.correct .download_inp_bg3 {
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-repeat: no-repeat;
+	background-position:right -1383px;
+	height: 40px;
+	padding-left:12px;
+	padding-right:38px;
+}
+.download_input {
+	border:0px;
+	width:100%;
+	height:17px;
+	margin-top:12px;
+	margin-left:0px;
+	margin-bottom:0px;
+	margin-right:0px;
+	line-height:16px;
+	padding:0px;
+	background-color:#FFF;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#333333;
+	font-weight:bold;
+	outline:none;
+}
+.display_pass_text {
+	font-size:13px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:13px;
+	padding-left:1px;
+}
+.reset_main_block .display_pass_text {
+	font-size:13px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:6px;
+	padding-left:1px;
+}
+.display_reset_text1 {
+	font-size:13px;
+	font-weight:bold;
+	padding-top:24px;
+	padding-bottom:6px;
+	padding-left:1px;
+	color:#505050;
+}
+.display_reset_text2 {
+	font-size:13px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:6px;
+	padding-left:1px;
+	color:#505050;
+}
+.download_table {
+	padding-left:6px;
+	padding-right:6px;
+}
+.download_banners_bl {
+	min-height:296px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bot_bg.png);
+	background-position:left bottom;
+	background-repeat: repeat-x;
+	background-color:#eeeeee;
+	margin-left:6px;
+	margin-right:6px;
+}
+a.download_banner, a.download_banner:link, a.download_banner:visited, a.download_banner:hover, a.download_banner:active {
+	display:block;
+	padding-left:19px;
+	padding-top:19px;
+	float:left
+}
+a.download_banner img, a.download_banner:link img, a.download_banner:visited img, a.download_banner:hover img, a.download_banner:active img {
+	border:1px solid #8f8f8f;
+}
+.delete_main_bg {
+	background-image: url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/mm_bg1.gif);
+	background-position:left -8px;
+	background-repeat:repeat-x;
+	margin-left:6px;
+	margin-right:6px;
+	padding-bottom:51px;
+	padding-top:46px;
+}
+.delete_main_pad {
+	padding-left:57px;
+	padding-right:57px;
+}
+.delete_gray_bg1 {
+	width:860px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/delete_bg.png);
+	background-position:-1720px top;
+	background-repeat: repeat-y;
+}
+.delete_gray_bg2 {
+	width:860px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/delete_bg.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+.delete_gray_bg3 {
+	width:860px;
+	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/delete_bg.png);
+	background-position: -860px bottom;
+	background-repeat:no-repeat;
+	padding-top:22px;
+	padding-bottom:26px;
+}
+.delete_gray_bg3 .download_file_name {
+	float:left;
+	padding-top:3px;
+	color:#424345;
+}
+.delete_gray_bg3 .download_file_size {
+	float:left;
+	padding-top:3px;
+	padding-right: 25px;
+}
+.del_td {
+	white-space:nowrap;
+	width:30px;
+}
+.downl_ban_div {
+	background-image: url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	height:1px;
+	font-size:1px;
+	margin-left:6px;
+	margin-right:6px;
+}
+
+/*
+     FILE ARCHIVED ON 21:18:21 Dec 31, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:52:09 Mar 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.185
+  exclusion.robots.policy: 0.171
+  cdx.remote: 0.149
+  esindex: 0.014
+  LoadShardBlock: 130.252 (6)
+  PetaboxLoader3.datanode: 143.18 (8)
+  PetaboxLoader3.resolve: 266.656 (3)
+  load_resource: 318.032 (2)
+*/
