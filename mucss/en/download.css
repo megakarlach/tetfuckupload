@@ -3,7 +3,7 @@
 
 .download_top_text {
 	height: 160px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:left 41px;
 	background-repeat:no-repeat;
 }
@@ -11,7 +11,7 @@ a.download_copy_but, a.download_copy_but:link, a.download_copy_but:visited, a.do
 	height:28px;
 	display:block;
 	width:255px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:left -155px;
 	background-repeat:no-repeat;
 }
@@ -19,7 +19,7 @@ a.download_copy_but:hover {
 	height:28px;
 	display:block;
 	width:255px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:-300px -155px;
 	background-repeat:no-repeat;
 }
@@ -27,7 +27,7 @@ a.download_view_but, a.download_view_but:link, a.download_view_but:visited, a.do
 	height:28px;
 	display:block;
 	width:255px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:left -192px;
 	background-repeat:no-repeat;
 }
@@ -35,7 +35,7 @@ a.download_view_but:hover {
 	height:28px;
 	display:block;
 	width:255px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:-300px -192px;
 	background-repeat:no-repeat;
 }
@@ -43,7 +43,7 @@ a.download_import_but, a.download_import_but:link, a.download_import_but:visited
 	height:28px;
 	display:block;
 	width:255px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:left -229px;
 	background-repeat:no-repeat;
 }
@@ -51,7 +51,7 @@ a.download_import_but:hover {
 	height:28px;
 	display:block;
 	width:255px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:-300px -229px;
 	background-repeat:no-repeat;
 }
@@ -59,7 +59,7 @@ a.download_import_but_done, a.download_import_but_done:link, a.download_import_b
 	height:28px;
 	display:block;
 	width:255px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:-560px -229px;
 	background-repeat:no-repeat;
 }
@@ -68,7 +68,7 @@ a.download_premium_but, a.download_premium_but:link, a.download_premium_but:visi
 	width:282px;
 	height:62px;
 	float:left;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_buttons.png);
+	background-image:url(muimg/en/download_buttons.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 }
@@ -77,7 +77,7 @@ a.download_premium_but:hover {
 	width:282px;
 	height:62px;
 	float:left;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_buttons.png);
+	background-image:url(muimg/en/download_buttons.png);
 	background-position:left -62px;
 	background-repeat:no-repeat;
 }
@@ -85,7 +85,7 @@ a.download_regular_disabled, a.download_regular_disabled:link, a.download_regula
 	display:block;
 	width:282px;
 	height:62px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_buttons.png);
+	background-image:url(muimg/en/download_buttons.png);
 	background-position:left -124px;
 	background-repeat:no-repeat;
 	float:right;
@@ -95,7 +95,7 @@ a.download_regular_usual, a.download_regular_usual:link, a.download_regular_usua
 	display:block;
 	width:282px;
 	height:62px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_buttons.png);
+	background-image:url(muimg/en/download_buttons.png);
 	background-position:left -186px;
 	background-repeat:no-repeat;
 	float:right;
@@ -104,7 +104,7 @@ a.download_regular_usual:hover {
 	display:block;
 	width:282px;
 	height:62px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_buttons.png);
+	background-image:url(muimg/en/download_buttons.png);
 	background-position:left -248px;
 	background-repeat:no-repeat;
 	float:right;
@@ -112,12 +112,12 @@ a.download_regular_usual:hover {
 .download_clock {
 	width:256px;
 	height:78px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/download_clock.png);
+	background-image:url(muimg/download_clock.png);
 	background-position:right 2px;
 	background-repeat:no-repeat
 }
 .download_timer_txt {
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_txt.png);
+	background-image:url(muimg/en/download_txt.png);
 	background-position:4px -280px;
 	background-repeat:no-repeat;
 	font-size:49px;
@@ -126,7 +126,7 @@ a.download_regular_usual:hover {
 	padding-top:20px;
 }
 .access_timer_txt {
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/access_header.png);
+	background-image:url(muimg/en/access_header.png);
 	background-position:2px -82px;
 	background-repeat:no-repeat;
 	font-size:49px;
@@ -137,7 +137,7 @@ a.download_regular_usual:hover {
 a.download_pass_but, a.download_pass_but:link, a.download_pass_but:visited, a.download_pass_but:active {
 	width:166px;
 	height:42px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_buttons.png);
+	background-image:url(muimg/en/download_buttons.png);
 	background-position:left -310px;
 	background-repeat:no-repeat;
 	display:block;
@@ -146,7 +146,7 @@ a.download_pass_but, a.download_pass_but:link, a.download_pass_but:visited, a.do
 a.download_pass_but:hover {
 	width:166px;
 	height:42px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/download_buttons.png);
+	background-image:url(muimg/en/download_buttons.png);
 	background-position:left -352px;
 	background-repeat:no-repeat;
 	display:block;
@@ -154,14 +154,14 @@ a.download_pass_but:hover {
 }
 .delete_the_following {
 	height:47px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/delete_img.png);
+	background-image:url(muimg/en/delete_img.png);
 	background-position:center top;
 	background-repeat:no-repeat;
 }
 a.delete_downl_but, a.delete_downl_but:link, a.delete_downl_but:visited, a.delete_downl_but:active {
 	width:222px;
 	height:62px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/delete_img.png);
+	background-image:url(muimg/en/delete_img.png);
 	background-position:left -66px;
 	background-repeat:no-repeat;
 	display:block;
@@ -172,7 +172,7 @@ a.delete_downl_but, a.delete_downl_but:link, a.delete_downl_but:visited, a.delet
 a.delete_downl_but:hover {
 	width:222px;
 	height:62px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/delete_img.png);
+	background-image:url(muimg/en/delete_img.png);
 	background-position:left -128px;
 	background-repeat:no-repeat;
 	display:block;
@@ -184,7 +184,7 @@ a.access_premium_login, a.access_premium_login:link, a.access_premium_login:visi
 	float:left;
 	width:282px;
 	height:62px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/access_but.png);
+	background-image:url(muimg/en/access_but.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	display:block;
@@ -197,7 +197,7 @@ a.access_premium_login:hover {
 	float:left;
 	width:282px;
 	height:62px;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/access_but.png);
+	background-image:url(muimg/en/access_but.png);
 	background-position:left -62px;
 	background-repeat:no-repeat;
 	display:block;
@@ -207,7 +207,7 @@ a.access_premium_login:hover {
 	margin-bottom:31px;
 }
 .access_na_text {
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/access_header.png);
+	background-image:url(muimg/en/access_header.png);
 	background-position:center -213px;
 	background-repeat:no-repeat;
 	height:185px;
@@ -216,7 +216,7 @@ a.access_premium_login:hover {
 .access_choose_new_pass {
 	background-position:left -90px;
 	background-repeat:no-repeat;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/reset_txt.png);
+	background-image:url(muimg/en/reset_txt.png);
 	height:45px;
 "
 }
@@ -226,7 +226,7 @@ a.access_submit, a.access_submit:link, a.access_submit:visited, a.access_submit:
 	background-repeat:no-repeat;
 	height: 42px;
 	display:block;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/access_but.png);
+	background-image:url(muimg/en/access_but.png);
 	float:right;
 	margin-right:198px;
 	margin-top:6px;
@@ -238,28 +238,9 @@ a.access_submit:hover {
 	background-repeat:no-repeat;
 	height: 42px;
 	display:block;
-	background-image:url(/web/20111231211719im_/http://wwwstatic.megaupload.com/muimg/en/access_but.png);
+	background-image:url(muimg/en/access_but.png);
 	float:right;
 	margin-right:198px;
 	margin-top:6px;
 	margin-bottom:40px;
 }
-/*
-     FILE ARCHIVED ON 21:17:19 Dec 31, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 06:52:09 Mar 15, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.167
-  exclusion.robots.policy: 0.15
-  cdx.remote: 0.157
-  esindex: 0.013
-  LoadShardBlock: 122.055 (6)
-  PetaboxLoader3.datanode: 156.871 (8)
-  load_resource: 138.271 (2)
-  PetaboxLoader3.resolve: 50.297
-*/
