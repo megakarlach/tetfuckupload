@@ -11,7 +11,7 @@
 	float:right;
 }
 .fm_show_bg {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_pulldowns.png);
+	background-image:url(muimg/en/fm_pulldowns.png);
 	background-position:left -38px;
 	background-repeat:no-repeat;
 	float:right;
@@ -24,7 +24,7 @@
 	float:right;
 }
 .fm_display_bg {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_pulldowns.png);
+	background-image:url(muimg/en/fm_pulldowns.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	float:right;
@@ -33,14 +33,14 @@
 	margin-left:10px;
 }
 .fm_hotlink_quota_txt {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:14px 20px;
 	background-repeat:no-repeat;
 	height:80px;
 }
 a.fm_add_hotlink_lnk, a.fm_add_hotlink_lnk:link, a.fm_add_hotlink_lnk:visited, a.fm_add_hotlink_lnk:active {
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:left -64px;
 	background-repeat:no-repeat;
 	width:180px;
@@ -50,7 +50,7 @@ a.fm_add_hotlink_lnk, a.fm_add_hotlink_lnk:link, a.fm_add_hotlink_lnk:visited, a
 }
 a.fm_add_hotlink_lnk:hover {
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-180px -64px;
 	background-repeat:no-repeat;
 	width:180px;
@@ -59,7 +59,7 @@ a.fm_add_hotlink_lnk:hover {
 	margin-top:4px;
 }
 .fm_import_top_txt {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:25px -102px;
 	background-repeat:no-repeat;
 	height:59px;
@@ -73,7 +73,7 @@ a.fm_import_but, a.fm_import_but:link, a.fm_import_but:visited, a.fm_import_but:
 	width:168px;
 	height:42px;
 	float:left;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_import_butt.png);
+	background-image:url(muimg/en/fm_import_butt.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	display:block;
@@ -83,7 +83,7 @@ a.fm_import_but:hover {
 	width:168px;
 	height:42px;
 	float:left;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_import_butt.png);
+	background-image:url(muimg/en/fm_import_butt.png);
 	background-position:-168px top;
 	background-repeat:no-repeat;
 	display:block;
@@ -92,7 +92,7 @@ a.fm_new_fold_but, a.fm_new_fold_but:link, a.fm_new_fold_but:visited, a.fm_new_f
 	width:114px;
 	height:41px;
 	float:left;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_import_butt.png);
+	background-image:url(muimg/en/fm_import_butt.png);
 	background-position:left -42px;
 	background-repeat:no-repeat;
 	display:block;
@@ -101,19 +101,19 @@ a.fm_new_fold_but:hover {
 	width:114px;
 	height:41px;
 	float:left;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_import_butt.png);
+	background-image:url(muimg/en/fm_import_butt.png);
 	background-position:-114px -42px;
 	background-repeat:no-repeat;
 	display:block;
 }
 .fm_menu_actions {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position: -3px -350px;
 	background-repeat:no-repeat;
 	height:36px;
 }
 a.fm_share_but, a.fm_share_but:link, a.fm_share_but:visited, a.fm_share_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -402px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -121,7 +121,7 @@ a.fm_share_but, a.fm_share_but:link, a.fm_share_but:visited, a.fm_share_but:acti
 	display:block;
 }
 a.fm_share_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -402px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -129,7 +129,7 @@ a.fm_share_but:hover {
 	display:block;
 }
 a.fm_email_but, a.fm_email_but:link, a.fm_email_but:visited, a.fm_email_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -434px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -137,7 +137,7 @@ a.fm_email_but, a.fm_email_but:link, a.fm_email_but:visited, a.fm_email_but:acti
 	display:block;
 }
 a.fm_email_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -434px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -145,7 +145,7 @@ a.fm_email_but:hover {
 	display:block;
 }
 a.fm_hotlnk_but, a.fm_hotlnk_but:link, a.fm_hotlnk_but:visited, a.fm_hotlnk_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -466px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -153,7 +153,7 @@ a.fm_hotlnk_but, a.fm_hotlnk_but:link, a.fm_hotlnk_but:visited, a.fm_hotlnk_but:
 	display:block;
 }
 a.fm_hotlnk_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -466px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -161,7 +161,7 @@ a.fm_hotlnk_but:hover {
 	display:block;
 }
 a.fm_copy_but, a.fm_copy_but:link, a.fm_copy_but:visited, a.fm_copy_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -498px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -169,7 +169,7 @@ a.fm_copy_but, a.fm_copy_but:link, a.fm_copy_but:visited, a.fm_copy_but:active {
 	display:block;
 }
 a.fm_copy_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -498px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -177,7 +177,7 @@ a.fm_copy_but:hover {
 	display:block;
 }
 a.fm_export_but, a.fm_export_but:link, a.fm_export_but:visited, a.fm_export_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -530px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -185,7 +185,7 @@ a.fm_export_but, a.fm_export_but:link, a.fm_export_but:visited, a.fm_export_but:
 	display:block;
 }
 a.fm_export_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -530px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -193,7 +193,7 @@ a.fm_export_but:hover {
 	display:block;
 }
 a.fm_import_sel_but, a.fm_import_sel_but:link, a.fm_import_sel_but:visited, a.fm_import_sel_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -562px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -201,7 +201,7 @@ a.fm_import_sel_but, a.fm_import_sel_but:link, a.fm_import_sel_but:visited, a.fm
 	display:block;
 }
 a.fm_import_sel_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -562px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -209,7 +209,7 @@ a.fm_import_sel_but:hover {
 	display:block;
 }
 a.fm_delete_but, a.fm_delete_but:link, a.fm_delete_but:visited, a.fm_delete_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -594px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -217,7 +217,7 @@ a.fm_delete_but, a.fm_delete_but:link, a.fm_delete_but:visited, a.fm_delete_but:
 	display:block;
 }
 a.fm_delete_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -594px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -225,7 +225,7 @@ a.fm_delete_but:hover {
 	display:block;
 }
 a.fm_create_but, a.fm_create_but:link, a.fm_create_but:visited, a.fm_create_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-7px -626px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -233,7 +233,7 @@ a.fm_create_but, a.fm_create_but:link, a.fm_create_but:visited, a.fm_create_but:
 	display:block;
 }
 a.fm_create_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:-237px -626px;
 	background-repeat:no-repeat;
 	width:192px;
@@ -241,7 +241,7 @@ a.fm_create_but:hover {
 	display:block;
 }
 a.fm_type, a.fm_type:link, a.fm_type:visited, a.fm_type:hover, a.fm_type:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -15px;
 	background-repeat:no-repeat;
 	width:67px;
@@ -250,7 +250,7 @@ a.fm_type, a.fm_type:link, a.fm_type:visited, a.fm_type:hover, a.fm_type:active 
 	display:block;
 }
 a.fm_name, a.fm_name:link, a.fm_name:visited, a.fm_name:hover, a.fm_name:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -285px;
 	background-repeat:no-repeat;
 	width:71px;
@@ -259,7 +259,7 @@ a.fm_name, a.fm_name:link, a.fm_name:visited, a.fm_name:hover, a.fm_name:active 
 	display:block;
 }
 a.fm_date, a.fm_date:link, a.fm_date:visited, a.fm_date:hover, a.fm_date:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -555px;
 	background-repeat:no-repeat;
 	width:67px;
@@ -268,7 +268,7 @@ a.fm_date, a.fm_date:link, a.fm_date:visited, a.fm_date:hover, a.fm_date:active 
 	display:block;
 }
 a.fm_downloads, a.fm_downloads:link, a.fm_downloads:visited, a.fm_downloads {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -825px;
 	background-repeat:no-repeat;
 	width:110px;
@@ -277,7 +277,7 @@ a.fm_downloads, a.fm_downloads:link, a.fm_downloads:visited, a.fm_downloads {
 	display:block;
 }
 a.fm_size, a.fm_size:link, a.fm_size:visited, a.fm_size:hover, a.fm_size:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -1105px;
 	background-repeat:no-repeat;
 	width:63px;
@@ -286,7 +286,7 @@ a.fm_size, a.fm_size:link, a.fm_size:visited, a.fm_size:hover, a.fm_size:active 
 	display:block;
 }
 a.fm_f_link, a.fm_f_link:link, a.fm_f_link:visited, a.fm_f_link:hover, a.fm_f_link:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -1375px;
 	background-repeat:no-repeat;
 	width:90px;
@@ -295,7 +295,7 @@ a.fm_f_link, a.fm_f_link:link, a.fm_f_link:visited, a.fm_f_link:hover, a.fm_f_li
 	display:block;
 }
 a.fm_type_pressed1, a.fm_type_pressed1:link, a.fm_type:visited, a.fm_type_pressed1:hover, a.fm_type_pressed1:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -105px;
 	background-repeat:no-repeat;
 	width:67px;
@@ -304,7 +304,7 @@ a.fm_type_pressed1, a.fm_type_pressed1:link, a.fm_type:visited, a.fm_type_presse
 	display:block;
 }
 a.fm_name_pressed1, a.fm_name_pressed1:link, a.fm_name_pressed1:visited, a.fm_name_pressed1:hover, a.fm_name_pressed1:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -375px;
 	background-repeat:no-repeat;
 	width:71px;
@@ -313,7 +313,7 @@ a.fm_name_pressed1, a.fm_name_pressed1:link, a.fm_name_pressed1:visited, a.fm_na
 	display:block;
 }
 a.fm_date_pressed1, a.fm_date_pressed1:link, a.fm_date_pressed1:visited, a.fm_date_pressed1:hover, a.fm_date_pressed1:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -645px;
 	background-repeat:no-repeat;
 	width:67px;
@@ -322,7 +322,7 @@ a.fm_date_pressed1, a.fm_date_pressed1:link, a.fm_date_pressed1:visited, a.fm_da
 	display:block;
 }
 a.fm_downloads_pressed1, a.fm_downloads_pressed1:link, a.fm_downloads_pressed1:visited, a.fm_downloads_pressed1:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -915px;
 	background-repeat:no-repeat;
 	width:110px;
@@ -331,7 +331,7 @@ a.fm_downloads_pressed1, a.fm_downloads_pressed1:link, a.fm_downloads_pressed1:v
 	display:block;
 }
 a.fm_size_pressed1, a.fm_size_pressed1:link, a.fm_size_pressed1:visited, a.fm_size_pressed1:hover, a.fm_size_pressed1:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -1195px;
 	background-repeat:no-repeat;
 	width:63px;
@@ -340,7 +340,7 @@ a.fm_size_pressed1, a.fm_size_pressed1:link, a.fm_size_pressed1:visited, a.fm_si
 	display:block;
 }
 a.fm_f_link_pressed1, a.fm_f_link_pressed1:link, a.fm_f_link_pressed1:visited, a.fm_f_link_pressed1:hover, a.fm_d_link_pressed1:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -1465px;
 	background-repeat:no-repeat;
 	width:90px;
@@ -349,7 +349,7 @@ a.fm_f_link_pressed1, a.fm_f_link_pressed1:link, a.fm_f_link_pressed1:visited, a
 	display:block;
 }
 a.fm_type_pressed2, a.fm_type_pressed2:link, a.fm_type:visited, a.fm_type_pressed2:hover, a.fm_type_pressed2:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -195px;
 	background-repeat:no-repeat;
 	width:67px;
@@ -358,7 +358,7 @@ a.fm_type_pressed2, a.fm_type_pressed2:link, a.fm_type:visited, a.fm_type_presse
 	display:block;
 }
 a.fm_name_pressed2, a.fm_name_pressed2:link, a.fm_name_pressed2:visited, a.fm_name_pressed2:hover, a.fm_name_pressed2:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -465px;
 	background-repeat:no-repeat;
 	width:71px;
@@ -367,7 +367,7 @@ a.fm_name_pressed2, a.fm_name_pressed2:link, a.fm_name_pressed2:visited, a.fm_na
 	display:block;
 }
 a.fm_date_pressed2, a.fm_date_pressed2:link, a.fm_date_pressed2:visited, a.fm_date_pressed2:hover, a.fm_date_pressed2:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -735px;
 	background-repeat:no-repeat;
 	width:67px;
@@ -376,7 +376,7 @@ a.fm_date_pressed2, a.fm_date_pressed2:link, a.fm_date_pressed2:visited, a.fm_da
 	display:block;
 }
 a.fm_downloads_pressed2, a.fm_downloads_pressed2:link, a.fm_downloads_pressed2:visited, a.fm_downloads_pressed2:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -1005px;
 	background-repeat:no-repeat;
 	width:110px;
@@ -385,7 +385,7 @@ a.fm_downloads_pressed2, a.fm_downloads_pressed2:link, a.fm_downloads_pressed2:v
 	display:block;
 }
 a.fm_size_pressed2, a.fm_size_pressed2:link, a.fm_size_pressed2:visited, a.fm_size_pressed2:hover, a.fm_size_pressed2:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -1285px;
 	background-repeat:no-repeat;
 	width:63px;
@@ -394,7 +394,7 @@ a.fm_size_pressed2, a.fm_size_pressed2:link, a.fm_size_pressed2:visited, a.fm_si
 	display:block;
 }
 a.fm_f_link_pressed2, a.fm_f_link_pressed2:link, a.fm_f_link_pressed2:visited, a.fm_f_link_pressed2:hover, a.fm_f_link_pressed2:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_titles.png);
+	background-image:url(muimg/en/fm_titles.png);
 	background-position:-27px -1555px;
 	background-repeat:no-repeat;
 	width:90px;
@@ -403,7 +403,7 @@ a.fm_f_link_pressed2, a.fm_f_link_pressed2:link, a.fm_f_link_pressed2:visited, a
 	display:block;
 }
 a.fm_cont_hotlink, a.fm_cont_hotlink:link, a.fm_cont_hotlink:visited, a.fm_cont_hotlink:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-495px -403px;
 	display:block;
@@ -412,7 +412,7 @@ a.fm_cont_hotlink, a.fm_cont_hotlink:link, a.fm_cont_hotlink:visited, a.fm_cont_
 	margin-left:13px;
 }
 a.fm_cont_hotlink:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-675px -403px;
 	display:block;
@@ -421,7 +421,7 @@ a.fm_cont_hotlink:hover {
 	margin-left:13px;
 }
 a.fm_cont_share, a.fm_cont_share:link, a.fm_cont_share:visited, a.fm_cont_share:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-495px -433px;
 	display:block;
@@ -430,7 +430,7 @@ a.fm_cont_share, a.fm_cont_share:link, a.fm_cont_share:visited, a.fm_cont_share:
 	margin-left:13px;
 }
 a.fm_cont_share:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-675px -433px;
 	display:block;
@@ -439,7 +439,7 @@ a.fm_cont_share:hover {
 	margin-left:13px;
 }
 a.fm_cont_open, a.fm_cont_open:link, a.fm_cont_open:visited, a.fm_cont_open:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-495px -463px;
 	display:block;
@@ -448,7 +448,7 @@ a.fm_cont_open, a.fm_cont_open:link, a.fm_cont_open:visited, a.fm_cont_open:acti
 	margin-left:13px;
 }
 a.fm_cont_open:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-675px -463px;
 	display:block;
@@ -457,7 +457,7 @@ a.fm_cont_open:hover {
 	margin-left:13px;
 }
 a.fm_cont_rename, a.fm_cont_rename:link, a.fm_cont_rename:visited, a.fm_cont_rename:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-495px -493px;
 	display:block;
@@ -466,7 +466,7 @@ a.fm_cont_rename, a.fm_cont_rename:link, a.fm_cont_rename:visited, a.fm_cont_ren
 	margin-left:13px;
 }
 a.fm_cont_rename:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-675px -493px;
 	display:block;
@@ -475,7 +475,7 @@ a.fm_cont_rename:hover {
 	margin-left:13px;
 }
 a.fm_cont_delete, a.fm_cont_delete:link, a.fm_cont_delete:visited, a.fm_cont_delete:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-495px -523px;
 	display:block;
@@ -484,7 +484,7 @@ a.fm_cont_delete, a.fm_cont_delete:link, a.fm_cont_delete:visited, a.fm_cont_del
 	margin-left:13px;
 }
 a.fm_cont_delete:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-repeat:no-repeat;
 	background-position:-675px -523px;
 	display:block;
@@ -494,33 +494,33 @@ a.fm_cont_delete:hover {
 }
 .ff_top_text {
 	height: 160px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/ff_txt.png);
+	background-image:url(muimg/en/ff_txt.png);
 	background-position:left 41px;
 	background-repeat:no-repeat;
 }
 .hotlink_size1 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:23px 27px;
 	background-repeat:no-repeat;
 	width:318px;
 	height:80px;
 }
 .hotlink_size2 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:23px -73px;
 	background-repeat:no-repeat;
 	width:318px;
 	height:80px;
 }
 .hotlink_size3 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:23px -173px;
 	background-repeat:no-repeat;
 	width:318px;
 	height:80px;
 }
 .hotlink_size4 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:23px -273px;
 	background-repeat:no-repeat;
 	width:318px;
@@ -528,13 +528,13 @@ a.fm_cont_delete:hover {
 }
 .low_res .hotlink_size1, .low_res .hotlink_size2, .low_res .hotlink_size3, .low_res .hotlink_size4 {
 	width:186px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices_sm.png);
+	background-image:url(muimg/en/fm_hotlink_prices_sm.png);
 }
 .low_res .hotlink_table {
 	min-width:20px;
 }
 .hotlink_just_for {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_txt.png);
+	background-image:url(muimg/en/fm_hotlink_txt.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	width:83px;
@@ -543,7 +543,7 @@ a.fm_cont_delete:hover {
 	margin-top:50px;
 }
 .hotlink_price1 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-404px top;
 	background-repeat:no-repeat;
 	width:157px;
@@ -552,7 +552,7 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .hotlink_price2 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-404px -100px;
 	background-repeat:no-repeat;
 	width:157px;
@@ -561,7 +561,7 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .hotlink_price3 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-404px -200px;
 	background-repeat:no-repeat;
 	width:157px;
@@ -570,7 +570,7 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .hotlink_price4 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-404px -300px;
 	background-repeat:no-repeat;
 	width:157px;
@@ -579,11 +579,11 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .low_res .hotlink_price1, .low_res .hotlink_price2, .low_res .hotlink_price3, .low_res .hotlink_price4 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices_sm.png);
+	background-image:url(muimg/en/fm_hotlink_prices_sm.png);
 	width:127px;
 }
 .hotlink_price_per_gb1 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-561px top;
 	background-repeat:no-repeat;
 	width:82px;
@@ -592,7 +592,7 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .hotlink_price_per_gb2 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-561px -100px;
 	background-repeat:no-repeat;
 	width:82px;
@@ -601,7 +601,7 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .hotlink_price_per_gb3 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-561px -200px;
 	background-repeat:no-repeat;
 	width:73px;
@@ -610,7 +610,7 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .hotlink_price_per_gb4 {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_prices.png);
+	background-image:url(muimg/en/fm_hotlink_prices.png);
 	background-position:-561px -300px;
 	background-repeat:no-repeat;
 	width:82px;
@@ -619,7 +619,7 @@ a.fm_cont_delete:hover {
 	margin-top:27px;
 }
 .hotlink_gb {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_hotlink_txt.png);
+	background-image:url(muimg/en/fm_hotlink_txt.png);
 	background-position:left -16px;
 	background-repeat:no-repeat;
 	width:99px;
@@ -631,7 +631,7 @@ a.hotlink_buynow, a.hotlink_buynow:link, a.hotlink_buynow:visited, a.hotlink_buy
 	display:block;
 	width:109px;
 	height:42px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/hotlink_buynow.png);
+	background-image:url(muimg/en/hotlink_buynow.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	margin-top:31px;
@@ -642,7 +642,7 @@ a.hotlink_buynow:hover {
 	display:block;
 	width:109px;
 	height:42px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/hotlink_buynow.png);
+	background-image:url(muimg/en/hotlink_buynow.png);
 	background-position:left -42px;
 	background-repeat:no-repeat;
 	margin-top:31px;
@@ -650,49 +650,49 @@ a.hotlink_buynow:hover {
 	margin-right:18px;
 }
 .fm_hotlink_header {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:6px -679px;
 	background-repeat:no-repeat;
 	height:114px;
 }
 .fm_import_header {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/mucss/muimg/en/fm_text.png);
+	background-image:url(muimg/en/fm_text.png);
 	background-position:25px -161px;
 	background-repeat:no-repeat;
 	height:78px;
 }
 .fm_popup_copy {
 	height:63px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center 24px;
 	background-repeat: no-repeat;
 }
 .fm_popup_newfold_txt {
 	height:63px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -36px;
 	background-repeat: no-repeat;
 }
 .fm_popup_delete_head_txt {
 	height:63px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -96px;
 	background-repeat: no-repeat;
 }
 .fm_popup_hotlink_head_txt {
 	height:63px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -696px;
 	background-repeat: no-repeat;
 }
 .fm_popup_edit_head_txt {
 	height:63px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -156px;
 	background-repeat: no-repeat;
 }
 a.fm_copy_newfolder, a.fm_copy_newfolder:link, a.fm_copy_newfolder:visited, a.fm_copy_newfolder:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	display:block;
@@ -701,7 +701,7 @@ a.fm_copy_newfolder, a.fm_copy_newfolder:link, a.fm_copy_newfolder:visited, a.fm
 	height:41px;
 }
 a.fm_copy_newfolder:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -41px;
 	background-repeat:no-repeat;
 	display:block;
@@ -710,7 +710,7 @@ a.fm_copy_newfolder:hover {
 	height:41px;
 }
 a.fm_copy_copy_butt, a.fm_copy_copy_butt:link, a.fm_copy_copy_butt:visited, a.fm_copy_copy_butt:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -82px;
 	background-repeat:no-repeat;
 	display:block;
@@ -720,7 +720,7 @@ a.fm_copy_copy_butt, a.fm_copy_copy_butt:link, a.fm_copy_copy_butt:visited, a.fm
 	margin-right:-1px;
 }
 a.fm_copy_copy_butt:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -124px;
 	background-repeat:no-repeat;
 	display:block;
@@ -730,7 +730,7 @@ a.fm_copy_copy_butt:hover {
 	margin-right:-1px;
 }
 a.fm_new_folder_butt, a.fm_new_folder_butt:link, a.fm_new_folder_butt:visited, a.fm_new_folder_butt:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -166px;
 	background-repeat:no-repeat;
 	display:block;
@@ -740,7 +740,7 @@ a.fm_new_folder_butt, a.fm_new_folder_butt:link, a.fm_new_folder_butt:visited, a
 	margin-right:-1px;
 }
 a.fm_new_folder_butt:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -208px;
 	background-repeat:no-repeat;
 	display:block;
@@ -750,7 +750,7 @@ a.fm_new_folder_butt:hover {
 	margin-right:-1px;
 }
 a.fm_new_del_cancel, a.fm_new_del_cancel:link, a.fm_new_del_cancel:visited, a.fm_new_del_cancel:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -334px;
 	background-repeat:no-repeat;
 	display:block;
@@ -759,7 +759,7 @@ a.fm_new_del_cancel, a.fm_new_del_cancel:link, a.fm_new_del_cancel:visited, a.fm
 	height:41px;
 }
 a.fm_new_del_cancel:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -375px;
 	background-repeat:no-repeat;
 	display:block;
@@ -768,7 +768,7 @@ a.fm_new_del_cancel:hover {
 	height:41px;
 }
 a.fm_new_del_but, a.fm_new_del_but:link, a.fm_new_del_but:visited, a.fm_new_del_but:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -250px;
 	background-repeat:no-repeat;
 	display:block;
@@ -778,7 +778,7 @@ a.fm_new_del_but, a.fm_new_del_but:link, a.fm_new_del_but:visited, a.fm_new_del_
 	margin-right:-1px;
 }
 a.fm_new_del_but:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -292px;
 	background-repeat:no-repeat;
 	display:block;
@@ -788,7 +788,7 @@ a.fm_new_del_but:hover {
 	margin-right:-1px;
 }
 a.fm_hotlink_button, a.fm_hotlink_button:link, a.fm_hotlink_button:visited, a.fm_hotlink_button:active {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -998px;
 	background-repeat:no-repeat;
 	display:block;
@@ -798,7 +798,7 @@ a.fm_hotlink_button, a.fm_hotlink_button:link, a.fm_hotlink_button:visited, a.fm
 	margin-right:-1px;
 }
 a.fm_hotlink_button:hover {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -1040px;
 	background-repeat:no-repeat;
 	display:block;
@@ -809,14 +809,14 @@ a.fm_hotlink_button:hover {
 }
 
 .fm_file_details {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:-7px -206px;
 	background-repeat:no-repeat;
 	height:60px;
 	margin-bottom:11px;
 }
 .fm_file_security {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:-7px -266px;
 	background-repeat:no-repeat;
 	height:60px;
@@ -824,38 +824,38 @@ a.fm_hotlink_button:hover {
 	margin-bottom:11px;
 }
 .fm_email_header_txt {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -336px;
 	background-repeat:no-repeat;
 	height:63px;
 }
 .fm_export_header_txt {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -456px;
 	background-repeat:no-repeat;
 	height:63px;
 }
 .fm_file_sender_info {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:-7px -386px;
 	background-repeat:no-repeat;
 	height:60px;
 	margin-bottom:11px;
 }
 .fm_file_export_as {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:-7px -506px;
 	background-repeat:no-repeat;
 	height:80px;
 }
 .fm_file_share_file {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -576px;
 	background-repeat:no-repeat;
 	height:63px;
 }
 .fm_file_share_sel {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_popup_headers.png);
+	background-image:url(muimg/en/fm_popup_headers.png);
 	background-position:center -636px;
 	background-repeat:no-repeat;
 	height:63px;
@@ -864,7 +864,7 @@ a.fm_edit_save, a.fm_edit_save:link, a.fm_edit_save:visited, a.fm_edit_save:acti
 	width:180px;
 	height:42px;
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -416px;
 	background-repeat:no-repeat;
 	float:right;
@@ -874,7 +874,7 @@ a.fm_edit_save:hover {
 	width:180px;
 	height:42px;
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -458px;
 	background-repeat:no-repeat;
 	float:right;
@@ -884,7 +884,7 @@ a.fm_email_send, a.fm_email_send:link, a.fm_email_send:visited, a.fm_email_send:
 	width:180px;
 	height:42px;
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -582px;
 	background-repeat:no-repeat;
 	float:right;
@@ -894,7 +894,7 @@ a.fm_email_send:hover {
 	width:180px;
 	height:42px;
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -624px;
 	background-repeat:no-repeat;
 	float:right;
@@ -903,7 +903,7 @@ a.fm_email_send:hover {
 a.fm_email_add, a.fm_email_add:link, a.fm_email_add:visited, a.fm_email_add:active {
 	width:139px;
 	height:41px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -500px;
 	background-repeat:no-repeat;
 	display:block;
@@ -913,7 +913,7 @@ a.fm_email_add, a.fm_email_add:link, a.fm_email_add:visited, a.fm_email_add:acti
 a.fm_email_add:hover {
 	width:139px;
 	height:41px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -541px;
 	background-repeat:no-repeat;
 	display:block;
@@ -924,7 +924,7 @@ a.fm_export_butt, a.fm_export_butt:link, a.fm_export_butt:visited, a.fm_export_b
 	width:180px;
 	height:42px;
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -666px;
 	background-repeat:no-repeat;
 	margin-left:auto;
@@ -934,7 +934,7 @@ a.fm_export_butt:hover {
 	width:180px;
 	height:42px;
 	display:block;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -708px;
 	background-repeat:no-repeat;
 	margin-left:auto;
@@ -943,7 +943,7 @@ a.fm_export_butt:hover {
 a.fm_share_copy, a.fm_share_copy:link, a.fm_share_copy:visited, a.fm_share_copy:active {
 	width:200px;
 	height:42px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -750px;
 	background-repeat:no-repeat;
 	display:block;
@@ -953,7 +953,7 @@ a.fm_share_copy, a.fm_share_copy:link, a.fm_share_copy:visited, a.fm_share_copy:
 a.fm_share_copy:hover {
 	width:200px;
 	height:42px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -792px;
 	background-repeat:no-repeat;
 	display:block;
@@ -963,7 +963,7 @@ a.fm_share_copy:hover {
 a.fm_filesize, a.fm_filesize:link, a.fm_filesize:visited, a.fm_filesize:active {
 	width:119px;
 	height:41px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -834px;
 	background-repeat:no-repeat;
 	display:block;
@@ -972,7 +972,7 @@ a.fm_filesize, a.fm_filesize:link, a.fm_filesize:visited, a.fm_filesize:active {
 a.fm_filesize:hover {
 	width:119px;
 	height:41px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -875px;
 	background-repeat:no-repeat;
 	display:block;
@@ -981,7 +981,7 @@ a.fm_filesize:hover {
 a.fm_filename, a.fm_filename:link, a.fm_filename:visited, a.fm_filename:active {
 	width:129px;
 	height:41px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -916px;
 	background-repeat:no-repeat;
 	display:block;
@@ -991,7 +991,7 @@ a.fm_filename, a.fm_filename:link, a.fm_filename:visited, a.fm_filename:active {
 a.fm_filename:hover {
 	width:129px;
 	height:41px;
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/popup_buttons.png);
+	background-image:url(muimg/en/popup_buttons.png);
 	background-position:left -957px;
 	background-repeat:no-repeat;
 	display:block;
@@ -1002,25 +1002,6 @@ a.fm_filename:hover {
 	display:none
 }
 .fm_ttm_text {
-	background-image:url(/web/20111231211814im_/http://wwwstatic.megaupload.com/muimg/en/fm_text.png); background-position:25px -161px; background-repeat:no-repeat; height:78px;
+	background-image:url(muimg/en/fm_text.png); background-position:25px -161px; background-repeat:no-repeat; height:78px;
 }
 
-/*
-     FILE ARCHIVED ON 21:18:14 Dec 31, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:51:59 Mar 15, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.187
-  exclusion.robots.policy: 0.166
-  cdx.remote: 0.149
-  esindex: 0.017
-  LoadShardBlock: 336.572 (6)
-  PetaboxLoader3.datanode: 249.498 (8)
-  load_resource: 288.428 (2)
-  PetaboxLoader3.resolve: 170.075 (2)
-*/
