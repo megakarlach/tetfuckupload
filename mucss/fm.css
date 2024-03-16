@@ -17,7 +17,7 @@
 	float:left;
 }
 .fm_header1 span {
-	background: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/gradient-white.png) repeat-x;
+	background: url(muimg/gradient-white.png) repeat-x;
 	background-position:left top;
 	position: absolute;
 	display: block;
@@ -41,7 +41,7 @@
 	float:left;
 }
 .fm_header2 span {
-	background: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/gradient-white.png) repeat-x;
+	background: url(muimg/gradient-white.png) repeat-x;
 	background-position:left top;
 	position: absolute;
 	display: block;
@@ -66,7 +66,7 @@
 	float:left;
 }
 .fm_header3 span {
-	background: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/gradient-white.png) repeat-x;
+	background: url(muimg/gradient-white.png) repeat-x;
 	background-position:left top;
 	position: absolute;
 	display: block;
@@ -76,19 +76,19 @@
 	margin:0px;
 }
 .fm_input_bg1 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-position:left -76px;
 	background-repeat:repeat-x;
 	height:38px;
 }
 .fm_input_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-position:left top;
 	background-repeat: no-repeat;
 	height:38px;
 }
 .fm_input_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-position:right -38px;
 	background-repeat: no-repeat;
 	height:38px;
@@ -96,19 +96,19 @@
 	padding-left:34px;
 }
 .fm_popup .fm_input_bg1 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-position:left -1343px;
 	background-repeat:repeat-x;
 	height:40px;
 }
 .fm_popup .fm_input_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-position:left -1263px;
 	background-repeat: no-repeat;
 	height:40px;
 }
 .fm_popup .fm_input_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-position:right -1303px;
 	background-repeat: no-repeat;
 	height:40px;
@@ -116,19 +116,19 @@
 	padding-left:12px;
 }
 .fm_popup .fm_input_bg1_tf {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:left -640px;
 	background-repeat:repeat-x;
 	height:110px;
 }
 .fm_popup .fm_input_bg2_tf {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:left -420px;
 	background-repeat: no-repeat;
 	height:110px;
 }
 .fm_popup .fm_input_bg3_tf {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:right -530px;
 	background-repeat: no-repeat;
 	height:110px;
@@ -136,19 +136,19 @@
 	padding-left:12px;
 }
 .fm_popup .fm_input_bg1_ss {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:left -1070px;
 	background-repeat:repeat-x;
 	height:160px;
 }
 .fm_popup .fm_input_bg2_ss {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:left -750px;
 	background-repeat: no-repeat;
 	height:160px;
 }
 .fm_popup .fm_input_bg3_ss {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:right -910px;
 	background-repeat: no-repeat;
 	height:160px;
@@ -273,7 +273,7 @@
 	resize:none;
 }
 .select_box {
-	background:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background:url(muimg/fm_pull_bg.png);
 	background-position:left top;
 	background-repeat:repeat-x;
 	float:left;
@@ -293,7 +293,7 @@
 	cursor:pointer;
 }
 .select_box div {
-	background:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background:url(muimg/fm_pull_bg.png);
 	background-position:right -38px;
 	background-repeat: no-repeat;
 	height:38px;
@@ -313,7 +313,7 @@
 	cursor:pointer;
 }
 .select_box2 {
-	background:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg2.png);
+	background:url(muimg/fm_pull_bg2.png);
 	background-position:left top;
 	background-repeat: no-repeat;
 	position:relative;
@@ -340,7 +340,7 @@
 	cursor:pointer;
 }
 .select_box2 div {
-	background:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg2.png);
+	background:url(muimg/fm_pull_bg2.png);
 	background-position:right -41px;
 	background-repeat: no-repeat;
 	height:41px;
@@ -360,13 +360,13 @@
 	cursor:pointer;
 }
 .fm_main_bg {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bg2.png);
+	background-image:url(muimg/fm_bg2.png);
 	background-position:center top;
 	background-repeat:repeat-x;
 	min-width:987px;
 }
 .fm_main_pad {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bg.jpg);
+	background-image:url(muimg/fm_bg.jpg);
 	background-position:center top;
 	background-repeat: no-repeat;
 	padding-left:14px;
@@ -374,7 +374,7 @@
 	padding-top:16px;
 }
 .low_res .fm_main_pad {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bg.jpg);
+	background-image:url(muimg/fm_bg.jpg);
 	background-position:center top;
 	background-repeat: no-repeat;
 	padding-left:0px;
@@ -388,7 +388,7 @@
 .fm_white_left_top {
 	width:13px;
 	height:11px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	background-image:url(muimg/mid_bg.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	font-size:1px;
@@ -397,14 +397,14 @@
 .fm_white_mid_top {
 	width:13px;
 	height:11px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	background-image:url(muimg/mid_bg.png);
 	background-position:-974px top;
 	background-repeat:no-repeat;
 	font-size:1px;
 	float:right;
 }
 .fm_white_right_top {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid1.png);
+	background-image:url(muimg/fm_mid1.png);
 	background-position:left top;
 	background-repeat:repeat-x;
 	height:11px;
@@ -413,12 +413,12 @@
 	margin-right:13px;
 }
 .fm_white_left {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid2.png);
+	background-image:url(muimg/fm_mid2.png);
 	background-position:left top;
 	background-repeat:repeat-y;
 }
 .fm_white_right {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid2.png);
+	background-image:url(muimg/fm_mid2.png);
 	background-position:right top;
 	background-repeat:repeat-y;
 	padding-left:6px;
@@ -431,7 +431,7 @@
 .fm_white_left_bott {
 	width:13px;
 	height:11px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	background-image:url(muimg/mid_bg.png);
 	background-position:-987px top;
 	background-repeat:no-repeat;
 	font-size:1px;
@@ -440,14 +440,14 @@
 .fm_white_mid_bott {
 	width:13px;
 	height:11px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	background-image:url(muimg/mid_bg.png);
 	background-position:-1961px top;
 	background-repeat:no-repeat;
 	font-size:1px;
 	float:right;
 }
 .fm_white_right_bott {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid1.png);
+	background-image:url(muimg/fm_mid1.png);
 	background-position:left bottom;
 	background-repeat:repeat-x;
 	height:11px;
@@ -456,7 +456,7 @@
 	margin-right:13px;
 }
 .fm_top_bl {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:left -84px;
 	background-repeat: repeat-x;
 	height: 73px;
@@ -482,26 +482,26 @@
 	margin-left:19px;
 	margin-top:18px;
 	width:196px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_hotlink_l_bg.png);
+	background-image:url(muimg/fm_hotlink_l_bg.png);
 	background-position:-392px top;
 	background-repeat: repeat-y;
 	position:absolute;
 }
 .fm_left_bl_bg1_menu {
 	width:196px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_hotlink_l_bg.png);
+	background-image:url(muimg/fm_hotlink_l_bg.png);
 	background-position:-392px top;
 	background-repeat: repeat-y;
 }
 .fm_left_bl_bg2 {
 	width:196px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_hotlink_l_bg.png);
+	background-image:url(muimg/fm_hotlink_l_bg.png);
 	background-position:-196px top;
 	background-repeat: no-repeat;
 }
 .fm_left_bl_bg3 {
 	width:196px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_hotlink_l_bg.png);
+	background-image:url(muimg/fm_hotlink_l_bg.png);
 	background-position:left bottom;
 	background-repeat: no-repeat;
 	min-height:118px;
@@ -519,19 +519,19 @@
 	padding-bottom:22px;
 }
 .fm_import_top_bg1 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:left -275px;
 	background-repeat:repeat-x;
 	height:59px;
 }
 .fm_import_top_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:left -157px;
 	background-repeat: no-repeat;
 	height:59px;
 }
 .fm_import_top_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:right -216px;
 	background-repeat: no-repeat;
 	height:59px;
@@ -544,7 +544,7 @@
 a.fm_import_close_but, a.fm_import_close_but:link, a.fm_import_close_but:visited, a.fm_import_close_but:active {
 	width:34px;
 	height:34px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_close.png);
+	background-image:url(muimg/fm_close.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	position:absolute;
@@ -554,7 +554,7 @@ a.fm_import_close_but, a.fm_import_close_but:link, a.fm_import_close_but:visited
 a.fm_import_close_but:hover {
 	width:34px;
 	height:34px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_close.png);
+	background-image:url(muimg/fm_close.png);
 	background-position:-34px top;
 	background-repeat:no-repeat;
 	position:absolute;
@@ -573,46 +573,46 @@ a.fm_import_close_but:hover {
 	z-index:1009;
 }
 .fm_import_mid_bg1 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid_bg1.png);
+	background-image:url(muimg/fm_mid_bg1.png);
 	background-position:left top;
 	background-repeat:repeat-y;
 }
 .fm_import_mid_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid_bg1.png);
+	background-image:url(muimg/fm_mid_bg1.png);
 	background-position:right top;
 	background-repeat:repeat-y;
 }
 .fm_import_mid_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid_bg2.png);
+	background-image:url(muimg/fm_mid_bg2.png);
 	background-position:left bottom;
 	background-repeat: repeat-x;
 }
 .fm_import_mid_bg4 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid_bg3.png);
+	background-image:url(muimg/fm_mid_bg3.png);
 	background-position:left bottom;
 	background-repeat: no-repeat;
 }
 .fm_import_mid_bg5 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_mid_bg4.png);
+	background-image:url(muimg/fm_mid_bg4.png);
 	background-position:right bottom;
 	background-repeat: no-repeat;
 }
 .fm_import_textarea_bg1 {
 	margin-left:30px;
 	margin-right:31px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:left -280px;
 	background-repeat: repeat-x;
 	height:140px;
 }
 .fm_import_textarea_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:left top;
 	background-repeat: no-repeat;
 	height:140px;
 }
 .fm_import_texarea_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_text_field.png);
+	background-image:url(muimg/fm_text_field.png);
 	background-position:right -140px;
 	background-repeat: no-repeat;
 	height:140px;
@@ -647,7 +647,7 @@ a.fm_import_close_but:hover {
 .fm_menu_top_bg {
 	width:196px;
 	height:36px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_hotlink_l_bg.png);
+	background-image:url(muimg/fm_hotlink_l_bg.png);
 	background-position:-588px top;
 	background-repeat:no-repeat;
 }
@@ -660,7 +660,7 @@ a.fm_import_close_but:hover {
 .fm_menu_div {
 	height:1px;
 	font-size:1px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat:repeat-x;
 	width:192px;
@@ -671,7 +671,7 @@ a.fm_import_close_but:hover {
 	margin-right:19px;
 }
 .fm_table_header_bg1 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:left -394px;
 	background-repeat:repeat-x;
 	height:60px;
@@ -679,13 +679,13 @@ a.fm_import_close_but:hover {
 	margin-right:1px;
 }
 .fm_table_header_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:left -334px;
 	background-repeat: no-repeat;
 	height:60px;
 }
 .fm_table_header_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:right -454px;
 	background-repeat: no-repeat;
 	height:60px;
@@ -749,7 +749,7 @@ a.fm_import_close_but:hover {
 	height:28px;
 }
 a.fm_bread_bg_main, a.fm_bread_bg_main:link, a.fm_bread_bg_main:visited, a.fm_bread_bg_main:hover, a.fm_bread_bg_main:active {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:left -28px;
 	background-repeat: repeat-x;
 	height:28px;
@@ -758,7 +758,7 @@ a.fm_bread_bg_main, a.fm_bread_bg_main:link, a.fm_bread_bg_main:visited, a.fm_br
 	text-decoration:none;
 }
 a.fm_bread_bg_main_right, a.fm_bread_bg_main_right:link, a.fm_bread_bg_main_right:visited, a.fm_bread_bg_main_right:hover, a.fm_bread_bg_main_right:active {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:left -28px;
 	background-repeat: repeat-x;
 	height:28px;
@@ -767,19 +767,19 @@ a.fm_bread_bg_main_right, a.fm_bread_bg_main_right:link, a.fm_bread_bg_main_righ
 	text-decoration:none;
 }
 .fm_bread_bg_left {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:left top;
 	background-repeat: no-repeat;
 	height:28px;
 }
 .fm_bread_bg_right {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:right -56px;
 	background-repeat: no-repeat;
 	height:28px;
 }
 .fm_bread_home_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:11px -168px;
 	background-repeat: no-repeat;
 	padding-left:36px;
@@ -792,7 +792,7 @@ a.fm_bread_bg_main_right, a.fm_bread_bg_main_right:link, a.fm_bread_bg_main_righ
 	color:#363636;
 }
 .fm_bread_parent_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:0px -224px;
 	background-repeat: no-repeat;
 	padding-left:23px;
@@ -805,7 +805,7 @@ a.fm_bread_bg_main_right, a.fm_bread_bg_main_right:link, a.fm_bread_bg_main_righ
 	color:#363636;
 }
 .fm_bread_folder_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:11px -196px;
 	background-repeat: no-repeat;
 	padding-left:36px;
@@ -828,7 +828,7 @@ a.fm_bread_bg_main_right, a.fm_bread_bg_main_right:link, a.fm_bread_bg_main_righ
 	color:#363636;
 }
 a.fm_bread_bg_main:hover .fm_bread_home_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:11px -168px;
 	background-repeat: no-repeat;
 	padding-left:36px;
@@ -841,7 +841,7 @@ a.fm_bread_bg_main:hover .fm_bread_home_icon {
 	color:#363636;
 }
 a.fm_bread_bg_main_right:hover .fm_bread_parent_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:0px -224px;
 	background-repeat: no-repeat;
 	padding-left:23px;
@@ -854,7 +854,7 @@ a.fm_bread_bg_main_right:hover .fm_bread_parent_icon {
 	color:#363636;
 }
 a.fm_bread_bg_main:hover .fm_bread_folder_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:11px -196px;
 	background-repeat: no-repeat;
 	padding-left:36px;
@@ -877,7 +877,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	color:#363636;
 }
 .fm_bread_arrow_last {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:left -84px;
 	background-repeat: repeat-x;
 	height:28px;
@@ -885,7 +885,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	width:14px;
 }
 .fm_bread_arrow_next {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:left -140px;
 	background-repeat: repeat-x;
 	height:28px;
@@ -893,7 +893,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	width:14px;
 }
 .fm_parent_arrow {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_bread.png);
+	background-image:url(muimg/fm_bread.png);
 	background-position:left -112px;
 	background-repeat: repeat-x;
 	height:28px;
@@ -904,20 +904,20 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	padding-bottom:25px;
 }
 .fm_file_bl_bg1 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:left -642px;
 	background-repeat: repeat-x;
 	height:64px;
 	margin-top:17px;
 }
 .fm_file_bl_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:left -514px;
 	background-repeat:  no-repeat;
 	height:64px;
 }
 .fm_file_bl_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_pull_bg.png);
+	background-image:url(muimg/fm_pull_bg.png);
 	background-position:right -578px;
 	background-repeat:  no-repeat;
 	height:64px;
@@ -927,7 +927,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	padding-top:20px;
 }
 .fm_files_icon_pack {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -274px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -936,7 +936,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_rar {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -274px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -945,7 +945,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_fold {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-7px -75px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -954,7 +954,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_present {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -113px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -963,7 +963,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_ppt {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -113px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -972,7 +972,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_ind {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-74px -113px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -981,7 +981,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_eps {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-108px -113px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -990,7 +990,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_psd {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-142px -113px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -999,7 +999,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_ai {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-176px -113px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1008,7 +1008,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_pdf {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-210px -113px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1017,7 +1017,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_music {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -150px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1026,7 +1026,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_mp3 {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -150px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1035,7 +1035,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_wav {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-74px -150px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1044,7 +1044,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_rif {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-108px -150px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1053,7 +1053,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_mail {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -192px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1062,7 +1062,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_jpg {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -192px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1071,7 +1071,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_tif {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-74px -192px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1080,7 +1080,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_raw {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-108px -192px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1089,7 +1089,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_gif {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-142px -192px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1098,7 +1098,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_ico {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-176px -192px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1107,7 +1107,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_png {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-210px -192px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1116,7 +1116,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_movie {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -233px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1125,7 +1125,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_wmv {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -233px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1134,7 +1134,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_avi {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-74px -233px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1143,7 +1143,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_mp4 {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-108px -233px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1152,7 +1152,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_mov {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-142px -233px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1161,7 +1161,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_mpg {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-176px -233px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1170,7 +1170,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_url {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -313px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1179,7 +1179,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_text {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -354px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1188,7 +1188,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_doc {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -354px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1197,7 +1197,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_txt {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-74px -354px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1206,7 +1206,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_xls {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-108px -354px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1215,7 +1215,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_torrent {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -392px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1224,7 +1224,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_swf {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -392px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1233,7 +1233,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_dtf {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-74px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1242,7 +1242,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_flv {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-108px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1251,7 +1251,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_dat {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-142px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1260,7 +1260,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_htm {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-176px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1269,7 +1269,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_css {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-210px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1278,7 +1278,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_app {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1287,7 +1287,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_exe {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-40px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1296,7 +1296,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_dmg {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-74px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1305,7 +1305,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_iso {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-108px -431px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1314,7 +1314,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:5px;
 }
 .fm_files_icon_none {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes.png);
+	background-image: url(muimg/icons_filetypes.png);
 	background-position:-6px -471px;
 	background-repeat:no-repeat;
 	width:32px;
@@ -1340,7 +1340,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 
 
 .fm_files_mv {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-11px -39px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1351,7 +1351,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_files_mu {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-41px -39px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1362,7 +1362,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_files_ml {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-71px -39px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1373,7 +1373,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_files_mpx {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-101px -39px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1384,7 +1384,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_files_mp {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-131px -39px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1395,7 +1395,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_files_mb {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-161px -39px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1406,7 +1406,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_files_hotlink {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-11px -6px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1417,7 +1417,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_files_password {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-41px -6px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1430,7 +1430,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 
 
 .fm_files_protect {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/icons_filetypes_old.png);
+	background-image: url(muimg/icons_filetypes_old.png);
 	background-position:-71px -6px;
 	background-repeat:no-repeat;
 	width:22px;
@@ -1441,7 +1441,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	margin-left:10px;
 }
 .fm_actions_but {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_close.png);
+	background-image:url(muimg/fm_close.png);
 	background-position:-151px -45px;
 	background-repeat:no-repeat;
 	width:29px;
@@ -1454,7 +1454,7 @@ a.fm_bread_bg_main:hover .fm_bread_no_icon {
 	padding-top:17px;
 }
 a.fm_paginator_bg1, a.fm_paginator_bg1:link, a.fm_paginator_bg1:visited, a.fm_paginator_bg1:hover, a.fm_paginator_bg1:active {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:left -36px;
 	background-repeat: repeat-x;
 	height:36px;
@@ -1465,7 +1465,7 @@ a.fm_paginator_bg1, a.fm_paginator_bg1:link, a.fm_paginator_bg1:visited, a.fm_pa
 	color:#363636;
 }
 a.fm_paginator_bg1.active, a.fm_paginator_bg1.active:link, a.fm_paginator_bg1.active:visited, a.fm_paginator_bg1.active:hover, a.fm_paginator_bg1.active:active {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:left -36px;
 	background-repeat: repeat-x;
 	height:36px;
@@ -1477,13 +1477,13 @@ a.fm_paginator_bg1.active, a.fm_paginator_bg1.active:link, a.fm_paginator_bg1.ac
 	cursor:default;
 }
 .fm_paginator_bg2 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:left top;
 	background-repeat: no-repeat;
 	height:36px;
 }
 .fm_paginator_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:right -72px;
 	background-repeat: no-repeat;
 	height:36px;
@@ -1499,7 +1499,7 @@ a.fm_paginator_bg1.active, a.fm_paginator_bg1.active:link, a.fm_paginator_bg1.ac
 	text-align:center;
 }
 .next .fm_paginator_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:right -108px;
 	background-repeat:no-repeat;
 	font-weight:bold;
@@ -1509,7 +1509,7 @@ a.fm_paginator_bg1.active, a.fm_paginator_bg1.active:link, a.fm_paginator_bg1.ac
 	text-decoration:none;
 }
 .previous .fm_paginator_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:left -144px;
 	background-repeat:no-repeat;
 	font-weight:bold;
@@ -1526,7 +1526,7 @@ a.fm_paginator_bg1:hover .fm_paginator_icon {
 	color:#363636;
 }
 a.fm_paginator_bg1.next:hover .fm_paginator_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:right -108px;
 	background-repeat:no-repeat;
 	font-weight:bold;
@@ -1537,7 +1537,7 @@ a.fm_paginator_bg1.next:hover .fm_paginator_icon {
 	color:#363636;
 }
 a.fm_paginator_bg1.previous:hover .fm_paginator_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:left -144px;
 	background-repeat:no-repeat;
 	font-weight:bold;
@@ -1556,7 +1556,7 @@ a.fm_paginator_bg1.active:hover .fm_paginator_icon {
 	cursor:default;
 }
 a.fm_paginator_bg1.active.next:hover .fm_paginator_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:right -108px;
 	background-repeat:no-repeat;
 	font-weight:bold;
@@ -1568,7 +1568,7 @@ a.fm_paginator_bg1.active.next:hover .fm_paginator_icon {
 	cursor:default;
 }
 a.fm_paginator_bg1.active.previous:hover .fm_paginator_icon {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_paginator.png);
+	background-image:url(muimg/fm_paginator.png);
 	background-position:left -144px;
 	background-repeat:no-repeat;
 	font-weight:bold;
@@ -1581,7 +1581,7 @@ a.fm_paginator_bg1.active.previous:hover .fm_paginator_icon {
 }
 .fm_controls {
 	width:145px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_close.png);
+	background-image:url(muimg/fm_close.png);
 	background-position:-43px -74px;
 	background-repeat:no-repeat;
 	position:absolute;
@@ -1593,7 +1593,7 @@ a.fm_paginator_bg1.active.previous:hover .fm_paginator_icon {
 }
 .fm_controls.three {
 	width:145px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_close.png);
+	background-image:url(muimg/fm_close.png);
 	background-position:-193px -74px;
 	background-repeat:no-repeat;
 	position:absolute;
@@ -1666,7 +1666,7 @@ a.ff_link:hover {
 	background-color:#fafafa;
 }
 .add_more_quota_td {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat:repeat-x;
 	height:100px;
@@ -1679,13 +1679,13 @@ a.ff_link:hover {
 	padding-bottom:1px;
 }
 .hotlink_top_bg1 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/hotlnk_bg2.png);
+	background-image:url(muimg/hotlnk_bg2.png);
 	background-position:left -114px;
 	background-repeat: repeat-x;
 	height:114px;
 }
 .hotlink_top_bg2 {
-	background-image: url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/hotlnk_bg.jpg);
+	background-image: url(muimg/hotlnk_bg.jpg);
 	background-position:left top;
 	background-repeat:no-repeat;
 	height:114px;
@@ -1693,7 +1693,7 @@ a.ff_link:hover {
 	max-width:938px;
 }
 .hotlink_top_bg3 {
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/hotlnk_bg2.png);
+	background-image:url(muimg/hotlnk_bg2.png);
 	background-position:right top;
 	background-repeat:no-repeat;
 	height:114px;
@@ -1716,7 +1716,7 @@ a.ff_link:hover {
 	background-color:#FFF;
 	min-height:20px;
 	padding-top:26px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat:repeat-x;
 	padding-bottom:8px;
@@ -1807,7 +1807,7 @@ a.ff_link:hover {
 	width:32px;
 	height:74px;
 	float:left;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_tooltip.png);
+	background-image:url(muimg/fm_tooltip.png);
 	background-position:-32px -82px;
 	background-repeat:no-repeat;
 }
@@ -1815,13 +1815,13 @@ a.ff_link:hover {
 	width:32px;
 	height:74px;
 	float:right;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_tooltip.png);
+	background-image:url(muimg/fm_tooltip.png);
 	background-position:left -82px;
 	background-repeat:no-repeat;
 }
 .fm_tooltip_bg3 {
 	height:82px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/fm_tooltip.png);
+	background-image:url(muimg/fm_tooltip.png);
 	background-position:center top;
 	background-repeat:no-repeat;
 	margin-left:32px;
@@ -1838,7 +1838,7 @@ a.fm_tooltip_txt_ml, a.fm_tooltip_txt_ml:link, a.fm_tooltip_txt_ml:visited, a.fm
 	font-size:13px;
 	font-weight:bold;
 	padding-top:5px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mega_logos.png);
+	background-image:url(muimg/mega_logos.png);
 	background-position:right top;
 	background-repeat:no-repeat;
 	padding-right:106px;
@@ -1850,7 +1850,7 @@ a.fm_tooltip_txt_mv, a.fm_tooltip_txt_mv:link, a.fm_tooltip_txt_mv:visited, a.fm
 	font-size:13px;
 	font-weight:bold;
 	padding-top:5px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mega_logos.png);
+	background-image:url(muimg/mega_logos.png);
 	background-position:right -37px;
 	background-repeat:no-repeat;
 	padding-right:114px;
@@ -1862,7 +1862,7 @@ a.fm_tooltip_txt_mpx, a.fm_tooltip_txt_mpx:link, a.fm_tooltip_txt_mpx:visited, a
 	font-size:13px;
 	font-weight:bold;
 	padding-top:5px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mega_logos.png);
+	background-image:url(muimg/mega_logos.png);
 	background-position:right -74px;
 	background-repeat:no-repeat;
 	padding-right:97px;
@@ -1874,7 +1874,7 @@ a.fm_tooltip_txt_mb, a.fm_tooltip_txt_mb:link, a.fm_tooltip_txt_mb:visited, a.fm
 	font-size:13px;
 	font-weight:bold;
 	padding-top:5px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mega_logos.png);
+	background-image:url(muimg/mega_logos.png);
 	background-position:right -111px;
 	background-repeat:no-repeat;
 	padding-right:106px;
@@ -1886,7 +1886,7 @@ a.fm_tooltip_txt_mp, a.fm_tooltip_txt_mp:link, a.fm_tooltip_txt_mp:visited, a.fm
 	font-size:13px;
 	font-weight:bold;
 	padding-top:5px;
-	background-image:url(/web/20111231211818im_/http://wwwstatic.megaupload.com/muimg/mega_logos.png);
+	background-image:url(muimg/mega_logos.png);
 	background-position:right -148px;
 	background-repeat:no-repeat;
 	padding-right:117px;
@@ -1966,22 +1966,3 @@ a.fm_tooltip_txt_mp, a.fm_tooltip_txt_mp:link, a.fm_tooltip_txt_mp:visited, a.fm
 .fmloadimg {
 	text-align:center;
 }
-/*
-     FILE ARCHIVED ON 21:18:18 Dec 31, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:51:59 Mar 15, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.139
-  exclusion.robots.policy: 0.121
-  cdx.remote: 0.178
-  esindex: 0.024
-  LoadShardBlock: 134.877 (6)
-  PetaboxLoader3.datanode: 177.396 (8)
-  load_resource: 306.706 (2)
-  PetaboxLoader3.resolve: 200.045 (2)
-*/

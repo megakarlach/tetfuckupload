@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .premium_shadow {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_top_shadow.png);
+	background-image:url(muimg/pr_top_shadow.png);
 	background-position:left top;
 	background-repeat:repeat-x;
 	height:5px;
@@ -11,20 +11,20 @@
 .pr_table_bg_header {
 	height:40px;
 	background-position:-1677px top;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table.png);
+	background-image:url(muimg/pr_table.png);
 	background-repeat:no-repeat;
 	padding:0px;
 	padding-left:9px;
 	padding-right:9px;
 }
 .pr_table_bg1 {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table.png);
+	background-image:url(muimg/pr_table.png);
 	background-position:-838px top;
 	background-repeat: repeat-y;
 	width:838px;
 }
 .pr_table_bg1_last {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table.png);
+	background-image:url(muimg/pr_table.png);
 	background-position:left bottom;
 	background-repeat: repeat-y;
 	width:838px;
@@ -34,7 +34,7 @@
 	margin-left:9px;
 	margin-right:9px;
 	height:61px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left bottom;
 	background-repeat:repeat-x;
 	background-color:#fbfbfb
@@ -43,7 +43,7 @@
 	margin-left:9px;
 	margin-right:9px;
 	height:61px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left bottom;
 	background-repeat:repeat-x;
 }
@@ -59,7 +59,7 @@
 	width:140px;
 	height:60px;
 	float:left;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat: repeat-y;
 }
@@ -67,7 +67,7 @@
 	width:140px;
 	height:60px;
 	float:left;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat: repeat-y;
 }
@@ -84,7 +84,7 @@
 	width:130px;
 	height:60px;
 	float:left;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat: repeat-y;
 }
@@ -95,43 +95,43 @@
 .pr_table_bg_header .pr_table_td2 {
 	height:40px;
 	float:left;
-	background-image: url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table_elements.png);
+	background-image: url(muimg/pr_table_elements.png);
 	background-position:left -26px;
 	background-repeat: repeat-y;
 }
 .pr_table_bg_header .pr_table_td3 {
 	height:40px;
 	float:left;
-	background-image: url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table_elements.png);
+	background-image: url(muimg/pr_table_elements.png);
 	background-position:left -26px;
 }
 .pr_table_bg_header .pr_table_td4 {
 	height:40px;
 	float:left;
-	background-image: url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table_elements.png);
+	background-image: url(muimg/pr_table_elements.png);
 	background-position:left -26px;
 }
 .pr_td_y {
-	background-image: url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table_elements.png);
+	background-image: url(muimg/pr_table_elements.png);
 	background-position:center -79px;
 	background-repeat:no-repeat;
 	height:50px;
 }
 .pr_td_n {
-	background-image: url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table_elements.png);
+	background-image: url(muimg/pr_table_elements.png);
 	background-position:center -152px;
 	background-repeat:no-repeat;
 	height:50px;
 }
 .pr_td_premium_glow {
 	height:40px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table_elements.png);
+	background-image:url(muimg/pr_table_elements.png);
 	background-position:center 20px;
 	background-repeat:no-repeat
 }
 .pr_table_main_bg {
 	height:1120px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_table_bg1.png);
+	background-image:url(muimg/pr_table_bg1.png);
 	background-position:left top;
 	background-repeat: repeat-x;
 }
@@ -140,7 +140,7 @@
 	padding-left:68px;
 }
 .pr_sites_bg {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/login_bg.png);
+	background-image:url(muimg/login_bg.png);
 	background-position:left bottom;
 	background-repeat:repeat-x;
 }
@@ -151,12 +151,12 @@
 }
 .pr_top_main_bg {
 	background-position:left top;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_top_bg.jpg);
+	background-image:url(muimg/pr_top_bg.jpg);
 	background-repeat:no-repeat;
 }
 .xmas .pr_top_main_bg {
 	background-position:left top;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_top_bg_x.jpg);
+	background-image:url(muimg/pr_top_bg_x.jpg);
 	background-repeat:no-repeat;
 }
 .pr_shadow_bl {
@@ -185,20 +185,20 @@
 }
 a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hover, a.pr_mobile_bl:active {
 	height:100px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left top;
 	background-repeat: repeat-x;
 	display: block;
 }
 .pr_mobile_en_en {
 	background-position:left top;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/mobile_cost_en.png);
+	background-image:url(muimg/mobile_cost_en.png);
 	background-repeat:no-repeat;
 	height:99px;
 }
 .pr_membership_bl1 {
 	height:240px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -100px;
 	background-repeat: repeat-x;
 	width:166px;
@@ -206,7 +206,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_membership_bl2 {
 	height:240px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -100px;
 	background-repeat:repeat-x;
 	width:157px;
@@ -214,7 +214,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_membership_bl3 {
 	height:240px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -100px;
 	background-repeat:repeat-x;
 	width:157px;
@@ -222,7 +222,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_membership_bl4 {
 	height:240px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -100px;
 	background-repeat:repeat-x;
 	width:157px;
@@ -230,7 +230,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_membership_bl5 {
 	height:240px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -580px;
 	background-repeat:repeat-x;
 	width:157px;
@@ -238,7 +238,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_membership_bl6 {
 	height:240px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -580px;
 	background-repeat:repeat-x;
 	width:165px;
@@ -246,7 +246,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_mem_div {
 	width:3px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -340px;
 	background-repeat:repeat-x;
 	height:240px;
@@ -255,7 +255,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_mem_div_last {
 	width:1px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs.png);
+	background-image:url(muimg/pr_bgs.png);
 	background-position:left -340px;
 	background-repeat:repeat-x;
 	height:240px;
@@ -296,7 +296,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 	font-weight:bold;
 }
 .pr_trouble_bg {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_limit_bg.png);
+	background-image:url(muimg/pr_limit_bg.png);
 	background-position:left bottom;
 	background-repeat:repeat-x;
 	min-height:444px;
@@ -306,7 +306,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 .pr_trouble_top_div {
 	background-position:left bottom;
 	background-repeat:repeat-x;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	height:8px;
 	font-size:1px;
 	background-color:#FFF;
@@ -314,7 +314,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 .pr_trouble_div {
 	background-position:left bottom;
 	background-repeat:repeat-x;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	height:1px;
 	font-size:1px;
 }
@@ -325,7 +325,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 .pr_trouble_num1 {
 	width:24px;
 	height:24px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_numbers.png);
+	background-image:url(muimg/pr_numbers.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	float:left;
@@ -335,7 +335,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 .pr_trouble_num2 {
 	width:24px;
 	height:24px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_numbers.png);
+	background-image:url(muimg/pr_numbers.png);
 	background-position:left -29px;
 	background-repeat:no-repeat;
 	float:left;
@@ -345,7 +345,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 .pr_trouble_num3 {
 	width:24px;
 	height:24px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_numbers.png);
+	background-image:url(muimg/pr_numbers.png);
 	background-position:left -58px;
 	background-repeat:no-repeat;
 	float:left;
@@ -355,7 +355,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 .pr_trouble_num4 {
 	width:24px;
 	height:24px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_numbers.png);
+	background-image:url(muimg/pr_numbers.png);
 	background-position:left -87px;
 	background-repeat:no-repeat;
 	float:left;
@@ -365,7 +365,7 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 .pr_trouble_num5 {
 	width:24px;
 	height:24px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_numbers.png);
+	background-image:url(muimg/pr_numbers.png);
 	background-position:left -116px;
 	background-repeat:no-repeat;
 	float:left;
@@ -405,14 +405,14 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 	display:none
 }
 .pr_hover_head {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_popup.png);
+	background-image:url(muimg/pr_popup.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 	width:378px;
 	height:64px;
 }
 .pr_hover_mid {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_popup.png);
+	background-image:url(muimg/pr_popup.png);
 	background-position:-756px top;
 	background-repeat: repeat-y;
 	width:378px;
@@ -429,13 +429,13 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 	background-repeat:no-repeat;
 }
 .pr_hover_div {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left bottom;
 	background-repeat:repeat-x;
 	height:8px;
 }
 .pr_hover_bott {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_popup.png);
+	background-image:url(muimg/pr_popup.png);
 	background-position:-378px top;
 	background-repeat:no-repeat;
 	width:378px;
@@ -449,20 +449,20 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 	z-index:1000;
 }
 .pr_hover_benefit_bg1 {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_popup.png);
+	background-image:url(muimg/pr_popup.png);
 	background-position:-1134px top;
 	background-repeat:no-repeat;
 	width:418px;
 	height:64px;
 }
 .pr_hover_benefit_bg2 {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_popup.png);
+	background-image:url(muimg/pr_popup.png);
 	background-position:-1970px top;
 	background-repeat: repeat-y;
 	width:418px;
 }
 .pr_hover_benefit_bg3 {
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_popup.png);
+	background-image:url(muimg/pr_popup.png);
 	background-position:-1552px top;
 	background-repeat:no-repeat;
 	width:418px;
@@ -485,29 +485,9 @@ a.pr_mobile_bl, a.pr_mobile_bl:link, a.pr_mobile_bl:visited, a.pr_mobile_bl:hove
 }
 .pr_membership_bl1 {
 	height:280px;
-	background-image:url(/web/20111231211715im_/http://wwwstatic.megaupload.com/muimg/pr_bgs_x.png);
+	background-image:url(muimg/pr_bgs_x.png);
 	background-position:left top;
 	background-repeat: repeat-x;
 	width:166px;
 	float:left
 }
-
-/*
-     FILE ARCHIVED ON 21:17:15 Dec 31, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:51:59 Mar 15, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.318
-  exclusion.robots.policy: 0.299
-  cdx.remote: 0.171
-  esindex: 0.018
-  LoadShardBlock: 100.372 (6)
-  PetaboxLoader3.datanode: 116.973 (8)
-  load_resource: 170.627 (2)
-  PetaboxLoader3.resolve: 111.699 (2)
-*/

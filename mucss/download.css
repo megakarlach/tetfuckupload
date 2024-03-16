@@ -12,26 +12,26 @@
 	margin-left:57px;
 	float:left;
 	width:579px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-image:url(muimg/download_bg.png);
 	background-position:-1158px top;
 	background-repeat:repeat-y;
 }
 .download_gray_bg2 {
 	width:579px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-image:url(muimg/download_bg.png);
 	background-position:left top;
 	background-repeat: no-repeat;
 }
 .download_gray_bg3 {
 	width:579px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-image:url(muimg/download_bg.png);
 	background-position:-579px bottom;
 	background-repeat: no-repeat;
 	min-height:143px;
 }
 .download_gray_bg3 {
 	width:579px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-image:url(muimg/download_bg.png);
 	background-position:-579px bottom;
 	background-repeat: no-repeat;
 	min-height:143px;
@@ -48,7 +48,7 @@
 	display:none;
 }
 .download_file_block.description .description_bl {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left 7px;
 	background-repeat:repeat-x;
 	padding-bottom:7px;
@@ -79,17 +79,17 @@
 	margin-left:21px;
 	float:left;
 	width:261px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-image:url(muimg/download_bg.png);
 	background-position:-2259px top;
 	background-repeat:repeat-y;
 }
 .download_white_bg2 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-image:url(muimg/download_bg.png);
 	background-position:-1737px top;
 	background-repeat: no-repeat;
 }
 .download_white_bg3 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bg.png);
+	background-image:url(muimg/download_bg.png);
 	background-position:-1998px bottom;
 	background-repeat: no-repeat;
 	margin:0px;
@@ -103,7 +103,7 @@
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-left:2px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat:repeat-x;
 }
@@ -111,7 +111,7 @@
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-left:2px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image:url(muimg/free_div.gif);
 	background-position:left top;
 	background-repeat:repeat-x;
 }
@@ -139,7 +139,7 @@ strong {
 	line-height:21px;
 }
 .download_inp_bg1 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-repeat:repeat-x;
 	background-position:left -194px;
 	height: 40px;
@@ -147,7 +147,7 @@ strong {
 	float:left;
 }
 .reset_main_block .download_inp_bg1 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-repeat:repeat-x;
 	background-position:left -194px;
 	height: 40px;
@@ -156,7 +156,7 @@ strong {
 	margin-bottom:14px;
 }
 .reset_main_block .download_inp_bg1 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-repeat:repeat-x;
 	background-position:left -194px;
 	height: 40px;
@@ -164,13 +164,13 @@ strong {
 	float:left;
 }
 .download_inp_bg2 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-repeat: no-repeat;
 	background-position:left -114px;
 	height: 40px;
 }
 .download_inp_bg3 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-repeat: no-repeat;
 	background-position:right -154px;
 	height: 40px;
@@ -178,7 +178,7 @@ strong {
 	padding-right:38px;
 }
 .correct .download_inp_bg3 {
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/fm_search.png);
+	background-image:url(muimg/fm_search.png);
 	background-repeat: no-repeat;
 	background-position:right -1383px;
 	height: 40px;
@@ -238,7 +238,7 @@ strong {
 }
 .download_banners_bl {
 	min-height:296px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/download_bot_bg.png);
+	background-image:url(muimg/download_bot_bg.png);
 	background-position:left bottom;
 	background-repeat: repeat-x;
 	background-color:#eeeeee;
@@ -255,7 +255,7 @@ a.download_banner img, a.download_banner:link img, a.download_banner:visited img
 	border:1px solid #8f8f8f;
 }
 .delete_main_bg {
-	background-image: url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/mm_bg1.gif);
+	background-image: url(muimg/mm_bg1.gif);
 	background-position:left -8px;
 	background-repeat:repeat-x;
 	margin-left:6px;
@@ -302,7 +302,7 @@ a.download_banner img, a.download_banner:link img, a.download_banner:visited img
 	width:30px;
 }
 .downl_ban_div {
-	background-image: url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/free_div.gif);
+	background-image: url(muimg/free_div.gif);
 	background-position: left bottom;
 	background-repeat: repeat-x;
 	height:1px;
@@ -310,23 +310,3 @@ a.download_banner img, a.download_banner:link img, a.download_banner:visited img
 	margin-left:6px;
 	margin-right:6px;
 }
-
-/*
-     FILE ARCHIVED ON 21:18:21 Dec 31, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 06:52:09 Mar 15, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.185
-  exclusion.robots.policy: 0.171
-  cdx.remote: 0.149
-  esindex: 0.014
-  LoadShardBlock: 130.252 (6)
-  PetaboxLoader3.datanode: 143.18 (8)
-  PetaboxLoader3.resolve: 266.656 (3)
-  load_resource: 318.032 (2)
-*/
