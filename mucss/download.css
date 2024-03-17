@@ -269,19 +269,19 @@ a.download_banner img, a.download_banner:link img, a.download_banner:visited img
 }
 .delete_gray_bg1 {
 	width:860px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/delete_bg.png);
+	background-image:url(muimg/delete_bg.png);
 	background-position:-1720px top;
 	background-repeat: repeat-y;
 }
 .delete_gray_bg2 {
 	width:860px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/delete_bg.png);
+	background-image:url(muimg/delete_bg.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 }
 .delete_gray_bg3 {
 	width:860px;
-	background-image:url(/web/20111231211821im_/http://wwwstatic.megaupload.com/muimg/delete_bg.png);
+	background-image:url(muimg/delete_bg.png);
 	background-position: -860px bottom;
 	background-repeat:no-repeat;
 	padding-top:22px;

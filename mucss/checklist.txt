@@ -6,5 +6,5 @@ fm.css - DONE
 en\fm.css - DONE
 download.css - DONE
 en\download.css - DONE
-bott_pages.css - NOT YET
-en\bott_pages.css - NOT YET
+bott_pages.css - DONE
+en\bott_pages.css - DONE
