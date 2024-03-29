@@ -191,12 +191,12 @@ pageTracker._trackPageview();
 
 			<div class="download_clock_bl" style="display:block;">
               <div class="download_clock">
-                <div class="download_timer_txt" id="countertime"> 00:00:20 </div>
+                <div class="download_timer_txt" id="countertime"> 00:00:70 </div>
               </div>
             </div>
             <audio id="sfx_p3_dude" src="sound\p3dude.m4a" preload="auto"></audio>			
 			<script type="text/javascript">
-			  count=11; 				
+			  count=70; 				
 			  function countdown2() 
 			  {
 			  	if (count > 0)
@@ -207,13 +207,13 @@ pageTracker._trackPageview();
 				    document.getElementById("countertime").innerHTML = '00:00:00';
 				    document.getElementById('dlbutton').style.display = '';
 					document.getElementById('dlbuttondisabled').style.display = 'none';
-				  }
-				  if(count > 0)
+				  }2
+				  if(count > 0 || count < 60)
 				  {
 				    var str = '' + count;
 					if (str.length == 1) str = '0' + str;
 				    document.getElementById("countertime").innerHTML = '00:00:' + str;
-					setTimeout('countdown2()',1000);
+					setTimeout('countdown2()',25);
 				  }
 				}
 			  }
