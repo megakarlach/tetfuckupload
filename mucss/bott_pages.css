@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .bott_p_pr_header h1 {
-	font: bold 330%/100% Helvetica, Arial, sans-serif;
+	font: bold 330%/100% Reznor, Helvetica, Arial, sans-serif;
 	position: relative;
 	color: #000;
 	font-size:17px;
@@ -210,7 +210,7 @@
 .bott_t_main_pr h2 {
 	font-size:15px;
 	font-weight:bold;
-	font-family:Helvetica, Arial, sans-serif;
+	font-family:Reznor, Helvetica, Arial, sans-serif;
 	color:#343434;
 	margin:0px;
 	padding:0px 0px 19px 0px;
@@ -265,7 +265,7 @@
 	line-height:16px;
 	padding:0px;
 	background-color:#FFF;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	color:#333333;
 	font-weight:bold;
@@ -282,7 +282,7 @@
 	line-height:16px;
 	padding:0px;
 	background-color:#FFF;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	color:#333333;
 	font-weight:bold;
@@ -292,7 +292,7 @@
 .report_inp_txt {
 	font-size:13px;
 	font-weight:bold;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	line-height:18px;
 	color:#333333
 }
@@ -360,7 +360,7 @@
 	line-height:16px;
 	padding:0px;
 	background-color:#FFF;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	color:#333333;
 	font-weight:bold;
@@ -437,7 +437,7 @@
 	line-height:18px;
 }
 a.contact_lnk, a.contact_lnk:link, a.contact_lnk:visited, a.contact_lnk:active {
-	font-family:Helvetica, Arial, sans-serif;
+	font-family:Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	line-height:17px;
 	font-weight:bold;
@@ -448,7 +448,7 @@ a.contact_lnk, a.contact_lnk:link, a.contact_lnk:visited, a.contact_lnk:active {
 	text-decoration:none
 }
 a.contact_lnk:hover {
-	font-family:Helvetica, Arial, sans-serif;
+	font-family:Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	line-height:17px;
 	font-weight:bold;
@@ -849,7 +849,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	line-height:19px;
 	padding:0px;
 	background-color:#FFF;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	color:#333333;
 	font-weight:bold;
@@ -876,7 +876,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	background-repeat: no-repeat;
 	position:relative;
 	height:42px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:15px;
 }
 .account_table .select_box option {
@@ -886,7 +886,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	left:16px;
 	top:11px;
 	color:#363636;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	color:#333333;
 	font-weight:bold;
@@ -906,7 +906,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	opacity:0;
 	width:100%;
 	height:42px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	-moz-opacity: 0;
@@ -931,7 +931,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 .supp_pulldown .select_box {
 	position:relative;
 	height:41px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:15px;
 }
 .supp_pulldown .select_box option {
@@ -941,7 +941,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	left:13px;
 	top:11px;
 	color:#363636;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	color:#333333;
 	font-weight:bold;
@@ -958,7 +958,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	opacity:0;
 	width:100%;
 	height:41px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	-moz-opacity: 0;
@@ -1123,7 +1123,7 @@ a.ddl_loading {
 	background-repeat: no-repeat;
 	position:relative;
 	height:42px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:15px;
 }
 .ty_pulldown .select_box option {
@@ -1133,7 +1133,7 @@ a.ddl_loading {
 	left:16px;
 	top:11px;
 	color:#363636;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
 	color:#333333;
 	font-weight:bold;
@@ -1153,7 +1153,7 @@ a.ddl_loading {
 	opacity:0;
 	width:100%;
 	height:42px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:14px;
  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	-moz-opacity: 0;
@@ -1296,7 +1296,7 @@ a.access_orange_lnk:hover {
 	background-repeat: no-repeat;
 	position:relative;
 	height:42px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Reznor, Helvetica, Arial, sans-serif;
 	font-size:15px;
 }
 .reset_pulldown .select_box .reset_bg2 {
@@ -1387,7 +1387,7 @@ a.access_orange_lnk:hover {
 	float:left;
 }
 .about_txt_pad h1 {
-	font: bold 330%/100% Arial Black, Helvetica, Arial, sans-serif;
+	font: bold 330%/100% Arial Black, Reznor, Helvetica, Arial, sans-serif;
 	position: relative;
 	color: #000;
 	font-size:24px;

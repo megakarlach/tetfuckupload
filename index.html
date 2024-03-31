@@ -6,7 +6,7 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 2, 2024 19:00:00").getTime();
+var countDownDate = new Date("Apr 12, 2024 19:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -24,8 +24,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="timer"
-  document.getElementById("timer").innerHTML = days + ":" + hours + ":"
-  + minutes + ":" + seconds + "";
+  document.getElementById("timer").innerHTML = days + " days " + hours + ":"
+  + minutes + ":" + seconds + "  (hours:minutes:seconds)";
 
   // If the count down is finished, write some text
   if (distance < 0) {
