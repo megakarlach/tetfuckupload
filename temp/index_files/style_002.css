@@ -1,0 +1,1390 @@
+@charset "utf-8";
+body, td, th {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	line-height:15px;
+}
+html {
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background-color: #f7f6f2;
+	margin:0px;
+	padding:0px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/m_bg.gif);
+	background-position:left 460px;
+	background-repeat:repeat-x;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	outline: none;
+}
+a, a:focus img, a:focus img {
+	outline: none;
+}
+a:link {
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: #333333;
+}
+a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+a:active {
+	text-decoration: underline;
+	color: #333333;
+}
+.bold {
+	font-weight:bold;
+}
+.clear {
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+.clear_r {
+	clear:right;
+	margin:0px;
+	padding:0px;
+}
+.clear_l {
+	clear:left;
+	margin:0px;
+	padding:0px;
+}
+.forms_div {
+	float:right;
+}
+.forms_div2 {
+	float:left;
+}
+.mid_left_bg1 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/free_bg.png);
+	background-position: right top;
+	background-repeat:repeat-x;
+	height:385px;
+}
+.mid_right_bg1 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/free_bg.png);
+	background-position: left -385px;
+	background-repeat:repeat-x;
+	height:385px;
+}
+.mid_left_bg2 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/free_bg2.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+	height:385px;
+}
+.mid_right_bg2 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/free_bg2.jpg);
+	background-position: left -385px;
+	;
+	background-repeat: no-repeat;
+	height:385px;
+}
+.main_bg {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/free_main.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+.left_top {
+	text-align: left;
+	vertical-align:top;
+}
+.right_top {
+	text-align: right;
+	vertical-align:top;
+}
+.left_bottom {
+	text-align: left;
+	vertical-align:bottom;
+}
+.right_bottom {
+	text-align: right;
+	vertical-align:bottom;
+}
+.center {
+	text-align: center;
+	vertical-align:middle;
+}
+.main_width {
+	width:987px;
+}
+.left_top_bg {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/top_bg.png);
+	background-position:right -158px;
+	background-repeat:no-repeat;
+	height:79px;
+	font-size:1px;
+}
+.l_top_bg {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/main_bg.png);
+	background-position:right top;
+	background-repeat:repeat-x;
+	height:128px;
+}
+.r_top_bg {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/main_bg.png);
+	background-position:left -128px;
+	background-repeat:repeat-x;
+	height:128px;
+}
+.right_top_bg {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/top_bg.png);
+	background-position:left -237px;
+	background-repeat:no-repeat;
+	height:79px;
+	font-size:1px;
+}
+.main_top_l {
+	height:79px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/top_bg.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+}
+.main_top_r {
+	height:79px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/top_bg.png);
+	background-position:right -79px;
+	background-repeat:no-repeat;
+}
+a.logo_lnk, a.logo_lnk:link, a.logo_lnk:visited, a.logo_lnk:hover, a.logo_lnk:active {
+	display:block;
+	margin-top:23px;
+	text-decoration:none;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/logo.gif);
+	width:369px;
+	height:35px;
+	background-position:left top;
+	background-repeat:no-repeat;
+	float:left
+}
+.lang_pad {
+	margin-top:24px;
+	margin-right:5px;
+	float:right;
+	margin-left:14px;
+	width:127px;
+	height:32px;
+}
+.top_menu_block {
+	padding-left:6px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/main_bg.png);
+	background-position:left -82px;
+	background-repeat:repeat-x;
+}
+.top_line {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/free_y.png);
+	background-position:left -117px;
+	background-repeat:no-repeat;
+	height:3px;
+	font-size:1px;
+}
+.main_shadow1 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	width:987px;
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:11px;
+	font-size:1px;
+}
+.main_shadow2 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	width:987px;
+	background-position:-1974px top;
+	background-repeat: repeat-y;
+	min-height:370px;
+}
+.main_shadow3 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	width:987px;
+	background-position:-987px top;
+	background-repeat:no-repeat;
+	height:11px;
+	font-size:1px;
+}
+.main_shadow2.voucher1 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	width:987px;
+	background-position:-1974px top;
+	background-repeat: repeat-y;
+	min-height:262px;
+}
+.main_shadow3.voucher1 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	width:987px;
+	background-position:-4935px top;
+	background-repeat:no-repeat;
+	height:11px;
+	font-size:1px;
+}
+.main_shadow3.login {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mid_bg.png);
+	width:987px;
+	background-position:-3948px top;
+	background-repeat:no-repeat;
+	height:11px;
+	font-size:1px;
+}
+.main_shadow3.bott_pages {
+	background-position:-2961px top;
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+.bottom_bl {
+	padding-top:17px;
+	padding-left:6px;
+}
+.powered_bl {
+	height: 45px;
+	width: 235px;
+	float: right;
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/copy_rights.png);
+	background-position: left 15px;
+	background-repeat: no-repeat;
+}
+.top_buttons_pad {
+	float:right;
+	padding-top:24px;
+	padding-left:4px;
+}
+a.member, a.member:link, a.member:visited, a.member:active {
+	font-size:13px;
+	color:#ff7300;
+	text-decoration:none;
+}
+a.member:hover {
+	font-size:13px;
+	color:#ff7300;
+	text-decoration: underline;
+}
+.user_info {
+	float:right;
+	font-size:13px;
+	padding-top:32px;
+	padding-right:5px;
+	color:#979797;
+}
+.crown {
+	float:right;
+	width:25px;
+	height:20px;
+	margin-top:29px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/statuses.png);
+	background-position:-49px -1px;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
+.stars_1 {
+	float:right;
+	width:17px;
+	height:20px;
+	margin-top:29px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/statuses.png);
+	background-position:-57px -30px;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
+.stars_2 {
+	float:right;
+	width:29px;
+	height:20px;
+	margin-top:29px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/statuses.png);
+	background-position:-45px -50px;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
+.stars_3 {
+	float:right;
+	width:41px;
+	height:20px;
+	margin-top:29px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/statuses.png);
+	background-position:-33px -70px;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
+.stars_4 {
+	float:right;
+	width:53px;
+	height:20px;
+	margin-top:29px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/statuses.png);
+	background-position:-21px -90px;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
+.stars_5 {
+	float:right;
+	width:65px;
+	height:20px;
+	margin-top:29px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/statuses.png);
+	background-position:-9px -110px;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
+a.lng_en_a, a.lng_en_a:link, a.lng_en_a:visited, a.lng_en_a:active, a.lng_en_m, a.lng_en_m:link, a.lng_en_m:visited, a.lng_en_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left top;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_en_a:hover, a.lng_en_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px top;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_en, a.lng_en:link, a.lng_en:visited, a.lng_en:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left top;
+	width:127px;
+	height:24px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_en:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px top;
+	width:127px;
+	height:24px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_de_a, a.lng_de_a:link, a.lng_de_a:visited, a.lng_de_a:active, a.lng_de_m, a.lng_de_m:link, a.lng_de_m:visited, a.lng_de_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -128px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_de_a:hover, a.lng_de_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -128px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_de, a.lng_de:link, a.lng_de:visited, a.lng_de:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -93px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_de:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -93px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_fr_a, a.lng_fr_a:link, a.lng_fr_a:visited, a.lng_fr_a:active, a.lng_fr_m, a.lng_fr_m:link, a.lng_fr_m:visited, a.lng_fr_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -256px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_fr_a:hover, a.lng_fr_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -256px;
+	width:127px;
+	height:32px;
+	display:block;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_fr, a.lng_fr:link, a.lng_fr:visited, a.lng_fr:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -185px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_fr:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -185px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_es_a, a.lng_es_a:link, a.lng_es_a:visited, a.lng_es_a:active, a.lng_es_m, a.lng_es_m:link, a.lng_es_m:visited, a.lng_es_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -192px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_es_a:hover, a.lng_es_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -192px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_es, a.lng_es:link, a.lng_es:visited, a.lng_es:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -139px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_es:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -139px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_pt_a, a.lng_pt_a:link, a.lng_pt_a:visited, a.lng_pt_a:active, a.lng_pt_m, a.lng_pt_m:link, a.lng_pt_m:visited, a.lng_pt_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -416px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_pt_a:hover, a.lng_pt_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -416px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_pt, a.lng_pt:link, a.lng_pt:visited, a.lng_pt:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -300px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_pt:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -300px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_nl_a, a.lng_nl_a:link, a.lng_nl_a:visited, a.lng_nl_a:active, a.lng_nl_m, a.lng_nl_m:link, a.lng_nl_m:visited, a.lng_nl_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -384px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_nl_a:hover, a.lng_nl_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -384px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_nl, a.lng_nl:link, a.lng_nl:visited, a.lng_nl:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -277px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_nl:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -277px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_it_a, a.lng_it_a:link, a.lng_it_a:visited, a.lng_it_a:active, a.lng_it_m, a.lng_it_m:link, a.lng_it_m:visited, a.lng_it_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -288px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_it_a:hover, a.lng_it_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -288px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_it, a.lng_it:link, a.lng_it:visited, a.lng_it:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -208px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_it:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -208px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_cn_a, a.lng_cn_a:link, a.lng_cn_a:visited, a.lng_cn_a:active, a.lng_cn_m, a.lng_cn_m:link, a.lng_cn_m:visited, a.lng_cn_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -96px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_cn_a:hover, a.lng_cn_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -96px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_cn, a.lng_cn:link, a.lng_cn:visited, a.lng_cn:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -70px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_cn:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -70px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_ct_a, a.lng_ct_a:link, a.lng_ct_a:visited, a.lng_ct_a:active, a.lng_ct_m, a.lng_ct_m:link, a.lng_ct_m:visited, a.lng_ct_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -64px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_ct_a:hover, a.lng_ct_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -64px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_ct, a.lng_ct:link, a.lng_ct:visited, a.lng_ct:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -47px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_ct:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -47px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_jp_a, a.lng_jp_a:link, a.lng_jp_a:visited, a.lng_jp_a:active, a.lng_jp_m, a.lng_jp_m:link, a.lng_jp_m:visited, a.lng_jp_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -320px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_jp_a:hover, a.lng_jp_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -320px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_jp, a.lng_jp:link, a.lng_jp:visited, a.lng_jp:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -231px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_jp:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -231px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_kr_a, a.lng_kr_a:link, a.lng_kr_a:visited, a.lng_kr_a:active, a.lng_kr_m, a.lng_kr_m:link, a.lng_kr_m:visited, a.lng_kr_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -352px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_kr_a:hover, a.lng_kr_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -352px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_kr, a.lng_kr:link, a.lng_kr:visited, a.lng_kr:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -254px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_kr:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -254px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_ru_a, a.lng_ru_a:link, a.lng_ru_a:visited, a.lng_ru_a:active, a.lng_ru_m, a.lng_ru_m:link, a.lng_ru_m:visited, a.lng_ru_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -32px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_ru_a:hover, a.lng_ru_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -32px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_ru, a.lng_ru:link, a.lng_ru:visited, a.lng_ru:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -24px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_ru:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -24px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_fi_a, a.lng_fi_a:link, a.lng_fi_a:visited, a.lng_fi_a:active, a.lng_fi_m, a.lng_fi_m:link, a.lng_fi_m:visited, a.lng_fi_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -224px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_fi_a:hover, a.lng_fi_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -224px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_fi, a.lng_fi:link, a.lng_fi:visited, a.lng_fi:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -162px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_fi:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -162px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_se_a, a.lng_se_a:link, a.lng_se_a:visited, a.lng_se_a:active, a.lng_se_m, a.lng_se_m:link, a.lng_se_m:visited, a.lng_se_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -480px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_se_a:hover, a.lng_se_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -480px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_se, a.lng_se:link, a.lng_se:visited, a.lng_se:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -346px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_se:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -346px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_dk_a, a.lng_dk_a:link, a.lng_dk_a:visited, a.lng_dk_a:active, a.lng_dk_m, a.lng_dk_m:link, a.lng_dk_m:visited, a.lng_dk_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -160px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_dk_a:hover, a.lng_dk_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -160px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_dk, a.lng_dk:link, a.lng_dk:visited, a.lng_dk:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -116px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_dk:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -116px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_tr_a, a.lng_tr_a:link, a.lng_tr_a:visited, a.lng_tr_a:active, a.lng_tr_m, a.lng_tr_m:link, a.lng_tr_m:visited, a.lng_tr_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -512px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_tr_a:hover, a.lng_tr_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -512px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_tr, a.lng_tr:link, a.lng_tr:visited, a.lng_tr:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -369px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_tr:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -369px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_sa_a, a.lng_sa_a:link, a.lng_sa_a:visited, a.lng_sa_a:active, a.lng_sa_m, a.lng_sa_m:link, a.lng_sa_m:visited, a.lng_sa_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -576px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_sa_a:hover, a.lng_sa_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -576px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_sa, a.lng_sa:link, a.lng_sa:visited, a.lng_sa:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -415px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_sa:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -415px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_vn_a, a.lng_vn_a:link, a.lng_vn_a:visited, a.lng_vn_a:active, a.lng_vn_m, a.lng_vn_m:link, a.lng_vn_m:visited, a.lng_vn_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -544px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_vn_a:hover, a.lng_vn_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -544px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_vn, a.lng_vn:link, a.lng_vn:visited, a.lng_vn:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -392px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_vn:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -392px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_pl_a, a.lng_pl_a:link, a.lng_pl_a:visited, a.lng_pl_a:active, a.lng_pl_m, a.lng_pl_m:link, a.lng_pl_m:visited, a.lng_pl_m:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:left -448px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_pl_a:hover, a.lng_pl_m:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_butts.png);
+	background-position:-127px -448px;
+	width:127px;
+	height:32px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	z-index:1006;
+}
+a.lng_pl, a.lng_pl:link, a.lng_pl:visited, a.lng_pl:active {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:left -323px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+a.lng_pl:hover {
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/lang/langs_pull.png);
+	background-position:-127px -323px;
+	width:127px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+}
+div#langselection {
+	z-index:1005;
+}
+.fm .bottom_bl {
+	padding-left:20px;
+	padding-right:20px;
+	min-width:975px;
+}
+.fm.low_res .bottom_bl {
+	padding-left:6px;
+	padding-right:6px;
+	min-width:975px;
+}
+.fm .powered_bl {
+	padding-right:12px;
+}
+.fm {
+	min-width:1215px;
+}
+.fm.low_res {
+	min-width:975px;
+}
+.b_page_top {
+	height:17px;
+}
+input[type="checkbox"] {
+	margin:0;
+	padding:0;
+	opacity:0;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+}
+.checkboxOn {
+	background:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_close.png) no-repeat 0 -37px;
+	width:22px;
+	height:23px;
+	float:left;
+	cursor:pointer;
+}
+.checkboxOff {
+	background:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_close.png) no-repeat -22px -37px;
+	width:22px;
+	height:23px;
+	float:left;
+	cursor:pointer;
+}
+.main_shadow1.ff_page {
+	background-position:-5922px top;
+}
+.main_shadow3.ff_page {
+	background-position:-6909px top;
+}
+a.log_mv_but, a.log_mv_but:link, a.log_mv_but:visited, a.log_mv_but:hover, a.log_mv_but:active {
+	background-position:left top;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mega_logos.gif);
+	background-repeat:no-repeat;
+	height:52px;
+	float:left;
+	display:block;
+	width:216px;
+}
+.log_sites_div {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mega_logos.gif);
+	background-position:-862px top;
+	background-repeat:no-repeat;
+	width:24px;
+	height:52px;
+	float:left
+}
+a.log_ml_but, a.log_ml_but:link, a.log_ml_but:visited, a.log_ml_but:hover, a.log_ml_but:active {
+	background-position:-216px top;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mega_logos.gif);
+	background-repeat:no-repeat;
+	height:52px;
+	float:left;
+	display:block;
+	width:216px;
+}
+a.log_mpx_but, a.log_mpx_but:link, a.log_mpx_but:visited, a.log_mpx_but:hover, a.log_mpx_but:active {
+	background-position:-432px top;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mega_logos.gif);
+	background-repeat:no-repeat;
+	height:52px;
+	float:left;
+	display:block;
+	width:216px;
+}
+a.log_mb_but, a.log_mb_but:link, a.log_mb_but:visited, a.log_mb_but:hover, a.log_mb_but:active {
+	background-position:-648px top;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/mega_logos.gif);
+	background-repeat:no-repeat;
+	height:52px;
+	float:left;
+	display:block;
+	width:216px;
+}
+.main_shadow1.download {
+	background-position:-5922px top;
+}
+.main_shadow2.download {
+	min-height:20px;
+}
+.main_shadow3.download {
+	background-position:-2961px top;
+}
+.main_shadow3.download_full {
+	background-position:-10857px top;
+}
+.fm_popup {
+	position:absolute;
+	z-index:1009;
+	left:50%;
+	top:50%;
+	display:none;
+}
+.fm_popup_bg1 {
+	height:63px;
+	width:35px;
+	float:left;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg1.png);
+	background-position:left -144px;
+	background-repeat:no-repeat
+}
+.fm_popup_bg2 {
+	height:63px;
+	width:35px;
+	float:right;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg1.png);
+	background-position:left -207px;
+	background-repeat:no-repeat
+}
+.fm_popup_bg3 {
+	height:63px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg1.png);
+	background-position:left -270px;
+	background-repeat: repeat-x;
+	margin-left:35px;
+	margin-right:35px;
+}
+.fm_popup_bg4 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg2.png);
+	background-position:left top;
+	background-repeat: repeat-y;
+}
+.fm_popup_bg5 {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg2.png);
+	background-position:right top;
+	background-repeat: repeat-y;
+	padding-left: 19px;
+	padding-right:19px;
+}
+a.fm_import_close_but, a.fm_import_close_but:link, a.fm_import_close_but:visited, a.fm_import_close_but:active {
+	width:34px;
+	height:34px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_close.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left:-11px;
+	margin-top:-11px;
+}
+a.fm_import_close_but:hover {
+	width:34px;
+	height:34px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_close.png);
+	background-position:-34px top;
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left:-11px;
+	margin-top:-11px;
+}
+.fm_popup_bg2 a.fm_import_close_but, .fm_popup_bg2 a.fm_import_close_but:link, .fm_popup_bg2 a.fm_import_close_but:visited, .fm_popup_bg2 a.fm_import_close_but:active {
+	margin-left:-5px;
+	margin-top:-7px;
+	z-index:1009;
+}
+.fm_popup_bg2 a.fm_import_close_but:hover {
+	position:absolute;
+	margin-left:-5px;
+	margin-top:-7px;
+	z-index:1009;
+}
+.fm_popup_del_txt {
+	font-size:15px;
+	font-weight:bold;
+	color:#333333;
+	padding-top:44px;
+	line-height:17px;
+	text-align:center
+}
+.fm_mess_butt_bl {
+	padding-top:44px;
+	padding-bottom:26px;
+	padding-left:124px;
+	padding-right:124px;
+}
+.orange {
+	color:#ff6400;
+}
+a.orange_lnk, a.orange_lnk:link, a.orange_lnk:visited, a.orange_lnk:hover, a.orange_lnk:active {
+	color:#ff6400;
+	font-size:13px;
+	font-weight:bold;
+	line-height:18px;
+}
+.gray {
+	color:#444444;
+}
+.fm_popup_bg6 {
+	height:48px;
+	width:35px;
+	float:left;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg1.png);
+	background-position:left top;
+	background-repeat:no-repeat
+}
+.fm_popup_bg7 {
+	height:48px;
+	width:35px;
+	float:right;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg1.png);
+	background-position:left -48px;
+	background-repeat:no-repeat
+}
+.fm_popup_bg8 {
+	height:48px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fm_popup_bg1.png);
+	background-position:left -96px;
+	background-repeat: repeat-x;
+	margin-left:35px;
+	margin-right:35px;
+}
+.fm_popup_main1 {
+	background-color:#FFF;
+	min-height:20px;
+	padding-left:49px;
+	padding-right:49px;
+}
+.grayblock {
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:1007;
+	background-color:#000;
+	opacity:0.5;
+ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+}
+.radioOn {
+	width:18px;
+	height:18px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fb_elements.png);
+	background-position:left -38px;
+	background-repeat:no-repeat;
+	float:left;
+	cursor:pointer;
+}
+.radioOff {
+	width:18px;
+	height:18px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/fb_elements.png);
+	background-position:-18px -38px;
+	background-repeat:no-repeat;
+	float:left;
+	cursor:pointer;
+}
+.account_l_bl .crown, .account_l_bl .stars_1, .account_l_bl .stars_2, .account_l_bl .stars_3, .account_l_bl .stars_4, .account_l_bl .stars_5 {
+	float:left;
+	margin-right:8px;
+	margin-top:9px;
+}
+.top_td_bg {
+	min-width:1px;
+	font-size:1px;
+	line-height:1px;
+	background-color: #eeeeee;
+}
+.top_td_bg_mid {
+	min-width:1px;
+	font-size:1px;
+	line-height:1px;
+	background-color: #eeeeee;
+	width:987px;
+}
+.faq_bott_shadow {
+	width:987px;
+	height:4px;
+	font-size:1px;
+}
+.faq_bott_shadow_bg {
+	height:12px;
+	width:987px;
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/faq_bott_bg.png);
+	background-image:left top;
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:-7px;
+	z-index:1000;
+}
+.carousel_player {
+	position:absolute;
+	z-index:1009;
+	left:0;
+	top:0;
+	display:block;
+}
+.no_menues {
+	padding-bottom:16px;
+}
+a.mw_link, a.mw_link:link, a.mw_link:visited, a.mw_link:hover, a.mw_link:active {
+	display:block;
+	width:125px;
+	height:37px;
+	float:right;
+}
+.bott_butt6 {
+	display:none;
+}
+a.join, a.join:link, a.join:visited, a.join:hover, a.join:active {
+	height: 45px;
+	width: 325px;
+	float: right;
+	background-image: url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/join.png);
+	background-position: right 12px;
+	background-repeat: no-repeat;
+	display:block;
+	float:left;
+}
+.bott_p_join {
+	background-image:url(/web/20111231211539im_/http://wwwstatic.megaupload.com/muimg/en/join_head.png);
+	background-position:left 20px;
+	background-repeat:no-repeat;
+	height:113px;
+}
+.join_txt {
+	font-size:13px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top:60px;
+	padding-bottom:52px;
+	color: #666;
+	line-height: 18px;
+}
+
+/*
+     FILE ARCHIVED ON 21:15:39 Dec 31, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:13:06 Mar 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.13
+  exclusion.robots.policy: 0.119
+  cdx.remote: 0.092
+  esindex: 0.009
+  LoadShardBlock: 183.528 (6)
+  PetaboxLoader3.datanode: 196.481 (8)
+  load_resource: 334.499 (2)
+  PetaboxLoader3.resolve: 249.798 (2)
+*/
