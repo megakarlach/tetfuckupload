@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TetFuck Upload is currently not available.</title>
+<link rel="icon" href="favicon.gif">
+<link rel="shortcut icon" href="favicon.gif" >
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Apr 12, 2024 19:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="timer"
+  document.getElementById("timer").innerHTML = days + " day " + hours + ":"
+  + minutes + ":" + seconds + "  (hours:minutes:seconds)";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<link rel="stylesheet" type="text/css" href="css/fonts/stylesheet.css"/>
+  <meta charset="UTF-8">
+  <meta name="application-name" content="TetFuck Upload">
+  <meta name="twitter:text:title" content="TetFuck Upload - Preparing for Bloodbath Miami Vice. WATCH TRAILER NOW. 4/12/2024.">
+  <meta property="og:site_name" content="TetFuck Upload - Preparing for Bloodbath Miami Vice. WATCH TRAILER NOW. 4/12/2024.">
+  <meta property="og:image" content="https://megakarlach.github.io/tetfuckupload/mucss/muimg/error-newupdate.jpg">
+  <meta name="twitter:image" content="https://megakarlach.github.io/tetfuckupload/mucss/muimg/error-newupdate.jpg">
+  <meta name="description" content="TetFuck Upload - Preparing for Bloodbath Miami Vice. WATCH TRAILER NOW. 4/12/2024.">
+  <meta property="og:site_name" content="TetFuck - the best, offensive, unfunny, NIN-themed Tetris(R) mod ever made.">
+</head>
+<body bgcolor="#000" color="#FFF" style="font-family:Reznor,Helvetica, Arial; san-serif">
+<center>
+<img src="mucss\muimg\error-newupdate.jpg" title="TetFuck is currently not available right now." alt="TetFuck is currently not available right now." width="1280" height="720">
+<!-- Display the countdown timer in an element -->
+<h1 style="color:#FFF">TetFuck: Bloodbath Miami Vice will be released in:
+<p id="timer" style="color:#FFF"></p>
+</h1>
+<h1 style="color:#FFF">Watch TetFuck Trailer now:</h1>
+<video controls id="trailer" width="854" height="480">
+	<source src="video\trailer.webm" type="video/webm">
+</video><br>
+<audio controls id="music" autoplay>
+	<source src="sound\sitesong_gaveup.m4a" type="audio/mpeg">
+</audio>
+<br><br>
+<a href="https://tetfakgame.wordpress.com/" style="color:#fff">Back to TetFuck's Home Page</a>
+<p style="color:#FFF" class="has-text-align-right has-small-font-size"><span style="font-family: Helvetica, Arial, sans-serif;">©</span> 2024 The TetFuck Company (which isn't a real company btw). All other trademarks are property of their respective owners.<br><br>This page (and the game) is created for comedic purposes, <br>thus it<span style="font-family: Helvetica, Arial, sans-serif;">’</span>s under fair use, please don<span style="font-family: Helvetica, Arial, sans-serif;">’</span>t take it seriously or take legal action.<br>This is NOT an official Tetris<span style="font-family: Helvetica, Arial, sans-serif;">®</span> product. Tetris<span style="font-family: Helvetica, Arial, sans-serif;">® ©</span> The Tetris Company. TetFun 2000 <span style="font-family: Helvetica, Arial, sans-serif;">©</span> Jaibo Software.<br>Wish, Gave Up, And All That Could Have Been <span style="font-family: Helvetica, Arial, sans-serif;">©</span> 1992, 2002 - 2024 TVT Records & Nothing Records & Interscopes Records<br>Special Thanks to Vinesauce, SWG, zippy, tijon, Nine Inch Nails and many others.</p>
+</center>
+</img>
+</body>
+</html>
