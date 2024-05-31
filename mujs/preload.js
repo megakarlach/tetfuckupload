@@ -21,22 +21,3 @@ myimages[i].src=preloadimages.arguments[i]
 
 
 }
-/*
-     FILE ARCHIVED ON 21:14:29 Dec 31, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 07:11:38 Mar 15, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.179
-  exclusion.robots.policy: 0.16
-  cdx.remote: 0.142
-  esindex: 0.017
-  LoadShardBlock: 100.261 (6)
-  PetaboxLoader3.datanode: 173.009 (8)
-  load_resource: 257.604 (2)
-  PetaboxLoader3.resolve: 158.943 (2)
-*/

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TetFuck - Download Manager</title>
+<script type="text/javascript">
+
+</script>
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+// how many seconds do we want the user to wait?
+var c = 1;
+// the function that launchs the automatic download
+function launchDownload(url) {
+    mirror = '<iframe style="position:fixed; top:0; left:-999999px;" src="' + url + '" width="1" height="1"></iframe>';
+    document.getElementById('divDLStart').innerHTML += mirror;
+}
+// the function that sends off the download to a mirror
+function sendDownload(url) {
+    window.open(url);
+}
+
+// the function that does the download tracking
+function track(url) {
+  // yeah, sending a request via <img> does the trick!
+  data = '<img src="'+url+'" width="1" height="1" style="position:fixed: top:0; left:-999999px" />'
+  document.getElementById('tracker').innerHTML += data;
+}
+
+// the function that checks if the MaxCDN has reached the limit.
+function maxCheck() {
+var limit = 3000;
+var url = '';
+
+// checks the current # of downloads to the CDN
+$.getJSON(url, function(data) {
+  // check if we reach the limt, if so, hide the max cdn download link.
+  if (data.hits <= limit) { 
+    document.getElementById("maxcdn").style.display = 'block'; 
+  } 
+});
+
+}
+
+// the function that selects the mirror provider
+function provider(name, type) {
+    if (name == 'archive') {
+        document.getElementById('mirror').innerHTML = '<br />Mirror: Archive (outdated)';
+        fcwait('https://archive.org/details/tetfuck-2142', 'true')
+    }
+    if (name == 'github') {
+        document.getElementById('mirror').innerHTML = '<br />Mirror: GitHub - Releases (direct download)';
+        fcwait('https://github.com/megakarlach/tetfuckupload/releases/download/10.0.6.1/TetFuck.2142.-.Bloodbath.Miami.Vice.Setup.10.0.6.1.exe', 'true')
+    }
+	
+    if (name == 'torrent') {
+        document.getElementById('mirror').innerHTML = '<br />Mirror: Torrent';
+        fcwait('https://www.youtube.com/watch?app=desktop&v=dQw4w9WgXcQ', 'true')
+    }
+}
+// the function that handles the waiting/countdown.
+function fcwait(url, direct) {
+    var url;
+    var direct;
+    if (document.getElementById("divDLWait") == null || document.getElementById("divDLStart") == null) {
+        setTimeout("fcwait('" + url + "','" + direct + "');", 1000);
+        return;
+    }
+    if (c > 0) {
+        var el = document.getElementById("downloadDelayTimeSec");
+        document.getElementById("divDLWait").style.display = 'none';
+        document.getElementById("locations").style.display = 'none';
+        document.getElementById("downloadDelayTimeSec").style.display = 'block';
+        if (el) {
+            el.innerHTML = "" + c;
+        }
+        c = c - 1;
+        setTimeout("fcwait('" + url + "','" + direct + "');", 1000);
+    } else {
+        document.getElementById("downloadDelayTimeSec").style.display = 'none';
+        document.getElementById("divDLStart").style.display = 'block';
+        if (direct == 'true') {
+            sendDownload(url);
+            track("http://web.archive.org/web/20130324115735/http://blackmesasource.com/stats.php?tracker=download");
+            // alert("i am sending a ping to track the Download!");
+        } else {
+            launchDownload(url);
+            track("http://web.archive.org/web/20130324115735/http://blackmesasource.com/stats.php?tracker=cdn");
+            // alert("i am sending a ping to track the CDN!");
+        }
+        document.getElementById('divDLStart').innerHTML = 'If your download, or redirect does not start automatically, please <a target="_blank" href="' + url + '">click here.</a> ';
+    }
+}
+
+// run the function to check if we ran over the MaxCDN download limit.
+//maxCheck();
+</script>
+<style>
+body {padding:0;margin:0; background:#000;font-family: 'Source Sans Pro', sans-serif; overflow: hidden;}
+a {color:#CCC; text-decoration:none;}
+a:hover {color:#333;}
+#divDLStart{display: none;}
+#downloadDelayTimeSec{display: none;}
+#mirror{font-weight: bold;}
+#maxcdn{display: none;}
+</style>
+</head>
+<body>
+ 
+<div id="tracker"></div>
+<div style="width:748px; height:440px; background:#000;">
+  <div style="width:100%; height:100%; position:relative;color:#fff;font-size:14px">
+    <div style="width:400px; left:10px; top:10px; position:absolute; color:#fff;">
+      <img src="download_manager_tf2142_files/dl-header.png" width="260" height="21"><br><br>
+      <h2 style="margin:0;">TetFuck 2142: Bloodbath Miami Vice</h2>
+      <div style="color:#ccc; font-size:12px">
+        <strong>tetfuck2142-setup-10.0.6.1.exe</strong> - Automatic installer.<br><s><strong>tetfuck-collectors-edition-setup-10.0.6.2.exe</strong> - Coming soon (Collectors Edition)</s><br>
+        <div id="mirror">
+        </div>
+         TetFuck 2142 + HQ Launcher total size: 1.00GB <br>
+        <br><br>
+      </div>
+      <div id="message">
+        <div id="locations"></div>
+      </div>
+      <div id="divDLWait">
+        Please select a download mirror to begin your download.<br><br>
+        <br>
+        
+        <div style="position:absolute; top:380x; left:0;">
+        <strong>Global:</strong><br>
+        <!-- a onClick="provider('gamespot')" href="#">GameSpot</a><br / -->
+        <!-- a onClick="provider('fileshack')" href="#">FileShack</a><br/ -->
+        <a onclick="provider('archive')" href="#">Archive.org (outdated)</a><br>
+        <a onclick="provider('github')" href="#">GitHub</a><br>
+        <!-- <span id="maxcdn"><a onclick="provider('maxcdn','direct')" href="#">MaxCDN</a><br/></span> -->
+        <br>
+        </div>
+		<clear>
+        <div style="position:absolute; top:212px; left:150px;">
+        <strong>TORRENT:</strong><br><a onclick="provider('torrent')" href="#">Coming soon</a><br>
+        </div>
+        <!--
+        <div style="position:absolute; top:380px; left:230px;">
+        <strong>DE:</strong><br><a onclick="provider('chip')" href="#">Chip.de</a>
+        </div>
+		-->
+      </div>
+      <div id="downloadDelayTimeSec" style="font-size:30px;">
+        1
+      </div>
+      <div id="divDLStart" style="font-size:15px;">
+      </div><br><br><br><br><br>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body></html>

@@ -1,0 +1,413 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+// Black Mesa Release Website
+// 2012
+// http://www.joshhubi.com
+
+// the function that loads up the soundmanager
+function mesaSounds() {
+    soundManager.url = 'swf/';
+    soundManager.debugMode = false;
+    soundManager.onready(function () {
+        soundManager.createSound({
+            id: 'click',
+            url: 'audio/click.mp3'
+        });
+        soundManager.createSound({
+            id: 'select',
+            url: 'audio/select.mp3'
+        });
+        soundManager.createSound({
+            id: 'menu',
+            url: 'audio/menu.mp3'
+        });
+        soundManager.createSound({
+            id: 'introClip',
+            url: 'audio/intro.mp3'
+        });
+        soundManager.createSound({
+            id: 'bgMusic',
+            url: 'audio/bgsound.mp3'
+        });
+        soundManager.createSound({
+            id: 'menuDrop',
+            url: 'audio/menudrop.mp3'
+        });
+        
+    });
+}
+
+// start the sound manager
+mesaSounds();   
+
+// the function that handles resizing.
+function mesaResize() {
+    if (($(document).height() < '670')) {
+        $('.box').css({
+            'bottom': '-20px'
+        });
+    } else {
+        $('.box').css({
+            'visibility': 'visible',
+            'bottom': '18px'
+        });
+    }
+    if (($(document).height() < '480')) {
+        $('.logo').css({
+            'background': 'url(img/page_logo_small.png) no-repeat top center',
+            'top': '10px',
+            'height': '200px'
+        });
+        // now time for the defaults
+    } else {
+        $('.logo').css({
+            'background': 'url(img/page_logo.png) no-repeat top center',
+            'top': '110px',
+            'height': '98px'
+        });
+    }
+    if (($(document).height() < '690')) {
+        if (($(document).width() < '750')) {
+            $('.box').css({
+                'visibility': 'hidden'
+            });
+            // now time for the defaults
+        } else {
+            $('.box').css({
+                'visibility': 'visible'
+            });
+        }
+        if (($(document).width() < '963')) {
+            $('.logo').css({
+                'background': 'url(img/page_logo_small.png) no-repeat top center',
+                'top': '10px',
+                'height': '200px'
+            });
+            // now time for the defaults
+        } else {
+            $('.logo').css({
+                'background': 'url(img/page_logo.png) no-repeat top center',
+                'top': '110px',
+                'height': '98px'
+            });
+            if (($(document).height() < '680')) {
+                $('.box').css({
+                    'visibility': 'hidden'
+                });
+                // now time for the defaults
+            } else {
+                $('.box').css({
+                    'visibility': 'visible'
+                });
+            }
+        }
+    } else {
+        $('.box').css({
+            'visibility': 'visible'
+        });
+    }
+    if (($(document).height() < '630')) {
+        $('.box').css({
+            'visibility': 'hidden'
+        });
+        // now time for the defaults
+    } else {
+        $('.box').css({
+            'visibility': 'visible'
+        });
+        if (($(document).width() < '850')) {
+            $('.box').css({
+                'visibility': 'hidden'
+            });
+            // now time for the defaults
+        } else {
+            $('.box').css({
+                'visibility': 'visible'
+            });
+        }
+    }
+    if (($(document).width() < '963')) {
+        $('.logo').css({
+            'background': 'url(img/page_logo_small.png) no-repeat top center',
+            'top': '20px',
+            'height': '200px'
+        });
+        $('.footer > .copyright').css({
+            'width': '800px'
+        });
+        $('.menu').css({
+            'background': 'url(img/menu_bg_small.png) no-repeat top center',
+            'left': '-410px',
+            'width': '787px'
+        });
+        $('.menu > li a').css({
+            'font-size': '17px'
+        });
+    } else {
+        $('.footer > .copyright').css({
+            'width': '960px'
+        });
+        $('.logo').css({
+            'background': 'url(img/page_logo.png) no-repeat top center',
+            'top': '110px',
+            'height': '98px'
+        });
+        $('.menu').css({
+            'background': 'url(img/menu_bg.png) no-repeat top center',
+            'left': '-491px',
+            'width': '962px'
+        });
+        $('.menu > li a').css({
+            'font-size': '24px'
+        });
+    }
+}
+
+// the function that handles website preloading
+function mesaPreload() {
+    $("body").queryLoader2({
+        barColor: "#6e6d73",
+        backgroundColor: "#000",
+        percentage: true,
+        barHeight: 1,
+        minimumTime: 100
+    });
+}
+
+
+// the function that holds all the JQurey helpers
+function mesaHelpers() {	
+	// listen when the user resizes the window and run the resizing script.
+	$(window).bind("resize", function () {
+        mesaResize();
+    });
+    // set a delay before allowing the background cycle to start to allow room for the intro to play out.
+	setTimeout($('.background').cycle({
+        fx: 'fade',
+        pause: 1,
+        speed: 10000,
+        timeout: 3500
+    }), 4020);
+	// set up hover and select sounds for the main menu.
+    $('.selectSound > li > a').mouseover(function () {
+        soundManager.play('menu');
+    });
+    $(".selectSound > li > a").click(function () {
+        soundManager.play('select');
+    });
+	
+    // set up the download fancybox
+    $(".pop-download").fancybox({
+        maxWidth: 745,
+        maxHeight: 440,
+        fitToView: false,
+        width: '100%',
+        height: '100%',
+        autoSize: false,
+        closeClick: false,
+        openEffect: 'none',
+        closeEffect: 'none'
+    });
+
+
+    // set up the trailer fancybox
+    $(".pop-trailer").fancybox({
+        maxWidth: 786,
+        maxHeight: 440,
+        fitToView: false,
+        width: '100%',
+        height: '100%',
+        autoSize: false,
+        closeClick: false,
+        openEffect: 'none',
+        closeEffect: 'none'
+    });
+
+    // the basic fancy box
+    $('.fancybox').fancybox();
+
+    // set up the media fancybox
+    $(".pop-media").fancybox({
+        maxWidth: 630,
+        maxHeight: 440,
+        fitToView: false,
+        width: '100%',
+        height: '100%',
+        autoSize: false,
+        closeClick: false,
+        openEffect: 'none',
+        closeEffect: 'none'
+    });
+
+    // set up the media page
+	$(".fancybox-thumb").fancybox({
+		prevEffect	: 'none',
+		nextEffect	: 'none',
+		helpers	: {
+			title	: {
+				type: 'outside'
+			},
+			overlay	: {
+				opacity : 0.8,
+				css : {
+					'background-color' : '#000'
+				}
+			},
+			thumbs	: {
+				width	: 50,
+				height	: 50
+			}
+		}
+	});
+}
+
+// the function that handles the website intro.
+function mesaIntro(state) {
+    if (state == 'skip'){
+		$(".logo").delay(200).fadeIn(1000);
+		$(".background").delay(200).fadeIn(2200);
+		$(".footer").delay(400).fadeIn(500);
+		setTimeout("soundManager.play('click');", 400);
+		$(".ajax").delay(200).fadeIn(500);
+		$(".menu").delay(2000).slideDown('slow');
+		setTimeout("soundManager.play('menuDrop');", 2000)
+    }
+	if (state == 'intro') {
+		$(".logo").delay(200).fadeIn(1000);
+		setTimeout("soundManager.play('introClip');", 300);
+		setTimeout("soundManager.play('bgMusic');", 3000);
+		$(".background").delay(4000).fadeIn(10000);
+		$(".footer").delay(3000).fadeIn(1000);
+		setTimeout("soundManager.play('click');", 3010);
+		$(".ajax").delay(3800).fadeIn(2000);
+		$(".menu").delay(10000).slideDown('slow');
+		setTimeout("soundManager.play('menuDrop');", 10000);
+	}
+    if (state == 'switch') {
+        $(".footer").delay(400).fadeIn(500); 
+    }
+}
+
+// the function that changes the page title
+function mesaTitle(string){
+document.title = 'Black Mesa: '+string.charAt(0).toUpperCase() + string.slice(1);;	
+}
+
+
+// the function that loads the pages
+function mesaPage(page) {
+
+// set the page title
+if (page == 'home'){
+	mesaTitle('Re-visit the world that started the Half-Life continuum');	
+
+      $('.footer').css({
+            'position': 'fixed'
+        });
+
+       $('.logo').css({
+            'display': 'block'
+        });
+
+
+} else {
+	mesaTitle(page);
+
+      $('.footer').css({
+            'position': 'relative',
+            'margin-top': '50px'
+        });
+
+       $('.logo').css({
+            'display': 'none'
+        });
+
+}
+
+// check if its the media page, if so, load the media scripts.
+if (page == 'media'){
+    mesaMedia(); 
+
+}
+
+
+$(".ajax").load("pages/"+page+".html", function(response, status, xhr) {
+  	// start the resizing script.
+	mesaResize();
+
+	// check if there was any errors
+	if (status == "error") {
+    var msg = "Sorry but there was an error: ";
+    $(".ajax").html(msg + xhr.status + " " + xhr.statusText);
+
+
+   
+  }
+});
+
+}
+
+// lets load everything up.
+$(document).ready(function () {
+    // start the sound manager (yes I know again! this ensures all sounds are loaded and the intro does not go without justice.)
+	mesaSounds();	
+	// start the preloader
+	mesaPreload(); 		
+
+    // launch media page via url
+    if (document.location.hash == "#media") {
+        mesaTitle('Media');   
+        $(".pop-media").fancybox({
+        maxWidth: 630,
+        maxHeight: 440,
+        fitToView: false,
+        width: '100%',
+        height: '100%',
+        autoSize: false,
+        closeClick: false,
+        openEffect: 'none',
+        closeEffect: 'none'
+    }).trigger('click');
+    }
+	// lets check if this is the first time visiting, then for this session, do not show the intro.
+	if (self.name != '_home_') {
+    self.name = '_home_';
+    mesaIntro('skip');
+	} else mesaIntro('skip');		
+	// start the resizing script.
+	mesaResize();	
+	// start the jqurey helpers
+    mesaHelpers();
+});
+
+}
+/*
+     FILE ARCHIVED ON 12:59:51 Jan 14, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:10:51 May 30, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.77
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.082
+  esindex: 0.013
+  cdx.remote: 10.302
+  LoadShardBlock: 103.867 (3)
+  PetaboxLoader3.datanode: 47.764 (4)
+  PetaboxLoader3.resolve: 91.524 (2)
+  load_resource: 64.519
+*/

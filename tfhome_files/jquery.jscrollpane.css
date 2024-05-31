@@ -1,0 +1,140 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #0D0D0D;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #2D2D2D;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #0D0D0D;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+/*
+     FILE ARCHIVED ON 12:59:38 Jan 14, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:10:20 May 30, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.939
+  exclusion.robots: 0.118
+  exclusion.robots.policy: 0.108
+  esindex: 0.014
+  cdx.remote: 6.826
+  LoadShardBlock: 136.398 (3)
+  PetaboxLoader3.datanode: 84.661 (4)
+  PetaboxLoader3.resolve: 87.638 (2)
+  load_resource: 55.199
+*/

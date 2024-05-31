@@ -1,0 +1,40 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+window.log = function f(){ log.history = log.history || []; log.history.push(arguments); if(this.console) { var args = arguments, newarr; args.callee = args.callee.caller; newarr = [].slice.call(args); if (typeof console.log === 'object') log.apply.call(console.log, console, newarr); else console.log.apply(console, newarr);}};
+(function(a){function b(){}for(var c="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","),d;!!(d=c.pop());){a[d]=a[d]||b;}})
+(function(){try{console.log();return window.console;}catch(a){return (window.console={});}}());
+
+
+
+
+}
+/*
+     FILE ARCHIVED ON 12:59:23 Jan 14, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:10:39 May 30, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.649
+  exclusion.robots: 0.104
+  exclusion.robots.policy: 0.094
+  esindex: 0.01
+  cdx.remote: 5.426
+  LoadShardBlock: 81.125 (3)
+  PetaboxLoader3.datanode: 50.601 (4)
+  PetaboxLoader3.resolve: 125.147 (2)
+  load_resource: 112.615
+*/

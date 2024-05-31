@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+          />
+    <style>
+      #myCarousel {
+        --f-carousel-spacing: 10px;
+        --f-carousel-slide-width: 60%;
+      }
+
+      #myCarousel .f-carousel__slide {
+        padding: 50px;
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="f-carousel" id="myCarousel">
+        <div class="f-carousel__slide">1</div>
+        <div class="f-carousel__slide">2</div>
+        <div class="f-carousel__slide">3</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script>
+      const container = document.getElementById("myCarousel");
+      const options = { infinite: false };
+
+      new Carousel(container, options);
+    </script>
+  </body>
+</html>
+
+
+
+
+
+

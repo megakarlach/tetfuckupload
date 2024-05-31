@@ -51,7 +51,17 @@ $(document).ready(function(){
 	var selects = new Object();
 --></script>
 
-<script type="text/javascript" src="mujs/libs/jquery-3.7.1.min.js"></script>
+<!-- <script type="text/javascript" src="mujs/libs/jquery-3.7.1.min.js"></script> -->
+<script type="text/javascript" src="js/jquery-2.2.4.js"></script>
+<!-- fancybox -->
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
 
 <script type="text/javascript">
 var $j = jQuery.noConflict();
@@ -61,7 +71,7 @@ var $j = jQuery.noConflict();
 <script type="text/javascript" src="mujs/lang.js"></script>
 <script type="text/javascript" src="mujs/preload.js"></script>
 <script>
-preloadimages("muimg/lang/langs_pull.png",  "muimg/lang/langs_butts.png");
+preloadimages("mucss/muimg/lang/langs_pull.png",  "mucss/muimg/lang/langs_butts.png");
 </script>
 <script type="text/javascript">
 var langImages=new Array();
@@ -89,20 +99,28 @@ langImages['sa']=new Array();
 <script type="text/javascript">
 if(top != self) top.location.replace(location);
 </script>
-
-
-
-
+<script type="text/javascript">
+			  $(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
 
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "" : "");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
 </script>
-<script type="text/javascript">	
-try {
-var pageTracker = _gat._getTracker("UA-6383685-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+
 </head>
 <body style="font-family: Reznor, Helvetica, Arial, sans-serif;">
 <!-- Notice
@@ -120,8 +138,8 @@ pageTracker._trackPageview();
         <div class="mid_left_bg2"></div>
       </div></td>
     <td class="left_top main_width"><div class="main_top_l">
-        <div class="main_top_r"> 
-		<a href="https://youtu.be/bXZhTb0eUqA?t=117" class="logo_lnk"></a>
+        <div class="main_top_r"> <!-- site logo -->
+		<a href="index.html" class="logo_lnk"></a>
 <div class="lang_pad"> <a id="langSelectionSP" class="lng_en_a" onclick="langSelection.turn()"></a></div>
 <div class="top_buttons_pad"><a href="https://youtu.be/bXZhTb0eUqA?t=117"" class="top_reg_butt"></a></div>
 <div class="top_buttons_pad"><a href="https://youtu.be/bXZhTb0eUqA?t=117"" class="top_log_butt"></a></div>
@@ -144,7 +162,7 @@ pageTracker._trackPageview();
       </div>
       <div class="main_bg">
 
-
+		<span id="top"></span>
 		
 	  		<div class="b_page_top"></div>
 	  
@@ -157,9 +175,9 @@ pageTracker._trackPageview();
                   <!--To remove the description block - please remove the class "description" !-->
                   <div class="download_file_block description">
                   
-                    <div class="download_file_name"> TetFuck Launcher (with TetFuck 2142 - Bloodbath Miami Vice)<br><br>TetFuck 4K </div>
+                    <div class="download_file_name"> TetFuck Launcher (with TetFuck 2142 - Bloodbath Miami Vice)<br><br>TetFuck 2142 Setup 10.0.6.1.exe </div>
                     <div class="fm_files_icon_app"></div>
-                    <div class="download_file_size"> 200.00MB </div>
+                    <div class="download_file_size"> 1.00GB </div>
                     <div class="clear"></div>
 					                    <div class="description_bl">
                       <strong>File description:</strong> TetFuck 2142: Bloodbath of Miami Vice (v10.0.6.1)
@@ -182,7 +200,7 @@ pageTracker._trackPageview();
 					
 				    </script>
 
-                  <div class="download_but_bl1"> <a href="javascript:clipboardcopy('https://megakarlach.github.io/tetfuckupload/tf4000.html');" class="download_copy_but" onmouseover="document.getElementById('sfx_bms_rollover').play();" onclick="document.getElementById('sfx_bms_click').play();"></a> </div>
+                  <div class="download_but_bl1"> <a href="javascript:clipboardcopy('https://megakarlach.github.io/tetfuckupload/index.html');" class="download_copy_but" onmouseover="document.getElementById('sfx_bms_rollover').play();" onclick="document.getElementById('sfx_bms_click').play();"></a> </div>
 
 				                    
 				  <div class="download_but_bl3"> <a href="https://www.youtube.com/watch?v=pJlTMOY79II" class="download_import_but" id="importbtn" onmouseover="document.getElementById('sfx_bms_rollover').play();" onclick="document.getElementById('sfx_bms_click').play();"></a> </div>
@@ -197,9 +215,25 @@ pageTracker._trackPageview();
 			
 			
             <div class="download_member_bl" style="display:block;">
-              <a href="https://www.youtube.com/watch?v=BT9h5ifR1tY" title="We ain't releasing the game yet, lmao." class="download_premium_but" onmouseover="document.getElementById('sfx_bms_rollover').play();" onclick="document.getElementById('sfx_p3_dude').play();"></a> 
+              <a href="https://github.com/megakarlach/tetfuckupload/releases/download/10.0.6.1/TetFuck.2142.-.Bloodbath.Miami.Vice.Setup.10.0.6.1.exe" title="Fast, premium GitHub servers download. That button sure it's pretty sexy as Murder Drones Rule34." class="download_premium_but" onmouseover="document.getElementById('sfx_bms_rollover').play();" onclick="document.getElementById('sfx_p3_dude').play();javascript:window.open('https://youtu.be/bXZhTb0eUqA?t=119','popunder','width=800,height=800,scrollbars=yes,status=no,resizable=yes, toolbar=no');"></a> <!-- Premium download -->
               <a class="download_regular_disabled" id="dlbuttondisabled"></a> 
-              <a href="https://www.youtube.com/watch?v=BT9h5ifR1tY" title="We ain't releasing the game yet, lmao." class="download_regular_usual" onmouseover="document.getElementById('sfx_bms_rollover').play();" onclick="document.getElementById('sfx_bms_click').play();javascript:window.open('https://youtu.be/bXZhTb0eUqA?t=119','popunder','width=800,height=800,scrollbars=yes,status=no,resizable=yes, toolbar=no'); window.focus();" style="display:none;" id="dlbutton"></a>
+              <a data-fancybox data-type="iframe" href="pages/download_manager_tf2142.html" data-width="800" data-height="600" title="Click for more mirrors." class="download_regular_usual" onmouseover="document.getElementById('sfx_bms_rollover').play();" onclick="document.getElementById('sfx_bms_click').play(); window.focus();" style="display:none;" id="dlbutton"></a> <!-- Regular DL/ Now mirror list -->
+			    <p>
+				</p>
+				<!-- download manager iframe -->
+
+				<!-- download manager iframe -->
+				<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+				<script>
+				Fancybox.bind('[data-fancybox]', {
+				// Custom options for all galleries
+				});  
+
+				Fancybox.bind('[data-fancybox="gallery-tf"]', {
+				// Custom options for the first gallery
+				});    
+				</script>
+			  <!-- end - fancybox v5-->
               <div class="clear"></div>
             </div>	
 
@@ -237,15 +271,6 @@ pageTracker._trackPageview();
 
 			  </script>
 
-			  			
-
-			
-			
-
-
-
-            
-
 
 
             <div class="clear"></div>
@@ -256,18 +281,9 @@ pageTracker._trackPageview();
 		            
           <div class="downl_ban_div"></div>
           
-          <div class="download_banners_bl" style="background-color:#000;color:#FFF"> 
-		    <div><center>
-<div style="background-color: purple; font-size: 16px; color:#FFF;padding-top:16px;padding-bottom:16px;">Watch TetFuck: Bloodbath Miami Vice Trailer here:</div>
-</center><video controls id="trailer" width="975" height="601"><br>
-					<source src="video\trailer.webm" type="video/webm">
-			</video></div> 
-			<div><iframe src="https://tetfakgame.wordpress.com/2024/04/12/tetfuck-bloodbath-miami-vice-out-now/" width="975" height="2170" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"></iframe></div>
-            <div><center>
-            <div style="background-color: purple; font-size: 16px; color:#FFF;padding-top:16px;padding-bottom:16px;"><a style="color:#FFF;font-size:24px" href="https://tetfakgame.wordpress.com/2024/04/12/tetfuck-bloodbath-miami-vice-out-now/">Click here for more changelogs at the TetFuck Blog website.</a></div>
-			<div style="background-color: purple; font-size: 16px; color:#FFF;padding-top:16px;padding-bottom:16px;">Watch our amazing gameplay footage here:</div>
-			<center><iframe allow="autoplay" src="https://www.youtube.com/embed/gnwrsWdCltg?rel=0&amp;autoplay=1&amp;mute=1" title="WOW! YOU GOT THE TETRIS! Obscure TetFun 2000 mod (TetF*ck 2142)" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" width="975" height="480" frameborder="0"></iframe></center>
-            </center></div>
+          <div class="download_banners_bl" style="background-color:#000;color:#FFF"> <!-- embed the modified jaibo tf2000/ tetfuck 2142 page -->
+			<div><iframe src="tf2142\index_simple.html" width="975" height="4030" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"></iframe></div>
+            <div style="background-color: purple; font-size: 16px; color:#FFF;padding-top:16px;padding-bottom:16px;padding-left:18px"><a style="color:#FFF;font-size:24px" href="https://tetfakgame.wordpress.com/">Click here for list of changelogs & updates to TetFuck 2142 at the TetFuck Blog website.</a></div>
 			<div class="clear"></div>
           </div>
 
@@ -397,7 +413,7 @@ pageTracker._trackPageview();
         <div class="clear"></div>
       </div>
       <div class="powered_bl"></div>
-	  <a href="?c=pressrelease" class="join" style="height:45px; width:325px; float:right; background-image:url(muimg/join.png); background-position:right 12px; background-repeat:no-repeat; display:block; float:left;"></a>
+	  <a href="https://donaldjtrump.com" class="join" style="height:45px; width:325px; float:right; background-image:url(mucss/muimg/join.png); background-position:right 12px; background-repeat:no-repeat; display:block; float:left;"></a>
       <div class="clear"></div>
       </div>
     </td>
@@ -411,28 +427,16 @@ pageTracker._trackPageview();
 </table>
 <center>
 <audio controls id="music" autoplay>
-	<source src="sound\sitesong_gta6.m4a" type="audio/mpeg">
+	<source src="sound\sitesong_closer.mp3" type="audio/mpeg">
 </audio>
 </center>
 <script type="text/javascript" language="javascript1.2"><!--
 EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
 EXb=EXs.colorDepth:EXb=EXs.pixelDepth;//-->
-</script><script type="text/javascript"><!--
-navigator.javaEnabled()==1?EXjv="y":EXjv="n";
-EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
-EXd.write("<img src=\"http://nht-2.extreme-dm.com",
-"/n2.g?login=kimble&amp;pid=main&amp;",
-"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
-"l="+escape(EXd.referrer)+"\" height=1 width=1>");//-->
-</script><noscript><img height="1" width="1" alt="" src="http://nht-2.extreme-dm.com/n2.g?login=kimble&amp;pid=main&amp;j=n&amp;jv=n"/>
-</noscript>
-
-
+</script>
 
 
 <script type="text/javascript"></script>
-
-
 
 
 
