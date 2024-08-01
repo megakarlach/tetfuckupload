@@ -1,0 +1,216 @@
+<table cellpadding="4" style="background-color:#202020; border:2px solid #525252; border-radius:8px; margin:4px auto">
+<tr> 	
+	<th style="background-color:#6b4b1b; font-size:110%; color:white; border-radius:4px 0 0 0"> {{autolang|Release date|vi=Ngày phát hành}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white">  {{autolang|Title|vi=Tên}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white; width=20%">  {{autolang|Co-developed with|vi=Phát triển cùng với}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white; width=10%">  {{autolang|Engine branch<br>(currently)|vi=Phiên bản công nghệ<br>(hiện tại)}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white; width=25%"> {{autolang|Platforms|vi=Nền tẳng}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white; width=50% ; border-radius:0 4px 0 0"> {{autolang|Notes|vi=Ghí chú}} </th> 
+	</tr>
+	<tr>
+	<td style="background-color:#3A3A3A"> {{Code|7/10/2004}} </td>
+	  <td style="background-color:#3A3A3A"> {{css|4}} </td>
+	  <td style="background-color:#3A3A3A"> [[Turtle Rock Studios]]<br>[[Hidden Path Entertainment]] ({{autolang|2010 update|vi=bản cập nhật 2010}}) </td>
+	  <td style="background-color:#3A3A3A"> {{src04|2}} ({{autolang|launch|vi=phát hành}})<br>{{src13mp|2}} ({{autolang|currently|vi=hiện tại}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=0}}, {{linux|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| First game to use the Source engine. Remake of {{cs|1}}. Hidden Path Entertainment alongside Valve worked on the May 7, 2010 update, which upgraded the game's engine from Source 2006 to 2009, and added 144 (now 146) achievements, a new domination and revenge system similar to {{tf2|4}}, player stats and more. Hidden Path Entertainment also worked on the unreleased Xbox 360 port of CS:S, which would later become {{csgo|4}} after Valve saw the opportunity during it's development to turn the port into a new game. Mac version of the game was later release in June 2010, and Linux in 2013.
+		| vi = Trò chơi đầu tiên được sử dụng công nghệ Source. Làm lại của {{cs|1}}. Hidden Path Entertainment cùng với Valve làm một phiên bản cập nhật mới, phát hành vào 7 tháng 5, 2010, để nâng cấp phiên bản công nghệ Source từ 2006 sang 2009, và thêm 144 (giờ 146) thành tựu, một hệ thống thống trị và trả thù mới như {{tf2|4}}, thông tin người chơi và nhiều hơn nữa. Hidden Path Entertainment cũng đã tạo ra bản Xbox 360 của CS:S, sau này trở thành {{csgo|4}} sau khi Valve nhận thấy cơ hội trong quá trình phát triển để biến phiên bản máy chơi game này thành một trò chơi mới.
+		}} </td>
+	</tr>
+	<tr>
+	  <td style="background-color:#3A3A3A"> {{Code|11/16/2004}} </td>
+	  <td style="background-color:#3A3A3A"> {{hls|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{src04|2}} ({{autolang|launch|vi=phát hành}})<br>{{src13sp|2}} ({{autolang|currently|vi=hiện tại}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Remaster of {{hl1|1}}. It is critically panned by most gamers since 2013 due to the huge amount of bugs that was introduced when the game was updated to {{src13|2}}. Prior to the 2013 update, it was generally positively received by critics and most gamers, but some are disappointed over the game graphics (especially the textures) that are largely unchanged, while also having a realistic 3D Skybox and water effects. A unofficial fan remake of {{hl1|1}}, called {{bms|4}} was later started development in response of those criticism, which was first released in 2012 without any Xen chapters and was much shorter, and later in 2020, a full release with contains the Xen chapters.
+		| vi = Bản remaster của {{hl1|1}}. Nó đã bị đánh giá thấp bởi các game thủ từ 2013 vì có nhiều lỗi được xuất hiện sau khi công nghệ của trò choi này đã được nâng cấp lên {{src13|2}}. Trước khi bản cập nhật c. nghệ từ 2013, nó được đánh giá cao hơn, nhưng có một số người vẫn không thích nó vì độ họa của phiên bản này vẫn giống như {{hl1|1}}, trong lúc đấy còn có cả bầu trời 3D và hiệu ứng nước giống thật hơn. Một bản fan remake của {{hl1|1}}, gọi là {{bms|4}} bắt đầu phát triển vì các lí do bên trên.
+		}} </td>
+	</tr>
+	<tr>
+	  <td style="background-color:#3A3A3A"> {{Code|11/16/2004}} </td>
+	  <td style="background-color:#3A3A3A"> {{hl2|4}} </td>
+	  <td style="background-color:#3A3A3A"> EA UK ({{Autolang|port to {{ps3|4|nt=PS3}} (2007)|vi=phiên bản {{ps3|4|nt=PS3}} (2007)}}) </td>
+	  <td style="background-color:#3A3A3A"> {{src04|2}} ({{autolang|launch, {{xbox}}|vi=phát hành, {{xbox}}}})<br>{{src07|2}} {{only|{{360}}{{ps3}}}}<br>{{src13sp|2}} ({{autolang|currently|vi=hiện tại}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}}<br>
+			'''Consoles:<!-- will add that to dictionary/common soon -->''' {{xbox|1}}, {{360|1}}, {{ps3|1}}<br>
+			'''Mobile:''' {{android|1}} ({{nvidia|1|nt=shield|linkto=shield}}) </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Sequel to {{hl|1}}, and later {{hla|1}}. Included on {{tob|4}}.<br>The game was set 20 years after the event of {{hl1|1}}, takes place in the [[City 17]], which is under [[Combine]] control.<br>Prior to it's release, it was infamously leaked in Oct 2003, and Valve had to delay the game until Nov 2004. It is also the first game to require the installation of Steam in order to play.<br> {{hl2|4}}'s engine branch has been updated multiple times, first in 2006 with the release of {{hl2ep1|4|nt=1}}, upgrading it to {{src06|4}}, in 2007, upgraded to {{src07|4}} on consoles, and in 2010, upgraded to {{src09|4}} on PC, finally, {{hl2|1}} was upgraded to the {{src13sp|4}} branch.
+		| vi = Tiếp tục cốt chuyện của {{hl1|1}}, sau đấy là {{hla|1}}. Được bán cùng với một số trò khác trên {{tob|4}}.<br> Đặt 20 năm sau khi Black Mesa đã bị phá hủy, trò chơi được bắt đầu ở trên thành phố [[City 17]], hiện đang được chiếm bởi bọn [[Combine]].<br>Trước khi nó phát hành, bản beta của trò chơi này bị lộ ra từ Tháng 10, 2003, và Valve bắt buộc phải chuyển ngày phát hành sang Tháng 11, 2004. Trò chơi này là trò đầu tiên cần phải có Steam được cài đặt sẵn để chơi. Phiên bản công nghệ của {{hl2|4}} cũng được cập nhật liên tục, đầu tiên từ 2006, cũng với {{hl2ep1|4|nt=1}} phát hành, {{hl2|4}} đã nâng cấp lên {{src06|4}}, vào 2007, chạy trên {{src07|4}} (chỉ trên {{360|4}} và {{ps3|4}}), {{src09|4}} trên PC vào 2010, và cuối cũng, {{src13sp|4}} từ 2013.
+		}} </td>
+	</tr>
+	<tr>
+	  <td style="background-color:#3A3A3A"> {{Code|11/30/2004}} </td>
+	  <td style="background-color:#3A3A3A"> {{hl2dm|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{src04|2}} ({{autolang|launch|vi=phát hành}})<br>{{src13mp|2}} ({{autolang|currently, earlier version|vi=hiện tại, bản cũ hơn}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Multiplayer component of {{hl2|1}}.				
+		| vi = Chế độ chơi nhiều người của {{hl2|1}}.
+		}} </td>
+	</tr>
+	<tr>
+	  <td style="background-color:#3A3A3A"> {{Code|9/26/2005}} </td>
+	  <td style="background-color:#3A3A3A"> {{dods|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{src06|2}} ({{autolang|launch|vi=phát hành}})<br>{{src13mp|2}} ({{autolang|currently|vi=hiện tại}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Remake of {{dod|1}}. Like {{hl2lc|4}}, it also have features later added to {{Src06|2}}, such as [[HDR]].
+		| vi = Bản làm lại của {{dod|1}}. Như {{hl2lc|4}}, nó cũng có một số tính năng mới được thêm vào {{src06|2}}, như là ánh sáng [[HDR]].
+		}} </td>
+	</tr>
+	<tr>
+	  <td style="background-color:#3A3A3A"> {{Code|10/27/2005}} </td>
+	  <td style="background-color:#3A3A3A"> {{hl2lc|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{src06|2}} ({{autolang|launch|vi=phát hành}})<br>{{src13sp|2}} ({{autolang|currently|vi=hiện tại}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Originally as part of {{hl2|1}}, which was cut at some point before it was released, and was developed after the leak happened but was ultimately cut, then later released in 2005 as a [[HDR|HDR lighting]] technology demo.<br>It runs on a much newer engine which would soon later be called {{src06|2}}, which was released with the next game, {{hl2ep1|1}} and {{hldms|1}}. As of {{CURRENTYEAR}}, it runs on {{src13|2}}.
+		| vi = Sử dụng để giới thiệu công nghệ [[HDR|ánh sáng HDR]]. Nó được chạy trên bản Source mới hơn, sau được gọi là {{src06|2}}, được sử dụng vào trò chơi tiếp theo, {{hl2ep1|1}} và {{hldms|1}}. Hiện nay, nó đang được chạy trên {{src13|2}}. 
+		}} </td>
+	</tr>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|5/1/2006}} </td>
+	  <td style="background-color:#3A3A3A"> {{hldms|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{src06|2}} ({{autolang|launch|vi=phát hành}})<br>{{src13mp|2}} ({{autolang|currently|vi=hiện tại}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}}  </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Multiplayer component of {{hls|1}}.				
+		| vi = Phần MP của {{hls|1}}.
+		}} </td>
+	</tr>
+	<tr>
+	  <td style="background-color:#3A3A3A"> {{Code|6/1/2006}} </td>
+	  <td style="background-color:#3A3A3A"> {{hl2ep1|4}} </td>
+	  <td style="background-color:#3A3A3A"> EA UK ({{Autolang|port to {{ps3|4|nt=PS3}} (2007)|vi=phiên bản {{ps3|4|nt=PS3}} (2007)}}) </td>
+	  <td style="background-color:#3A3A3A"> {{src06|2}} ({{autolang|launch|vi=phát hành}})<br>{{src07|2}} ({{only|{{360}}{{ps3}}}})<br>{{src13sp|2}} ({{autolang|currently|vi=hiện tại}} </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| The game is the sequel to {{hl2|1}}, and the story begins after the [[Citadel]] reactor core was destroyed, [[Gordon]] and [[Alyx]] both survived the explosion.<br>When it's come to technical, it uses {{src06|2}} engine branch at launch, and it is the last Valve game to be released on the Old Engine branch. Included on {{tob|4}}. 
+		| vi = Tiếp tục cốt chuyện từ {{hl2|1}}, bắt đầu sau khi một phần của [[Citadel]] đã bị nổ tung, [[Gordon]] và [[Alyx]] đã sống sót vụ nổ này.<br>Về công nghệ, trò chơi này chạy trên {{src06|2}} từ lúc nó ra mắt, và nó là trò chơi cuối của Valve cũng được chạy trên bản engine cũ (Old Engine). Cũng có trên {{tob|4}}. 
+		}} </td>
+	</tr>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|10/10/2007}} </td>
+	  <td style="background-color:#3A3A3A"> {{hl2ep2|4}} </td>
+	  <td rowspan="3" style="background-color:#3A3A3A"> EA UK ({{Autolang|port to {{ps3|4|nt=PS3}}|vi=phiên bản {{ps3|4|nt=PS3}}}}) </td>
+	  <td rowspan="2" style="background-color:#3A3A3A"> {{src07|2}} ({{autolang|launch, currently used on {{360}} & {{ps3}})<br>{{src13sp|2}} (currently)
+	  	  	  	  	  	|vi=phát hành, hiện đang sử dụng trên {{360}} & {{ps3}})<br>{{src13sp|2}} (hiện tại) 
+	  		  	    	  	 }} </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=0}}, {{linux|1}}<br>
+			'''Consoles:''' {{360|1}}, {{ps3|1}}<br>
+			'''Mobile:''' {{android|1}} ({{nvidia|1|nt=shield|linkto=shield}})  </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| A sequel to {{hl2ep1|1}}. The [[City 17]] has been destroyed, and the Citadel was partially collapsed, Gordon and Alyx has survived the train crash. The game largely take places in White Forest. Story aside, when it's come to technical, it uses the {{src07|2}} at launch, originally called as The Orange Box engine branch and it is the first iteration of the New Engine branch. Included on {{tob|4}}.
+		| vi = Tiếp tục cốt chuyện từ {{hl2ep2|1}}, bây giờ thành phố [[City 17]] đã bị phá hủy, và tòa nhà Citadel đã bị sập, Gordon và Alyx đã sống sót sau khi tòa nhà Citadel bị nổ khiến cho tàu bị trượt ra. Còn về công nghệ, nó sử dụng {{src07|2}}, trước được gọi là bản công nghệ The Orange Box và nó cũng là bản "New Engine" đầu tiên. Cũng có trên {{tob|4}}. 
+		}} </td>
+	</tr>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|10/10/2007}} </td>
+	  <td style="background-color:#3A3A3A"> {{portal|4}} </td>
+	  <!-- <td style="background-color:#3A3A3A">  </td> -->
+	  <!-- <td style="background-color:#3A3A3A"> {{src06|2}} ({{autolang|launch|vi=phát hành}})<br>{{src13mp|2}} ({{autolang|currently|vi=hiện tại}}) </td> -->
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}}<br>
+			'''Consoles:''' {{360|1}}, {{ps3|1}}, {{switch|1}}<br>
+			'''Mobile:''' {{android|1}} ({{nvidia|1|nt=shield|linkto=shield}})  </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| A completely new game and IP from Valve, set in the Half-Life universe, and take places in Aperture Laboratories. It is a puzzle-based shooter game, allowing you to create portals, that link to one another on any flat and large enough surface.<br>In 2023, a unofficially remastered version of the game, {{portalrtx|4}}, was released, which takes advantage of hardware that support ray-tracing, and adds PBR textures, high polygon models in order to improve the game graphics.<br>Like the other two new games in {{TOB|1}} package, it uses the {{src07|2}} engine at launch.
+		| vi = Trò chơi mới của Valve, cùng cốt chuyện với Half-Life, và đặt ở trên phòng thí nghiệm ở Aperture. Nó là trò chơi thể loại giải đố, chó phép bạn tạo các cánh cổng, để kết nối nó vào một cổng khác trên các mặt phẳng và to.<br>Từ 2023, một bản remaster của trò chơi bởi {{nvidia|1}}, {{portalrtx|4}}, đã được phát hành, để nâng cấp độ họa bằng công nghệ dò tia (Ray-tracing) trên các card màn hình nó được hỗ trợ, không chỉ dò tia, phiên bản này được sử dụng texture PBR và mô hình chất lượng cao hơn.<br>Như 2 trò chơi mới trên {{TOB|1}}, nó sử dụng {{src07|2}} từ lúc nó ra mắt.
+				}} </td>
+	</tr>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|10/10/2007}} </td>
+	  <td style="background-color:#3A3A3A"> {{tf2|4}} </td>
+	  <!-- <td style="background-color:#3A3A3A">  </td> -->
+	  <td style="background-color:#3A3A3A"> {{src07|2}} ({{autolang|launch, currently used on {{360}} & {{ps3}})<br>{{src13mp|2}} (currently)
+	  	  	  	  	  	|vi=phát hành, hiện đang sử dụng trên {{360}} & {{ps3}})<br>{{src13mp|2}} (hiện tại) 
+	  		  	    	  	 }} </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=Mac}}, {{linux|1}}<br>
+			'''Consoles:''' {{360|1}}, {{ps3|1}}<br>
+			'''Mobile:''' {{android|1}} ({{nvidia|1|nt=shield|linkto=shield}})  </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Sequel to {{tfc|1}}, focusing on cartoon graphics unlike the pre-release footage/screenshots, which aimed to be more realistic. This is the last game, along with 2 other games as part of {{TOB|1}} pack to use the engine branch that requires {{hl2|1}} assets to operate.<br> The console version of the game is no longer updated, as opposed to PC version of the game, which is frequently updated.
+		| vi = Bản mới của {{tf|1}}, bây giờ có độ họa như hoạt hình, không như các phiên bản trước của nó nhìn như thật. Đây là trò chơi cuối, cùng với 2 trò khác trên {{tob|1}}, phải cần một số tệp trên {{hl2|1}} để có thể chơi được.<br>Bản máy chơi game bây giờ không còn được cập nhật, còn PC thì vẫn được cập nhật liên tục.
+		}} </td>
+	</tr>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|11/17/2008}} </td>
+	  <td style="background-color:#3A3A3A"> {{l4d|4}} </td>
+	  <td rowspan="2" style="background-color:#3A3A3A"> Turtle Rock Studios <br>(under Valve South) </td>
+	  <td style="background-color:#3A3A3A"> {{l4dbranch|2}} ({{autolang|earlier version|vi=bản cũ hơn}}) </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=0}}<br>
+			'''Consoles:''' {{360|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{Autolang
+		| A new multiplayer co-op game, with horror zombie theme. It use a new engine branch which does not requires {{hl2|1}} assets in order to work, it also add [[Left 4 Dead engine branch|many new features]] and introduced [[VPK]]. 
+		| vi = Một trò chơi co-op bán súng zombie mới. Nó sử dụng phiên bản công nghệ mới mà không cần phải có tệp {{hl2|4}} cài sẵn để chạy, nó còn thêm [[Left 4 Dead engine branch|một số tính năng mới]] và giới thiệu công nghệ [[VPK]] để nén tệp trò chơi. 
+		}} </td>
+	</tr>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|11/17/2009}} </td>
+	  <td style="background-color:#3A3A3A"> {{l4d2|4}} </td>
+	  <!-- <td style="background-color:#3A3A3A">  </td> -->
+	  <td style="background-color:#3A3A3A"> {{src07|2}} ({{autolang|launch, currently used on {{360}} & {{ps3}})<br>{{src13mp|2}} (currently)
+	  	  	  	  	  	|vi=phát hành, hiện đang sử dụng trên {{360}} & {{ps3}})<br>{{src13mp|2}} (hiện tại) 
+	  		  	    	  	 }} </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=0}}<br>
+			'''Consoles:''' {{360|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{Autolang
+		| Originally was planned to be an update for {{l4d|1}}, it was later released as standalone game. Like {{l4d|name}}, it also runs on the same L4D branch, but much newer.<br> Like TF2, the console version ({{360}}) of the game is no longer updated, as opposed to PC version of the game.<br> This game is also ported to the {{source2|4}} back in 2014, but this version remain unreleased to this day, and one of its map has been remake in Source 2 as a tech demo back in 2010, which its image was leaked in 2014.
+		}} </td>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|7/19/2010}} </td>
+	  <td style="background-color:#3A3A3A"> {{as|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{asbranch|2}}  </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{Autolang
+		| A co-op alien shooter, which was a remake of the Unreal Tournament 2004 mod with the same name. It succeeded the {{l4dbranch|2}} and [[Alien Swarm engine branch#Features|adds new features]] on it's branch.
+		}} </td>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|4/19/2011}} </td>
+	  <td style="background-color:#3A3A3A"> {{p2|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{p2branch|2}} </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=0}}, {{linux|1}}<br>
+			'''Consoles:''' {{360|1}}, {{ps3|1}}, {{switch|1}} (part of {{pcc|1}}) </td>
+	  <td style="background-color:#3A3A3A"> {{Autolang
+		| Has [[Portal 2 engine branch|it's own engine branch]], and once again, introduced new features and succeeded {{asbranch|2}}. Sequel of {{portal|1}}. For the first time since 2007, the PlayStation 3 version was developed by Valve, and does not suffer various issues that {{tob|4}} on PS3 had, such as poor optimization, and high-pitched audio issue.
+		}} </td>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|8/21/2012}} </td>
+	  <td style="background-color:#3A3A3A"> {{csgo|4}} </td>
+	  <td style="background-color:#3A3A3A"> Hidden Path Entertainment </td>
+	  <td style="background-color:#3A3A3A"> {{csgobranch|2}} </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=0}}, {{linux|1}}<br>
+			'''Consoles:''' {{360|1}}, {{ps3|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{Autolang
+		| Sequel to {{css|1}}, originally developed as a {{360|1}} port of Counter-Strike: Source before Valve eventually turned it into a new Counter-Strike game. <br><br>Used the Source 1 engine until 2023, now uses the new {{Source2|3.1}} engine under the name {{Cs2|4}}, replacing CS:GO (except the console version). Console version is no longer updated since 2013, but remains purchasable.<br>Prior to being delisted, it was '''Free to Play''' on PC since 2018.
+		| vi = Trước khi phát hành, nó đâu tiên là một phiên bản CS:S dành cho máy chơi game {{360|1}}, sau đấy Valve thay đổi nó thành một trò chơi Counter-Strike mới. Trước kia, kể từ đầu nó ra mắt, nó được sử dụng Source 1, bây giờ vào năm 2023, nó đã sử dụng {{source2|3.1}}, trên một bản câp nhật và trò chơi mới được gọi là {{cs2|4}}, thay thế CS:GO (trừ phiên bản máy chơi game). Bản máy chơi game cũng không còn được cập nhật, nhưng bạn có thể mua nó.<br>'''Hoàn toàn miễn phí''' trên PC từ 2018.
+		}} </td>
+	<tr>
+	 <td style="background-color:#3A3A3A"> {{Code|7/9/2013}} </td>
+	  <td style="background-color:#3A3A3A"> {{dota2|4}} </td>
+	  <td style="background-color:#3A3A3A">  </td>
+	  <td style="background-color:#3A3A3A"> {{Dota2branch|2|nt=1}} </td>
+	  <td style="background-color:#3A3A3A"> {{pc|3.1}}: {{windows|1}}, {{mac|1|nt=0}}, {{linux|1}} </td>
+	  <td style="background-color:#3A3A3A"> {{autolang
+		| Sequel to 2003's Warcraft III mod, [[Defense of the Ancients]] (retroactively called as '''Dota 1''', '''DotA''' for short). Formerly using {{Src|name}} until 2015, when it was switched to {{Source2|3.1}}, as part of {{Dota2|1}}'s Reborn update. This is also the last Valve game to be released on the {{Src|4}} engine.
+		| vi = Trò chơi tiếp theo sau [[Defense of the Ancients]] (phát hành 2003, cũng được gọi tắt là '''Dota 1''' và '''DotA'''), mod dành cho Warcraft III. Dota 2 sử dụng {{Src|name}} cho đến năm 2015, cùng với bản cập nhật Reborn, nó bây giờ chạy trên {{source2|3.1}}. Đây là trò chơi cuối cùng của Valve được phát hành trên công nghệ {{Src|4}}.
+		}} </td>
+	</tr>
+	<tr> 	
+	<th style="background-color:#6b4b1b; font-size:110%; color:white; border-radius:0 0 0 4px">  {{autolang|Release date|vi=Ngày phát hành}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white">  {{autolang|Title|vi=Tên}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white">  {{autolang|Co-developed with|vi=Phát triển cùng với}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white">  {{autolang|Engine branch<br>(currently)|vi=Phiên bản công nghệ<br>(hiện tại)}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white"> {{autolang|Platforms|vi=Nền tẳng}} </th>
+	<th style="background-color:#6b4b1b; font-size:110%; color:white; border-radius:0 0 4px 0"> {{autolang|Notes|vi=Ghí chú}} </th> 
+	</tr>
+</table><!-- End of Table -->
