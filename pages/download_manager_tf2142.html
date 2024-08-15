@@ -50,7 +50,12 @@ function provider(name, type) {
     }
     if (name == 'github') {
         document.getElementById('mirror').innerHTML = '<br />Mirror: GitHub - Releases (direct download)';
-        fcwait('https://github.com/megakarlach/tetfuckupload/releases/download/10.0.6.1/TetFuck.2142.-.Bloodbath.Miami.Vice.Setup.10.0.6.1.exe', 'true')
+        fcwait('https://github.com/megakarlach/tetfuckupload/releases/tag/11.0.0', 'true')
+    }
+	
+	if (name == 'pixeldrain') {
+        document.getElementById('mirror').innerHTML = '<br />Mirror: PixelDrain';
+        fcwait('https://pd.cybar.xyz/c8VovBVE', 'true')
     }
 	
     if (name == 'torrent') {
@@ -119,7 +124,7 @@ a:hover {color:#333;}
         <strong>tfbox-setup-11.0.0.exe</strong> - Automatic installer.<!-- <br><s><strong>tetfuck-collectors-edition-setup-10.0.6.2.exe</strong> - Coming soon (Collectors Edition)</s>--><br>
         <div id="mirror">
         </div>
-         The TetFuck Box (with all games) total size: 4.00GB <br>
+         The TetFuck Box total download size: ~3.06GB <br>
         <br><br>
       </div>
       <div id="message">
@@ -133,13 +138,14 @@ a:hover {color:#333;}
         <strong>Global:</strong><br>
         <!-- a onClick="provider('gamespot')" href="#">GameSpot</a><br / -->
         <!-- a onClick="provider('fileshack')" href="#">FileShack</a><br/ -->
-        <a onclick="provider('archive')" href="#">Archive.org (outdated)</a><br>
-        <a onclick="provider('github')" href="#">GitHub</a><br>
+        <a onclick="provider('archive')" href="#">Archive.org (outdated, 10.0.6)</a><br>
+		<a onclick="provider('pixeldrain')" href="#">Pixeldrain (bypassed limit, 11.0.0)</a><br>
+        <a onclick="provider('github')" href="#">GitHub (11.0.0)</a><br>
         <!-- <span id="maxcdn"><a onclick="provider('maxcdn','direct')" href="#">MaxCDN</a><br/></span> -->
         <br>
         </div>
 		<clear>
-        <div style="position:absolute; top:212px; left:150px;">
+        <div style="position:absolute; top:212px; left:200px;">
         <strong>TORRENT:</strong><br><a onclick="provider('torrent')" href="#">Coming soon</a><br>
         </div>
         <!--

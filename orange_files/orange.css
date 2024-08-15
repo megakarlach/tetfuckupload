@@ -1,0 +1,44 @@
+/* Lightbox styles */
+
+#lightbox {	background-color: #eee;
+	padding: 12px }
+
+#lightboxDetails  {	font-size: 1em }
+
+#lightboxCaption {	float: left;
+	padding-top: 0.5em }
+
+#lightbox img{ border: none; clear: both;} 
+
+#overlay img{ border: none; }
+
+#overlay    { background-image: url("/web/20091227183604im_/http://orange.half-life2.com/lightbox/overlay.png") }
+
+* html #overlay    { background: #333 url("/web/20091227183604im_/http://orange.half-life2.com/lightbox/transparent.gif"); back\ground-color: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/lightbox/overlay.png", sizingMethod="scale")  }
+
+/* Lightbox styles end */
+.BodyCopy  { color: #fff; font-size: 10px; font-family: Verdana; line-height: 1.2em; font-style: normal; font-weight: normal; font-stretch: normal; text-decoration: none; text-align: left; word-spacing: normal; letter-spacing: 0 }
+
+
+
+
+/*
+     FILE ARCHIVED ON 18:36:04 Dec 27, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:40:46 Aug 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.546
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.029
+  esindex: 0.011
+  cdx.remote: 8.87
+  LoadShardBlock: 99.388 (3)
+  PetaboxLoader3.datanode: 110.851 (5)
+  PetaboxLoader3.resolve: 180.809 (3)
+  load_resource: 255.899 (2)
+*/

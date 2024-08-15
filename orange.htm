@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><script>
+    window[Symbol.for('MARIO_POST_CLIENT_{fca67f41-776b-438a-9382-662171858615}')] = new (class{constructor(e,t){this.name=e,this.destination=t,this.serverListeners={},this.bgRequestsListeners={},this.bgEventsListeners={},window.addEventListener("message",(e=>{const t=e.data,s=!(t.destination&&t.destination===this.name),n=!t.event;if(!s&&!n)if("MARIO_POST_SERVER__BG_RESPONSE"===t.event){const e=t.args;if(this.hasBgRequestListener(e.requestId)){try{this.bgRequestsListeners[e.requestId](e.response)}catch(e){}delete this.bgRequestsListeners[e.requestId]}}else if("MARIO_POST_SERVER__BG_EVENT"===t.event){const e=t.args;if(this.hasBgEventListener(e.event))try{this.bgEventsListeners[t.id](e.payload)}catch(e){}}else if(this.hasServerListener(t.event))try{this.serverListeners[t.event](t.args)}catch(e){}}))}emitToServer(e,t){const s=this.generateUIID(),n={args:t,destination:this.destination,event:e,id:s};return window.postMessage(n,location.origin),s}emitToBg(e,t){const s=this.generateUIID(),n={bgEventName:e,requestId:s,args:t};return this.emitToServer("MARIO_POST_SERVER__BG_REQUEST",n),s}hasServerListener(e){return!!this.serverListeners[e]}hasBgRequestListener(e){return!!this.bgRequestsListeners[e]}hasBgEventListener(e){return!!this.bgEventsListeners[e]}fromServerEvent(e,t){this.serverListeners[e]=t}fromBgEvent(e,t){this.bgEventsListeners[e]=t}fromBgResponse(e,t){this.bgRequestsListeners[e]=t}generateUIID(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(e){const t=16*Math.random()|0;return("x"===e?t:3&t|8).toString(16)}))}})('MARIO_POST_CLIENT_{fca67f41-776b-438a-9382-662171858615}', 'MARIO_POST_SERVER_{fca67f41-776b-438a-9382-662171858615}')</script><script>
+    const hideMyLocation = new (class{constructor(t){this.clientKey=t,this.watchIDs={},this.client=window[Symbol.for(t)];const e=navigator.geolocation.getCurrentPosition,o=navigator.geolocation.watchPosition,n=navigator.geolocation.clearWatch,i=this;navigator.geolocation.getCurrentPosition=function(t,o,n){i.handle(e,"GET",t,o,n)},navigator.geolocation.watchPosition=function(t,e,n){return i.handle(o,"WATCH",t,e,n)},navigator.geolocation.clearWatch=function(t){if(-1===t)return;const e=i.watchIDs[t];return delete i.watchIDs[t],n.apply(this,[e])}}handle(t,e,o,n,i){const a=this.client.emitToBg("HIDE_MY_LOCATION__GET_LOCATION");let r=this.getRandomInt(0,1e5);if(this.client.fromBgResponse(a,(a=>{if(a.enabled)if("SUCCESS"===a.status){const t=this.map(a);o(t)}else{const t=this.errorObj();n(t),r=-1}else{const a=[o,n,i],c=t.apply(navigator.geolocation,a);"WATCH"===e&&(this.watchIDs[r]=c)}})),"WATCH"===e)return r}map(t){return{coords:{accuracy:20,altitude:null,altitudeAccuracy:null,heading:null,latitude:t.latitude,longitude:t.longitude,speed:null},timestamp:Date.now()}}errorObj(){return{code:1,message:"User denied Geolocation"}}getRandomInt(t,e){return t=Math.ceil(t),e=Math.floor(e),Math.floor(Math.random()*(e-t+1))+t}})('MARIO_POST_CLIENT_{fca67f41-776b-438a-9382-662171858615}')
+  </script><script ecommerce-type="extend-native-history-api">(()=>{const e=history.pushState,t=history.replaceState,a=history.back,r=history.forward;function n(){window.postMessage({_custom_type_:"CUSTOM_ON_URL_CHANGED"})}history.pushState=function(){e.apply(history,arguments),n()},history.replaceState=function(){t.apply(history,arguments),n()},history.back=function(){a.apply(history,arguments),n()},history.forward=function(){r.apply(history,arguments),n()}})()</script><head><script src="orange_files/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app218.us.archive.org';v.server_ms=624;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="orange_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="orange_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="orange_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://orange.half-life2.com/","20100109232604","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1263079564");
+</script>
+<link rel="stylesheet" type="text/css" href="orange_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="orange_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">		<title>The Orange Box - 5 Games. One Box.</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		<link href="orange_files/orange.css" rel="stylesheet" type="text/css" media="all">		<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+</head><body onload="CSScriptInit();preloadImages();" cz-shortcut-listen="true" topmargin="0" marginwidth="0" marginheight="0" leftmargin="0" bgcolor="#FF6505"><div id="wm-ipp-base" style="display: block; direction: ltr; height: 1px;" lang="en">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20100109232604/http://orange.half-life2.com/</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://orange.half-life2.com/","20100109232604",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt","https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ <csactionitem name="444C3EBC0"></csactionitem>		<csscriptdict import="">			<script type="text/javascript" src="orange_files/CSScriptLib.js"></script>		</csscriptdict>		<csactiondict>			<script type="text/javascript"><!--
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		pre_nav_02_over = newImage('images/nav/nav_02-over.gif');
+		pre_nav_08_nav_02_over = newImage('images/nav/nav_08-nav_02_over.jpg');
+		pre_nav_03_over = newImage('images/nav/nav_03-over.gif');
+		pre_nav_08_nav_03_over = newImage('images/nav/nav_08-nav_03_over.jpg');
+		pre_nav_04_over = newImage('images/nav/nav_04-over.gif');
+		pre_nav_08_nav_04_over = newImage('images/nav/nav_08-nav_04_over.jpg');
+		pre_nav_05_over = newImage('images/nav/nav_05-over.gif');
+		pre_nav_06_over = newImage('images/nav/nav_06-over.gif');
+		pre_nav_08_nav_06_over = newImage('images/nav/nav_08-nav_06_over.jpg');
+		pre_nav_08_nav_05_over = newImage('images/nav/nav_08-nav_05_over.jpg');
+		pre_getitnow_01_over = newImage('images/nav/getitnow_01-over.gif');
+		pre_Legalese_01_over = newImage('images/legalese/Legalese_01-over.gif');
+		pre_Legalese_02_over = newImage('images/legalese/Legalese_02-over.gif');
+		preloadFlag = true;
+	}
+}
+CSInit[CSInit.length] = new Array(CSActionGroup,/*CMP*/ '444C7E071', /*CMP*/ '44BC562B2', /*CMP*/ '44BCAFC54', /*CMP*/ '44BD23DB5', /*CMP*/ '44BD3DFB6', /*CMP*/ '44BD5ADA7', /*CMP*/ '44BD7A0A8', /*CMP*/ '44BDA6699', /*CMP*/ '44BDECE810', /*CMP*/ '44BEBB1511', /*CMP*/ '44BECFD612', /*CMP*/ '44BEEE3B13', /*CMP*/ '44BF047314', /*CMP*/ '44BF18E515', /*CMP*/ '44BF2B2516', /*CMP*/ '44BF622317', /*CMP*/ '44BF777018', /*CMP*/ '44BF915119', /*CMP*/ '44C07DC420', /*CMP*/ '44C0971921', /*CMP*/ '44C0B85C22', /*CMP*/ '44C0D43123', /*CMP*/ '44C10CA724', /*CMP*/ '44C16E0025', /*CMP*/ '44C35E9526', /*CMP*/ '44C3863227', /*CMP*/ '44C3A07128', /*CMP*/ '44C3B62B29', /*CMP*/ '44C3CB6930', /*CMP*/ '44C68FA931', /*CMP*/ '44D0B70732', /*CMP*/ '44D0D2BD33', /*CMP*/ '44D0E7DB34', /*CMP*/ '44D13DFA35', /*CMP*/ '44D1651936', /*CMP*/ '44D1828537', /*CMP*/ '44D1A21338', /*CMP*/ '44D1BEE239', /*CMP*/ '44D1D48D40', /*CMP*/ '44D2165841', /*CMP*/ '450C169D42', /*CMP*/ '450C290B43', /*CMP*/ '450C3D0144', /*CMP*/ '450C524E45', /*CMP*/ '450C646E46', /*CMP*/ '450C7A1947', /*CMP*/ '450C8D2448', /*CMP*/ '450CA11A49', /*CMP*/ '4E8FFEA71', /*CMP*/ '4E9039202', /*CMP*/ '4E9054683', /*CMP*/ '4E90665A4', /*CMP*/ '4E9081355');
+CSAct[/*CMP*/ '444C7E071'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_02.jpg');
+CSAct[/*CMP*/ '44BC562B2'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_01.jpg');
+CSAct[/*CMP*/ '44BCAFC54'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_03.jpg');
+CSAct[/*CMP*/ '44BD23DB5'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_04.jpg');
+CSAct[/*CMP*/ '44BD3DFB6'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_05.jpg');
+CSAct[/*CMP*/ '44BD5ADA7'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_06.jpg');
+CSAct[/*CMP*/ '44BD7A0A8'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_07.jpg');
+CSAct[/*CMP*/ '44BDA6699'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_08.jpg');
+CSAct[/*CMP*/ '44BDECE810'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2/screenthumb_hl2_09.jpg');
+CSAct[/*CMP*/ '44BEBB1511'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_01.jpg');
+CSAct[/*CMP*/ '44BECFD612'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_02.jpg');
+CSAct[/*CMP*/ '44BEEE3B13'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_03.jpg');
+CSAct[/*CMP*/ '44BF047314'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_04.jpg');
+CSAct[/*CMP*/ '44BF18E515'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_05.jpg');
+CSAct[/*CMP*/ '44BF2B2516'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_06.jpg');
+CSAct[/*CMP*/ '44BF622317'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_07.jpg');
+CSAct[/*CMP*/ '44BF777018'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_08.jpg');
+CSAct[/*CMP*/ '44BF915119'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep1/screenthumb_hl2ep1_09.jpg');
+CSAct[/*CMP*/ '44C07DC420'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/portal/screenthumb_portal_01.jpg');
+CSAct[/*CMP*/ '44C0971921'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/portal/screenthumb_portal_02.jpg');
+CSAct[/*CMP*/ '44C0B85C22'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/portal/screenthumb_portal_03.jpg');
+CSAct[/*CMP*/ '44C0D43123'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/portal/screenthumb_portal_04.jpg');
+CSAct[/*CMP*/ '44C10CA724'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/portal/screenthumb_portal_05.jpg');
+CSAct[/*CMP*/ '44C16E0025'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/portal/screenthumb_portal_07.jpg');
+CSAct[/*CMP*/ '44C35E9526'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_01.jpg');
+CSAct[/*CMP*/ '44C3863227'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_02.jpg');
+CSAct[/*CMP*/ '44C3A07128'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_03.jpg');
+CSAct[/*CMP*/ '44C3B62B29'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_04.jpg');
+CSAct[/*CMP*/ '44C3CB6930'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_05.jpg');
+CSAct[/*CMP*/ '44C68FA931'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_06.jpg');
+CSAct[/*CMP*/ '44D0B70732'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_07.jpg');
+CSAct[/*CMP*/ '44D0D2BD33'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_08.jpg');
+CSAct[/*CMP*/ '44D0E7DB34'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/tf2/thumbs/screenthumb_tf2_09.jpg');
+CSAct[/*CMP*/ '44D13DFA35'] = new Array(CSPreloadImage,/*URL*/ 'trailers/hl2/trailerthumb_hl2_01.jpg');
+CSAct[/*CMP*/ '44D1651936'] = new Array(CSPreloadImage,/*URL*/ 'trailers/hl2ep1/trailerthumb_hl2ep1_01.jpg');
+CSAct[/*CMP*/ '44D1828537'] = new Array(CSPreloadImage,/*URL*/ 'trailers/hl2ep2/trailerthumb_hl2ep2_01.jpg');
+CSAct[/*CMP*/ '44D1A21338'] = new Array(CSPreloadImage,/*URL*/ 'trailers/hl2ep2/trailerthumb_hl2ep2_02.jpg');
+CSAct[/*CMP*/ '44D1BEE239'] = new Array(CSPreloadImage,/*URL*/ 'trailers/portal/trailerthumb_portal_01.jpg');
+CSAct[/*CMP*/ '44D1D48D40'] = new Array(CSPreloadImage,/*URL*/ 'trailers/tf2/trailerthumb_tf2_01.jpg');
+CSAct[/*CMP*/ '44D2165841'] = new Array(CSPreloadImage,/*URL*/ 'trailers/tf2/trailerthumb_tf2_02.jpg');
+CSAct[/*CMP*/ '450C169D42'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_01.jpg');
+CSAct[/*CMP*/ '450C290B43'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_02.jpg');
+CSAct[/*CMP*/ '450C3D0144'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_03.jpg');
+CSAct[/*CMP*/ '450C524E45'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_04.jpg');
+CSAct[/*CMP*/ '450C646E46'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_04.jpg');
+CSAct[/*CMP*/ '450C7A1947'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_05.jpg');
+CSAct[/*CMP*/ '450C8D2448'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_06.jpg');
+CSAct[/*CMP*/ '450CA11A49'] = new Array(CSPreloadImage,/*URL*/ 'images/screens/hl2ep2/screenthumb_hl2ep2_07.jpg');
+CSAct[/*CMP*/ '4E8FFEA71'] = new Array(CSPreloadImage,/*URL*/ 'images/nav/nav2_02.gif');
+CSAct[/*CMP*/ '4E9039202'] = new Array(CSPreloadImage,/*URL*/ 'images/nav/nav2_03.gif');
+CSAct[/*CMP*/ '4E9054683'] = new Array(CSPreloadImage,/*URL*/ 'images/nav/nav2_04.gif');
+CSAct[/*CMP*/ '4E90665A4'] = new Array(CSPreloadImage,/*URL*/ 'images/nav/nav2_05.gif');
+CSAct[/*CMP*/ '4E9081355'] = new Array(CSPreloadImage,/*URL*/ 'images/nav/nav2_06.gif');
+CSAct[/*CMP*/ 'E6CAE990'] = new Array(CSOpenWindow,/*URL*/ 'Awards.html','',800,600,true,true,false,false,false,false,false);
+
+// --></script>		</csactiondict>		<csactions>
+			<csaction name="444C3EBC0" class="Action Group" type="onload" val0="444C7E071,44BC562B2,44BCAFC54,44BD23DB5,44BD3DFB6,44BD5ADA7,44BD7A0A8,44BDA6699,44BDECE810,44BEBB1511,44BECFD612,44BEEE3B13,44BF047314,44BF18E515,44BF2B2516,44BF622317,44BF777018,44BF915119,44C07DC420,44C0971921,44C0B85C22,44C0D43123,44C10CA724,44C16E0025,44C35E9526,44C3863227,44C3A07128,44C3B62B29,44C3CB6930,44C68FA931,44D0B70732,44D0D2BD33,44D0E7DB34,44D13DFA35,44D1651936,44D1828537,44D1A21338,44D1BEE239,44D1D48D40,44D2165841,450C169D42,450C290B43,450C3D0144,450C524E45,450C646E46,450C7A1947,450C8D2448,450CA11A49,4E8FFEA71,4E9039202,4E9054683,4E90665A4,4E9081355"></csaction>
+			<csaction name="444C7E071" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_02.jpg" urlparams="1"></csaction>
+			<csaction name="44BC562B2" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_01.jpg" urlparams="1"></csaction>
+			<csaction name="44BCAFC54" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_03.jpg" urlparams="1"></csaction>
+			<csaction name="44BD23DB5" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_04.jpg" urlparams="1"></csaction>
+			<csaction name="44BD3DFB6" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_05.jpg" urlparams="1"></csaction>
+			<csaction name="44BD5ADA7" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_06.jpg" urlparams="1"></csaction>
+			<csaction name="44BD7A0A8" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_07.jpg" urlparams="1"></csaction>
+			<csaction name="44BDA6699" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_08.jpg" urlparams="1"></csaction>
+			<csaction name="44BDECE810" class="Preload Image" type="onevent" val0="images/screens/hl2/screenthumb_hl2_09.jpg" urlparams="1"></csaction>
+			<csaction name="44BEBB1511" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_01.jpg" urlparams="1"></csaction>
+			<csaction name="44BECFD612" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_02.jpg" urlparams="1"></csaction>
+			<csaction name="44BEEE3B13" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_03.jpg" urlparams="1"></csaction>
+			<csaction name="44BF047314" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_04.jpg" urlparams="1"></csaction>
+			<csaction name="44BF18E515" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_05.jpg" urlparams="1"></csaction>
+			<csaction name="44BF2B2516" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_06.jpg" urlparams="1"></csaction>
+			<csaction name="44BF622317" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_07.jpg" urlparams="1"></csaction>
+			<csaction name="44BF777018" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_08.jpg" urlparams="1"></csaction>
+			<csaction name="44BF915119" class="Preload Image" type="onevent" val0="images/screens/hl2ep1/screenthumb_hl2ep1_09.jpg" urlparams="1"></csaction>
+			<csaction name="44C07DC420" class="Preload Image" type="onevent" val0="images/screens/portal/screenthumb_portal_01.jpg" urlparams="1"></csaction>
+			<csaction name="44C0971921" class="Preload Image" type="onevent" val0="images/screens/portal/screenthumb_portal_02.jpg" urlparams="1"></csaction>
+			<csaction name="44C0B85C22" class="Preload Image" type="onevent" val0="images/screens/portal/screenthumb_portal_03.jpg" urlparams="1"></csaction>
+			<csaction name="44C0D43123" class="Preload Image" type="onevent" val0="images/screens/portal/screenthumb_portal_04.jpg" urlparams="1"></csaction>
+			<csaction name="44C10CA724" class="Preload Image" type="onevent" val0="images/screens/portal/screenthumb_portal_05.jpg" urlparams="1"></csaction>
+			<csaction name="44C16E0025" class="Preload Image" type="onevent" val0="images/screens/portal/screenthumb_portal_07.jpg" urlparams="1"></csaction>
+			<csaction name="44C35E9526" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_01.jpg" urlparams="1"></csaction>
+			<csaction name="44C3863227" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_02.jpg" urlparams="1"></csaction>
+			<csaction name="44C3A07128" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_03.jpg" urlparams="1"></csaction>
+			<csaction name="44C3B62B29" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_04.jpg" urlparams="1"></csaction>
+			<csaction name="44C3CB6930" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_05.jpg" urlparams="1"></csaction>
+			<csaction name="44C68FA931" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_06.jpg" urlparams="1"></csaction>
+			<csaction name="44D0B70732" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_07.jpg" urlparams="1"></csaction>
+			<csaction name="44D0D2BD33" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_08.jpg" urlparams="1"></csaction>
+			<csaction name="44D0E7DB34" class="Preload Image" type="onevent" val0="images/screens/tf2/thumbs/screenthumb_tf2_09.jpg" urlparams="1"></csaction>
+			<csaction name="44D13DFA35" class="Preload Image" type="onevent" val0="trailers/hl2/trailerthumb_hl2_01.jpg" urlparams="1"></csaction>
+			<csaction name="44D1651936" class="Preload Image" type="onevent" val0="trailers/hl2ep1/trailerthumb_hl2ep1_01.jpg" urlparams="1"></csaction>
+			<csaction name="44D1828537" class="Preload Image" type="onevent" val0="trailers/hl2ep2/trailerthumb_hl2ep2_01.jpg" urlparams="1"></csaction>
+			<csaction name="44D1A21338" class="Preload Image" type="onevent" val0="trailers/hl2ep2/trailerthumb_hl2ep2_02.jpg" urlparams="1"></csaction>
+			<csaction name="44D1BEE239" class="Preload Image" type="onevent" val0="trailers/portal/trailerthumb_portal_01.jpg" urlparams="1"></csaction>
+			<csaction name="44D1D48D40" class="Preload Image" type="onevent" val0="trailers/tf2/trailerthumb_tf2_01.jpg" urlparams="1"></csaction>
+			<csaction name="44D2165841" class="Preload Image" type="onevent" val0="trailers/tf2/trailerthumb_tf2_02.jpg" urlparams="1"></csaction>
+			<csaction name="450C169D42" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_01.jpg" urlparams="1"></csaction>
+			<csaction name="450C290B43" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_02.jpg" urlparams="1"></csaction>
+			<csaction name="450C3D0144" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_03.jpg" urlparams="1"></csaction>
+			<csaction name="450C524E45" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_04.jpg" urlparams="1"></csaction>
+			<csaction name="450C646E46" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_04.jpg" urlparams="1"></csaction>
+			<csaction name="450C7A1947" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_05.jpg" urlparams="1"></csaction>
+			<csaction name="450C8D2448" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_06.jpg" urlparams="1"></csaction>
+			<csaction name="450CA11A49" class="Preload Image" type="onevent" val0="images/screens/hl2ep2/screenthumb_hl2ep2_07.jpg" urlparams="1"></csaction>
+			<csaction name="4E8FFEA71" class="Preload Image" type="onevent" val0="images/nav/nav2_02.gif" urlparams="1"></csaction>
+			<csaction name="4E9039202" class="Preload Image" type="onevent" val0="images/nav/nav2_03.gif" urlparams="1"></csaction>
+			<csaction name="4E9054683" class="Preload Image" type="onevent" val0="images/nav/nav2_04.gif" urlparams="1"></csaction>
+			<csaction name="4E90665A4" class="Preload Image" type="onevent" val0="images/nav/nav2_05.gif" urlparams="1"></csaction>
+			<csaction name="4E9081355" class="Preload Image" type="onevent" val0="images/nav/nav2_06.gif" urlparams="1"></csaction>
+			<csaction name="E6CAE990" class="Open Window" type="onevent" val0="Awards.html" val1="" val2="800" val3="600" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false" urlparams="1"></csaction>
+		</csactions>			<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">			<tbody><tr height="613">				<td valign="top" height="613">
+					<table cool="" gridx="16" gridy="16" showgridx="" showgridy="" width="1086" height="603" cellspacing="0" cellpadding="0" border="0" bgcolor="#ff6505" background="orange_files/backgroundmain.jpg">
+						<tbody><tr height="6">
+							<td colspan="5" width="1085" height="6"><spacer type="block" width="1085" height="6"></spacer></td>
+							<td width="1" height="6"><spacer type="block" width="1" height="6"></spacer></td>
+						</tr>
+						<tr height="45">
+							<td colspan="3" width="702" height="45"><spacer type="block" width="702" height="45"></spacer></td>
+							<td colspan="2" rowspan="2" xpos="702" width="383" valign="top" height="123" align="left"><a onclick="CSAction(new Array(/*CMP*/'E6CAE990'));return CSClickReturn()" href="#" csclick="E6CAE990"><img src="orange_files/awards.jpg" alt="" width="109" height="111" border="0"></a></td>
+							<td width="1" height="45"><spacer type="block" width="1" height="45"></spacer></td>
+						</tr>
+						<tr height="78">
+							<td colspan="2" width="34" height="78"><spacer type="block" width="34" height="78"></spacer></td>
+							<td xpos="34" width="668" valign="top" height="78" align="left"><img src="orange_files/logo_orangebox.gif" alt="" width="237" height="47" border="0"></td>
+							<td width="1" height="78"><spacer type="block" width="1" height="78"></spacer></td>
+						</tr>
+						<tr height="473">
+							<td width="32" height="473"><spacer type="block" width="32" height="473"></spacer></td>
+							<td colspan="3" xpos="32" width="728" valign="top" height="473" align="left">
+								<table id="Table_01" width="728" height="429" cellspacing="0" cellpadding="0" border="0">
+									<tbody><tr>
+										<td><img src="orange_files/nav_01.gif" alt="" width="50" height="429"></td>
+										<td><a href="https://web.archive.org/web/20100109232604/http://orange.half-life2.com/hl2.html" onmouseover="changeImages('nav_02', 'images/nav/nav_02-over.gif', 'nav_08', 'images/nav/nav_08-nav_02_over.jpg'); return true;" onmouseout="changeImages('nav_02', 'images/nav/nav_02.gif', 'nav_08', 'images/nav/nav_08.gif'); return true;" onmousedown="changeImages('nav_02', 'images/nav/nav_02-over.gif', 'nav_08', 'images/nav/nav_08-nav_02_over.jpg'); return true;" onmouseup="changeImages('nav_02', 'images/nav/nav_02-over.gif', 'nav_08', 'images/nav/nav_08-nav_02_over.jpg'); return true;"><img name="nav_02" src="orange_files/nav_02.gif" alt="" width="34" height="429" border="0"></a></td>
+										<td><a href="https://web.archive.org/web/20100109232604/http://orange.half-life2.com/hl2ep1.html" onmouseover="changeImages('nav_03', 'images/nav/nav_03-over.gif', 'nav_08', 'images/nav/nav_08-nav_03_over.jpg'); return true;" onmouseout="changeImages('nav_03', 'images/nav/nav_03.gif', 'nav_08', 'images/nav/nav_08.gif'); return true;" onmousedown="changeImages('nav_03', 'images/nav/nav_03-over.gif', 'nav_08', 'images/nav/nav_08-nav_03_over.jpg'); return true;" onmouseup="changeImages('nav_03', 'images/nav/nav_03-over.gif', 'nav_08', 'images/nav/nav_08-nav_03_over.jpg'); return true;"><img name="nav_03" src="orange_files/nav_03.gif" alt="" width="46" height="429" border="0"></a></td>
+										<td><a href="https://web.archive.org/web/20100109232604/http://orange.half-life2.com/portal.html" onmouseover="changeImages('nav_04', 'images/nav/nav_04-over.gif', 'nav_08', 'images/nav/nav_08-nav_04_over.jpg'); return true;" onmouseout="changeImages('nav_04', 'images/nav/nav_04.gif', 'nav_08', 'images/nav/nav_08.gif'); return true;" onmousedown="changeImages('nav_04', 'images/nav/nav_04-over.gif', 'nav_08', 'images/nav/nav_08-nav_04_over.jpg'); return true;" onmouseup="changeImages('nav_04', 'images/nav/nav_04-over.gif', 'nav_08', 'images/nav/nav_08-nav_04_over.jpg'); return true;"><img name="nav_04" src="orange_files/nav_04.gif" alt="" width="39" height="429" border="0"></a></td>
+										<td><a href="https://web.archive.org/web/20100109232604/http://orange.half-life2.com/hl2ep2.html" onmouseover="changeImages('nav_05', 'images/nav/nav_05-over.gif', 'nav_08', 'images/nav/nav_08-nav_05_over.jpg'); return true;" onmouseout="changeImages('nav_05', 'images/nav/nav_05.gif', 'nav_08', 'images/nav/nav_08.gif'); return true;" onmousedown="changeImages('nav_05', 'images/nav/nav_05-over.gif', 'nav_08', 'images/nav/nav_08-nav_05_over.jpg'); return true;" onmouseup="changeImages('nav_05', 'images/nav/nav_05-over.gif', 'nav_08', 'images/nav/nav_08-nav_05_over.jpg'); return true;"><img name="nav_05" src="orange_files/nav_05.gif" alt="" width="43" height="429" border="0"></a></td>
+										<td><a href="https://web.archive.org/web/20100109232604/http://orange.half-life2.com/tf2.html" onmouseover="changeImages('nav_06', 'images/nav/nav_06-over.gif', 'nav_08', 'images/nav/nav_08-nav_06_over.jpg'); return true;" onmouseout="changeImages('nav_06', 'images/nav/nav_06.gif', 'nav_08', 'images/nav/nav_08.gif'); return true;" onmousedown="changeImages('nav_06', 'images/nav/nav_06-over.gif', 'nav_08', 'images/nav/nav_08-nav_06_over.jpg'); return true;" onmouseup="changeImages('nav_06', 'images/nav/nav_06-over.gif', 'nav_08', 'images/nav/nav_08-nav_06_over.jpg'); return true;"><img name="nav_06" src="orange_files/nav_06.gif" alt="" width="38" height="429" border="0"></a></td>
+										<td><img src="orange_files/nav_07.gif" alt="" width="33" height="429"></td>
+										<td><img name="nav_08" src="orange_files/nav_08.gif" alt="" width="445" height="429"></td>
+									</tr>
+								</tbody></table>
+							</td>
+							<td xpos="760" width="325" valign="top" height="473" align="left"><a onmouseover="changeImages('Preordernow_01','images/nav/getitnow_01-over.gif');return true" onmouseout="changeImages('Preordernow_01','images/nav/getitnow_01.gif');return true" href="https://web.archive.org/web/20100109232604/http://www.steampowered.com/v/index.php?area=package&amp;SubId=469&amp;"><img id="Preordernow_01" src="orange_files/getitnow_01.gif" alt="" name="Preordernow_01" width="236" height="429" border="0"></a></td>
+							<td width="1" height="473"><spacer type="block" width="1" height="473"></spacer></td>
+						</tr>
+						<tr cntrlrow="" height="1">
+							<td width="32" height="1"><spacer type="block" width="32" height="1"></spacer></td>
+							<td width="2" height="1"><spacer type="block" width="2" height="1"></spacer></td>
+							<td width="668" height="1"><spacer type="block" width="668" height="1"></spacer></td>
+							<td width="58" height="1"><spacer type="block" width="58" height="1"></spacer></td>
+							<td width="325" height="1"><spacer type="block" width="325" height="1"></spacer></td>
+							<td width="1" height="1"><spacer type="block" width="1" height="1"></spacer></td>
+						</tr>
+					</tbody></table>
+				</td>			</tr>			<tr>				<td valign="top" background="orange_files/OrangePattern.gif">
+					<table cool="" gridx="16" gridy="16" showgridx="" showgridy="" width="1086" height="145" cellspacing="0" cellpadding="0" border="0">
+						<tbody><tr height="144">
+							<td width="41" height="144"></td>
+							<td xpos="41" width="103" valign="top" height="144" align="left"><a title="Valve Corporation Website" onmouseover="changeImages('Legalese_01','images/legalese/Legalese_01-over.gif');return true" onmouseout="changeImages('Legalese_01','images/legalese/Legalese_01.gif');return true" href="https://web.archive.org/web/20100109232604/http://www.valvesoftware.com/"><img id="Legalese_01" src="orange_files/Legalese_01.gif" alt="" name="Legalese_01" width="103" height="44" border="0"></a></td>
+							<td xpos="144" width="78" valign="top" height="144" align="left"><a title="Steam Games Website" onmouseover="changeImages('Legalese_02','images/legalese/Legalese_02-over.gif');return true" onmouseout="changeImages('Legalese_02','images/legalese/Legalese_02.gif');return true" href="https://web.archive.org/web/20100109232604/http://www.steampowered.com/"><img id="Legalese_02" src="orange_files/Legalese_02.gif" alt="" name="Legalese_02" width="78" height="44" border="0"></a></td>
+							<td xpos="222" width="531" valign="top" height="144" align="left"><img src="orange_files/Legalese2009.gif" alt="" width="493" height="144" border="0"></td>
+							<td xpos="753" width="332" valign="top" height="144" align="left"><img src="orange_files/logo_NVIDIA_theway.gif" alt="" width="130" height="69" border="0"></td>
+							<td width="1" height="144"><spacer type="block" width="1" height="144"></spacer></td>
+						</tr>
+						<tr cntrlrow="" height="1">
+							<td width="41" height="1"><spacer type="block" width="41" height="1"></spacer></td>
+							<td width="103" height="1"><spacer type="block" width="103" height="1"></spacer></td>
+							<td width="78" height="1"><spacer type="block" width="78" height="1"></spacer></td>
+							<td width="531" height="1"><spacer type="block" width="531" height="1"></spacer></td>
+							<td width="332" height="1"><spacer type="block" width="332" height="1"></spacer></td>
+							<td width="1" height="1"></td>
+						</tr>
+					</tbody></table>
+				</td>			</tr>		</tbody></table>	
+</body></html>
+<!--
+     FILE ARCHIVED ON 23:26:04 Jan 09, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:40:45 Aug 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.535
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.016
+  esindex: 0.011
+  cdx.remote: 34.444
+  LoadShardBlock: 220.077 (3)
+  PetaboxLoader3.datanode: 156.645 (7)
+  PetaboxLoader3.resolve: 292.071 (3)
+  load_resource: 294.817 (2)
+-->
