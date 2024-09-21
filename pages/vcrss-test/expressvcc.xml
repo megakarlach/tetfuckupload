@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='rsspretty.xsl' version='1.0'?>
+<rss xmlns:mscomdomain="http://msdn.microsoft.com/aboutmsdn/rss/domains" xmlns:mscom="http://msdn.microsoft.com/aboutmsdn/rss/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Microsoft Visual C++ Express</title>
+    <link>http://www.microsoft.com/express/vc/default.aspx</link>
+    <description>The latest information for developers on Visual C++ Express.</description>
+    <language>en-us</language>
+    <pubDate>Wed, 21 Oct 2009 19:00:00 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2009 19:00:00 GMT</lastBuildDate>
+    <generator>MSDN and TechNet RSS Service 1.1.0.0</generator>
+    <ttl>1440</ttl>
+    <item>
+      <title>SEX IN THE CHAT AVAILABLE</title>
+      <description>Unleash your hot sex today!</description>
+      <link>http://go.microsoft.com/?linkid=9691224</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Sex Express</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>1 Apr</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_12933</guid>
+      <pubDate>Mon, 1 Apr 2069 19:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Attention Visual Studio 2005 Express Edition Users</title>
+      <description>On March 31st the Microsoft Visual Studio 2005 Express Edition products will be discontinued and removed from www.microsoft.com/express. You can continue working on your current projects with the Visual Studio 2008 Express Editions (with SP1), available for free on www.microsoft.com/express.  If you haven’t already, upgrade today!</description>
+      <link>http://go.microsoft.com/?linkid=9658666</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>March 24</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_12933</guid>
+      <pubDate>Mon, 24 March 2009 18:44:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Small Basic V0.2 is Now Available!</title>
+      <description>You asked and we listened. The latest version of Small Basic, version 0.2, is now available for download. This version contains some of the most requested features by members of the community – including a ton of bug fixes, support for non-US regional settings, a smarter editor with auto-indent, and many useful additions to the API set.</description>
+      <link>http://go.microsoft.com/?linkid=9645070</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>Jan 5</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_12933</guid>
+      <pubDate>Mon, 05 Jan 2008 18:44:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Code 4 Fun using Free Microsoft software!</title>
+      <description>How would you like to build an Xbox 360 game, or build your own peer-to-peer application? This book will help you tackle cool software and hardware projects using a range of free Microsoft software!</description>
+      <link>http://go.microsoft.com/?linkid=9645071</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>Jan 5</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_12933</guid>
+      <pubDate>Mon, 05 Jan 2009 18:44:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visual Studio Express Editions Service Pack 1 has arrived.  Download it today!</title>
+      <description>Service Pack 1 for Visual Studio 2008 and the .NET Framework 3.5 has tons of new features for easily building data-driven Web sites, working with SQL Server 2008, building faster Windows applications, and much more.</description>
+      <link>http://go.microsoft.com/?linkid=9350819</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>Aug 11</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_12933</guid>
+      <pubDate>Mon, 11 Aug 2008 18:44:13 GMT</pubDate>
+    </item>  
+    <item>
+      <title>Hot off the presses: C++ Beginner's Guide Released</title>
+      <description>Essential skills made easy! Written by Herb Schildt, this step-by-step book is ideal for first-time programmers or those new to C++. </description>
+      <link>http://go.microsoft.com/?linkid=8553738</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>Jan 29</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_12933</guid>
+      <pubDate>Tue, 18 Mar 2008 14:07:04 GMT</pubDate>
+    </item>    
+ 
+    <item>
+      <title>Game Development made easy with the Dark GDK</title>
+      <description>We've partnered with The Game Creators to offer our C++ Express customers access to the premiere Game Creators Game Development Kit.  The Dark GDK allows you to easily create rich 2D and 3D games within the familiar Visual C++ development environment.</description>
+      <link>http://go.microsoft.com/?linkid=7634886</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>Nov 19</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_12933</guid>
+      <pubDate>Mon, 19 Nov 2007 18:44:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Great benefits for registered Express users!</title>
+      <description>More goodies and freebies available for all registered Express users, including MAKE magazine discounts, Intermatic home automation rebates, and much more! Register Today!</description>
+      <link>http://go.microsoft.com/?linkid=7686778</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development tools</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>24853bda-fb66-4716-8bc8-88d26fdb57cb</mscom:attribute>
+      <mscom:headlineImage>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineImage>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>Nov 7</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_5607</guid>
+      <pubDate>Tue, 7 Nov 2006 19:14:58 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
