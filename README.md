@@ -1,4 +1,4 @@
-# ![tf logo](https://github.com/megakarlach/tetfuckupload/assets/60382442/b47251be-a362-499a-ac6e-d166874dfb17)Upload
+# ![tf logo](https://github.com/megakarlach/tetfuckupload/assets/60382442/b47251be-a362-499a-ac6e-d166874dfb17)Upload + TetFuck game
 
 This git hosts various HTML/CSS files to run TetFuck Upload, plus providing download links for TetFuck game.
 
