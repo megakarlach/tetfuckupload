@@ -1,0 +1,1432 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+
+
+
+<head>
+
+<title>MEGAVIDEO - I'm watching it</title>
+<script type="text/javascript" src="/web/20101020072501js_/http://www.megavideo.com/swfobject2.js"></script>
+<link rel="icon" href="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/icomv.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/icomv.ico" type="image/x-icon">
+</head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+
+<link href="/web/20101020072501cs_/http://www.megavideo.com/mvstyles.css" rel="stylesheet" type="text/css">
+
+
+<style type="text/css">
+body 
+{
+	text-align:center;
+	padding:0; margin:0;
+	font-family: arial;
+	font-size: 11px;
+	text-align: left;
+	/*float:left;filter:alpha(opacity=25);-moz-opacity:.25;opacity:.25; */
+
+	
+		background-color:#ADADAC;
+		
+
+}
+
+
+#main 
+{
+	width:997px;
+	position: relative;
+	margin-top:5px;
+	text-align:center;
+}
+#mainpage
+{
+  position:absolute;
+  top:0px; left:1px;
+  width:977px;
+  text-align:left;
+}
+
+#mv1
+{
+  position:absolute;
+  top:0px; left:-13px;
+  width:979px; height:204px;
+}
+#mv2
+{
+  position:absolute;
+  top:106px; left:1px;
+  width:977px; height:56px;
+  background-image:url('https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/shadow.gif');
+}
+
+a
+{
+  font-family:arial;
+}
+
+
+
+.button
+{
+	border: 1px solid #FD0819;
+	background-color: #F8F8F8;
+}
+.text 
+{
+	border: 1px solid #A5ACB2;
+	background-color: #FFFFFF;
+}
+.file 
+{
+	border: 1px solid #000000;
+	background-color: #F5F5F5;
+}
+
+</style>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://web.archive.org/web/20101020072501/https://ssl." : "https://web.archive.org/web/20101020072501/http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6383685-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+      
+      
+
+
+<body onresize="resizing();">
+ 
+
+
+
+
+<script type="text/javascript">
+document.domain = 'megavideo.com';
+</script>
+
+
+
+
+<script language="JavaScript">
+<!--
+if (parent.frames.length > 0) top.location.replace(document.location);
+//-->
+</script>
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+
+
+
+	function selectLang(idx) {
+	   var locale = locales[idx];
+	   collapseLandLangPulldown();
+	   changelang(idx)
+	}
+
+	function hiLight(langImg, idx, over) {
+	   langImg.src = (over) ? langOverImgs[idx].src : langImgs[idx].src;
+	}
+
+	function createTooltip(id) {
+	   var tt = document.createElement("DIV");
+	   tt.id = id;
+	   tt.style.border='none';
+	   tt.style.position='absolute';
+	   document.body.appendChild(tt);
+	   return tt;
+	}
+
+	function findPos(obj) {
+		var curleft = 0;
+		var curtop = 0;
+		if (obj.offsetParent) {
+			curleft = obj.offsetLeft
+			curtop = obj.offsetTop
+			while (obj = obj.offsetParent) {
+				curleft += obj.offsetLeft
+				curtop += obj.offsetTop
+			}
+		}
+		return [curleft,curtop];
+	}
+
+	function getLangPulldownMenu(img) {
+		var pdDiv = createTooltip('langselection');
+		var top = img.clientY;
+		var pos = findPos(img);
+		pdDiv.style.left = (pos[0] + 3) + 'px';
+		pdDiv.style.top = (pos[1]+ 21) + 'px';
+		return pdDiv;
+	}
+
+	function runLangPulldown(img) {
+		var langPulldown = document.getElementById('langselection');
+		if (langPulldown != null) {
+			collapseLandLangPulldown()
+		}
+		else {
+			expandLangPulldown(img);
+		}
+	}
+
+	function collapseLandLangPulldown() {
+		var langPulldown = document.getElementById('langselection');
+		if (langPulldown != null) {
+			langPulldown.style.visibility='hidden';
+			document.body.removeChild(langPulldown);
+			langPulldown = null;
+		}
+	}
+
+	function expandLangPulldown(img) {
+		var langPulldown = getLangPulldownMenu(img);
+		langPulldown.innerHTML=getPulldownHTML();
+		langPulldown.style.visibility='visible';
+	}
+
+	function getPulldownHTML() 
+	{
+		var pulldownHTML = '<table cellpadding="0" cellspacing="0" border="0" id="langSelection" class="lang_pulldown">';
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/en.gif" border="0" width="129" height="25" onclick="javascript:selectLang(0)" onMouseOut="javascript:hiLight(this, 0, false)" onMouseOver="javascript:hiLight(this, 0, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/de.gif" border="0" width="129" height="21" onclick="javascript:selectLang(1)" onMouseOut="javascript:hiLight(this, 1, false)" onMouseOver="javascript:hiLight(this, 1, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/fr.gif" border="0" width="129" height="21" onclick="javascript:selectLang(2)" onMouseOut="javascript:hiLight(this, 2, false)" onMouseOver="javascript:hiLight(this, 2, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/es.gif" border="0" width="129" height="21" onclick="javascript:selectLang(3)" onMouseOut="javascript:hiLight(this, 3, false)" onMouseOver="javascript:hiLight(this, 3, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/pt.gif" border="0" width="129" height="21" onclick="javascript:selectLang(4)" onMouseOut="javascript:hiLight(this, 4, false)" onMouseOver="javascript:hiLight(this, 4, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/nl.gif" border="0" width="129" height="21" onclick="javascript:selectLang(5)" onMouseOut="javascript:hiLight(this, 5, false)" onMouseOver="javascript:hiLight(this, 5, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/it.gif" border="0" width="129" height="21" onclick="javascript:selectLang(6)" onMouseOut="javascript:hiLight(this, 6, false)" onMouseOver="javascript:hiLight(this, 6, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/cn.gif" border="0" width="129" height="21" onclick="javascript:selectLang(7)" onMouseOut="javascript:hiLight(this, 7, false)" onMouseOver="javascript:hiLight(this, 7, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/ct.gif" border="0" width="129" height="21" onclick="javascript:selectLang(8)" onMouseOut="javascript:hiLight(this, 8, false)" onMouseOver="javascript:hiLight(this, 8, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/jp.gif" border="0" width="129" height="21" onclick="javascript:selectLang(9)" onMouseOut="javascript:hiLight(this, 9, false)" onMouseOver="javascript:hiLight(this, 9, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/kr.gif" border="0" width="129" height="21" onclick="javascript:selectLang(10)" onMouseOut="javascript:hiLight(this, 10, false)" onMouseOver="javascript:hiLight(this, 10, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/ru.gif" border="0" width="129" height="21" onclick="javascript:selectLang(11)" onMouseOut="javascript:hiLight(this, 11, false)" onMouseOver="javascript:hiLight(this, 11, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/fi.gif" border="0" width="129" height="21" onclick="javascript:selectLang(12)" onMouseOut="javascript:hiLight(this, 12, false)" onMouseOver="javascript:hiLight(this, 12, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/se.gif" border="0" width="129" height="21" onclick="javascript:selectLang(13)" onMouseOut="javascript:hiLight(this, 13, false)" onMouseOver="javascript:hiLight(this, 13, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/dk.gif" border="0" width="129" height="21" onclick="javascript:selectLang(14)" onMouseOut="javascript:hiLight(this, 14, false)" onMouseOver="javascript:hiLight(this, 14, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/tr.gif" border="0" width="129" height="21" onclick="javascript:selectLang(15)" onMouseOut="javascript:hiLight(this, 15, false)" onMouseOver="javascript:hiLight(this, 15, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/sa.gif" border="0" width="129" height="21" onclick="javascript:selectLang(16)" onMouseOut="javascript:hiLight(this, 16, false)" onMouseOver="javascript:hiLight(this, 16, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/vn.gif" border="0" width="129" height="21" onclick="javascript:selectLang(17)" onMouseOut="javascript:hiLight(this, 17, false)" onMouseOver="javascript:hiLight(this, 17, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+				pulldownHTML = pulldownHTML.concat('<tr class="lang_pulldown">');
+		pulldownHTML = pulldownHTML.concat('<td class="lang_pulldown"><img src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/pl.gif" border="0" width="129" height="21" onclick="javascript:selectLang(18)" onMouseOut="javascript:hiLight(this, 18, false)" onMouseOver="javascript:hiLight(this, 18, true)"/></td>');
+		pulldownHTML = pulldownHTML.concat('</tr>');
+		
+		return pulldownHTML;
+	}
+
+	function autoSenseLang() {
+		try {
+			var url = window.location.href;
+			var locale = getLocale();
+			if (undefined == locale) {
+				return;
+			}
+			if ('en_US' != locale && url.indexOf('/' + locale + '/') == -1) {
+				window.location.href = '/' + locale;
+			}
+		}
+		catch (error) {
+			;
+		}
+	}
+
+	function getLangFromURL() {
+		var url = window.location.href;
+		var lang = locales[0];
+		for (var i=1; i < locales.length; i++) {
+			if (url.indexOf('/' + locales[i] + '/') != -1) {
+				lang = locales[i];
+				break;
+			}
+		}
+		return lang;
+	}
+
+	function getUnique(max) {
+		var now = new Date();
+		return (now.getMilliseconds() * Math.floor(Math.random()*max+1));
+	}
+
+	function isWin() {
+		return (navigator.platform.indexOf('Win') != -1);
+	}
+
+	function isVista() {
+		return (navigator.userAgent.indexOf("Windows NT 6.0") != -1);
+	}
+
+	function isMac() {
+		return (navigator.platform.indexOf('Mac') != -1);
+	}
+
+	function isLinux() {
+		return (navigator.platform.indexOf('Linux') != -1);
+	}
+
+
+
+
+
+
+	function addCacheBreakerToURL(url) {
+		var ran_number= getUnique(8);
+		var firstLetter = (url.indexOf('?')<0) ? '?' : '&';
+		return url + firstLetter + 'bznetid=' + ran_number;
+	}
+
+
+	function logout()
+	{
+	  document.getElementById('logoutform').submit();
+	}
+
+
+	
+
+	function changelang(id)
+	{
+		if (id == 0)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=en';
+		}
+		if (id == 1)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=de';
+		}
+		if (id == 2)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=fr';
+		}
+		if (id == 3)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=es';
+		}
+		if (id == 4)
+		{
+		document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=pt';
+		}
+		if (id == 5)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=nl';
+		}
+		if (id == 6)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=it';
+		}
+		if (id == 7)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=cn';
+		}
+		if (id == 8)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=ct';
+		}
+		if (id == 9)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=jp';
+		}
+		if (id == 10)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=kr';
+		}
+		if (id == 11)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=ru';
+		}
+		if (id == 12)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=fi';
+		}
+		if (id == 13)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=se';
+		}
+		if (id == 14)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=dk';
+		}
+		if (id == 15)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=tr';
+		}
+		if (id == 16)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=sa';
+		}
+		if (id == 17)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=vn';
+		}
+		if (id == 18)
+		{
+			document.location = 'https://web.archive.org/web/20101020072501/http://www.megavideo.com/?v=QJOHMPRM&setlang=pl';
+		}
+	}
+	</script>
+
+
+
+<center>
+<div style="position:absolute; display:none;">
+<form method="post" id="logoutform" action="?">
+<input type="hidden" name="logout" value="1">
+</form>
+</div>
+
+
+<script type="text/javascript">
+menu1 = new Image(151,29);
+menu1over = new Image(151,29);
+menu1over.src = 'https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_o_01.gif';
+menu2 = new Image(150,29);
+menu2over = new Image(150,29);
+menu2over.src = 'https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_o_02.gif';
+menu3 = new Image(150,29);
+menu3over = new Image(150,29);
+menu3over.src = 'https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_o_03.gif';
+menu4 = new Image(150,29);
+menu4over = new Image(150,29);
+menu4over.src = 'https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_o_04.gif';
+
+
+flag = new Image(135,28);
+flagover = new Image(135,28);
+flagover.src = 'https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/en_a_o.gif';
+</script>
+
+
+<table width="100%" background="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/top_bgr.gif" bgcolor="#F3F0E9" cellpadding="0" cellspacing="0" style="">
+<tr>
+	<td height="80" align="center"><center><div style="position:relative; width:980px; height:80px;">
+
+	<div style="position:absolute; left:-10px; top:8px;"><a href="?"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/mv_logo.gif" width="284" height="36" border="0" alt=""></a><form method="GET" id="searchfrm">
+	<input type="hidden" name="c" value="search"></div>
+	
+
+		
+	
+	<div style="position:absolute; left:629px; top:11px; background-image:url('https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/search_field.gif'); width:187px; height:28px;">
+	<div style="position:absolute; left:6px; top:4px;"><input type="text" name="s" style="background-color:#FFFFFF; border:none; width:179px;" value="Search videos" onclick="this.value='';"></div>
+	</div>
+
+	<div style="position:absolute; left:816px; top:11px;">
+	<script type="text/javascript">
+	searchbutton = new Image(35,28);
+	searchbuttono = new Image(35,28);
+	searchbuttono.src = 'https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/search_o.gif';
+	</script>
+
+	<div style="position:relative; width:40px; height:28px; cursor:pointer;" onclick="document.getElementById('searchfrm').submit();"><div style="position:absolute; left:0px; top:0px;"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/search.gif" width="35" height="28" border="0" alt="" onmouseover="searchbutton.src=this.src; this.src=searchbuttono.src;" onmouseout="this.src=searchbutton.src;"></div><div style="position:absolute; left:0px; top:6px; width:40px; text-align:center; font-family:arial; font-size:12px; color:#000000; font-weight:normal; text-decoration:none;"></div></form></div>
+
+	</div>
+
+	<script type="text/javascript">
+	langbut = new Image(135,28);
+	langbuto = new Image(135,28);
+	langbuto.src = 'https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/lang_o.gif';
+	</script>
+
+	<div style="position:absolute; left:852px; top:9px;">
+	<table border="0" cellspacing="0" cellpadding="1">
+	  <tr>
+		<td width="140"><table width="100" border="0" align="right" cellpadding="1" cellspacing="0">
+			<tr bgcolor="">
+			  <td width="125"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/language_object/en_a.gif" alt="language" width="135" height="28" border="0" id="selectedLangImg" onclick="javascript:runLangPulldown(this)" onmouseover="langbut.src=this.src; this.src=langbuto.src;" onmouseout="this.src=langbut.src;"/></td>
+			</tr>
+		  </table>
+		  </td>
+	  </tr>
+	</table>
+	</div>
+
+	
+
+	
+
+
+		<div style="position:absolute; left:410px; top:14px; width:200px; text-align:right;"><a href="?s=signup" style="font-family:arial; font-weight:normal; color:#000000; font-size:12px;">Login</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="?s=signup" style="font-family:arial; font-weight:normal; color:#000000; font-size:12px;">Register</a></div>
+	
+
+
+	
+
+
+	<div style="position:absolute; left:190px; top:50px;">
+	<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td><a href="?c=videos"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_01.gif" width="151" height="29" border="0" alt="" onmouseover="menu1.src=this.src; this.src=menu1over.src;" onmouseout="this.src=menu1.src;"></a></td>
+		<td><a href="?c=premium"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_02.gif" width="150" height="29" border="0" alt="" onmouseover="menu2.src=this.src; this.src=menu2over.src;" onmouseout="this.src=menu2.src;"></a></td>
+		<td><a href="?c=rewards"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_03.gif" width="150" height="29" border="0" alt="" onmouseover="menu3.src=this.src; this.src=menu3over.src;" onmouseout="this.src=menu3.src;"></a></td>
+		<td><a href="?c=upload"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/menu/en/mvmenu_04.gif" width="150" height="29" border="0" alt="" onmouseover="menu4.src=this.src; this.src=menu4over.src;" onmouseout="this.src=menu4.src;"></a></td>
+	</tr>
+	</table>
+	</div>
+	
+
+
+
+	
+	</div></center></td>
+</tr>
+</table>
+
+
+<script type="text/javascript">
+
+
+var cinmode = '';
+
+function cinemamode(mode)
+{
+  if (mode == 1)
+  {
+	// turn on
+    resizecinema();
+	cinmode=1;
+	document.getElementById('playerdiv').style.zIndex = '100';
+	document.getElementById('cinemamenu_on').style.display = 'none';
+	document.getElementById('cinemamenu_on2').style.display = 'none';
+	changeOpac(0,'dimlights1');
+	document.getElementById('dimlights1').style.display = '';
+	opacity('dimlights1', 0, 75, 750);
+	setTimeout("document.getElementById('cinemamenu_off').style.display = '';",750);
+	setTimeout("document.getElementById('cinemamenu_off2').style.display = '';",750);
+  }
+  else
+  {
+	// turn off
+	document.getElementById('cinemamenu_off').style.display = 'none';
+	document.getElementById('cinemamenu_off2').style.display = 'none';
+	opacity('dimlights1', 75, 0, 500);
+	setTimeout("document.getElementById('playerdiv').style.zIndex = '0';",750);
+	setTimeout("document.getElementById('dimlights1').style.display='none';",750);
+	setTimeout("document.getElementById('cinemamenu_on').style.display = '';",750);
+	setTimeout("document.getElementById('cinemamenu_on2').style.display = '';",750);
+	cinmode=0;
+  }
+}
+
+function opacity(id, opacStart, opacEnd, millisec) { 
+    //speed for each frame 
+    var speed = Math.round(millisec / 100); 
+    var timer = 0; 
+
+    //determine the direction for the blending, if start and end are the same nothing happens 
+    if(opacStart > opacEnd) { 
+        for(i = opacStart; i >= opacEnd; i--) { 
+            setTimeout("changeOpac(" + i + ",'" + id + "')",(timer * speed)); 
+            timer++; 
+        } 
+    } else if(opacStart < opacEnd) { 
+        for(i = opacStart; i <= opacEnd; i++) 
+            { 
+            setTimeout("changeOpac(" + i + ",'" + id + "')",(timer * speed)); 
+            timer++; 
+        } 
+    } 
+} 
+
+//change the opacity for different browsers 
+function changeOpac(opacity, id) { 
+    var object = document.getElementById(id).style; 
+    object.opacity = (opacity / 100); 
+    object.MozOpacity = (opacity / 100); 
+    object.KhtmlOpacity = (opacity / 100); 
+    object.filter = "alpha(opacity=" + opacity + ")"; 
+} 
+
+function resizecinema()
+{
+  document.getElementById('dimlights1').style.width  = document.body.clientWidth;
+  document.getElementById('dimlights1').style.height = document.body.clientHeight;
+}
+
+</script>
+
+
+<div style="position:absolute; left:0px; top:0px; width:1900px; height:1080px; background-color:#000000; filter:alpha(opacity=70);-moz-opacity:.70;opacity:.70; z-index:1; display:none;" id="dimlights1"></div>
+
+
+
+
+
+
+
+
+<table width="100%" background="/web/20101020072501im_/http://www.megavideo.com/mvgui/big_vid_bg2.gif" cellpadding="0" cellspacing="0" style="" id="playerbg" bgcolor="#666563">
+<tr>
+	<td height="649" align="center" valign="top" style="padding-left:1px;" id="playertd">
+	<center>
+	<div style="position:relative; background-color:#000000; width:992px; height:558px;" id="playerdiv" onmouseout="javascript:playerout();">
+	<div id="playercontainer">
+	<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="558" width="992" align="center" valign="middle">
+		<video controls="" id="trailer" width="992" height="558"><br>
+					<source src="..\video\TetFuck_PMFB_Trailer_2025.mp4" type="video/mp4">
+			</video>
+		<noscript><div style="color:#FFFFFF; font-family:arial; font-size:16px; font-weight:bold; text-decoration:none; width:700px;">Please enable Javascript/ActiveScripting.<br>Make sure that your browser is not blocking Javascript on this site.</div></noscript>
+		</td>
+	</tr>
+	</table>
+	</div>
+	</div>
+</center>	
+
+
+
+<script type="text/javascript">
+bigmenu1 = new Image(248,30);
+bigmenu2 = new Image(247,30);
+bigmenu3 = new Image(248,30);
+bigmenu4 = new Image(249,30);
+bigmenu1o = new Image(248,30);
+bigmenu2o = new Image(247,30);
+bigmenu3o = new Image(248,30);
+bigmenu4o = new Image(249,30);
+bigmenu1o.src = 'mvgui/en/p_menu_o_01.gif';
+bigmenu2o.src = 'mvgui/en/p_menu_o_02.gif';
+bigmenu3o.src = 'mvgui/en/p_menu_o_03.gif';
+bigmenu4o.src = 'mvgui/en/p_menu_o_04.gif';
+
+smallmenu1 = new Image(160,30);
+smallmenu2 = new Image(159,30);
+smallmenu3 = new Image(160,30);
+smallmenu4 = new Image(161,30);
+smallmenu1o = new Image(160,30);
+smallmenu2o = new Image(159,30);
+smallmenu3o = new Image(160,30);
+smallmenu4o = new Image(161,30);
+</script>
+
+
+
+<table width="100%" background="/web/20101020072501im_/http://www.megavideo.com/?v=QJOHMPRM&amp;" cellpadding="0" cellspacing="0" style="margin-top:0px;" id="bigmenu">
+<tr>
+</tr>
+</table>
+
+
+<table width="100%" background="/web/20101020072501im_/http://www.megavideo.com/?v=QJOHMPRM&amp;" cellpadding="0" cellspacing="0" style="margin-top:0px; display:none;" id="smallmenu">
+<tr>
+	<td height="30" align="center" valign="top" style="padding-left:1px;">
+	<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="160"><a href="javascript:adjustplayer();"><img src="/web/20101020072501im_/http://www.megavideo.com/mvgui/en/ps_menu_01.gif" width="160" height="30" alt="" border="0" id="" onmouseover="smallmenu1.src=this.src; this.src=smallmenu1o.src;" onmouseout="this.src=smallmenu1.src;"></a></td>
+		<td width="159"><a href="javascript:embedvideo();"><img src="/web/20101020072501im_/http://www.megavideo.com/mvgui/en/ps_menu_02.gif" width="159" height="30" alt="" border="0" onmouseover="smallmenu2.src=this.src; this.src=smallmenu2o.src;" onmouseout="this.src=smallmenu2.src;"></a></td>
+		<td width="160"><a href="javascript:showrelated();"><img src="/web/20101020072501im_/http://www.megavideo.com/mvgui/en/ps_menu_03.gif" width="160" height="30" alt="" border="0" onmouseover="smallmenu3.src=this.src; this.src=smallmenu3o.src;" onmouseout="this.src=smallmenu3.src;"></a></td>
+		<td width="162" height="30" align="left" valign="top"><div style="position:relative; width:161px; height:30px; z-index:10;" id="menudiv4"><div id="cinemamenu_on2" style=""><a href="javascript:cinemamode(1);"><img src="/web/20101020072501im_/http://www.megavideo.com/mvgui/en/ps_menu_04.gif" width="161" height="30" alt="" border="0" onmouseover="smallmenu4.src=this.src; this.src=smallmenu4o.src;" onmouseout="this.src=smallmenu4.src;"></a></div><div id="cinemamenu_off2" style="display:none; z-index:10;"><a href="javascript:cinemamode(0);"><img src="/web/20101020072501im_/http://www.megavideo.com/mvgui/en/ps_menu_04b.gif" width="161" height="30" alt="" border="0"></a></div></div></td>
+	</tr>
+	</table>
+	</td>
+</tr>
+</table>
+
+
+
+<div style="position:relative; width:600px; height:45px; display:none;" id="loading_ico">
+<div style="position:absolute; left:289px; top:25px; width:20px; height:20px;"><img src="https://web.archive.org/web/20101020072501im_/http://wwwstatic.megavideo.com/mvgui/loading.gif" width="20" height="20" border="0" alt=""></div>
+</div>
+
+	
+	<script type="text/javascript">
+	
+	var flashvars = {};
+	
+	flashvars.added = "2010-10-08";
+	flashvars.username = "uok_vn";
+	flashvars.title = "30.Rock.S05E03.HDTV.XviD-LOL.avi";
+	flashvars.description = "S5+E3+-+Let%E2%80%99s+Stay+Together";
+	flashvars.views = "-";
+	flashvars.comments = "0";
+	flashvars.favorited = "0";
+	flashvars.category = "entertainment";
+	flashvars.tags = "";
+	flashvars.rating = "0";
+	flashvars.des01 = "show details";
+	flashvars.des02 = "embed video";
+	flashvars.des03 = "show url of video";
+	flashvars.des04 = "upload new video";
+	flashvars.des05 = "download original";
+	flashvars.des06a = "switch to fullscreen mode";
+	flashvars.des06b = "switch to window mode";
+	flashvars.des07a = "switch to 4:3";
+	flashvars.des07b = "switch to 16:9";
+	flashvars.des07c = "switch to original aspect ratio";
+	flashvars.des07d = "switch to ";
+	flashvars.des07e = "4:3";
+	flashvars.des07f = "16:9";
+	flashvars.des07g = "original aspect ratio";
+	flashvars.des08 = "comment on this video";
+	flashvars.des09 = "open chat";
+	flashvars.des10 = "email to a friend";
+	flashvars.des11a = "save to favorites";
+	flashvars.des11b = "save to favorites (log in)";
+	flashvars.des12 = "advertising";
+	flashvars.cancel = "cancel";
+	flashvars.ok = "ok";
+	flashvars.close = "close";
+	flashvars.send = "send";
+	flashvars.det01 = "poor";
+	flashvars.det02 = "nothing special";
+	flashvars.det03 = "worth watching";
+	flashvars.det04 = "pretty cool";
+	flashvars.det05 = "excellent";
+	flashvars.det06 = "thank you for rating";
+	flashvars.det07 = "you must be logged in to rate";
+	flashvars.det08 = "an error occured processing your vote";
+	flashvars.det09 = "added";
+	flashvars.det10 = "by";
+	flashvars.det11 = "views";
+	flashvars.det12 = "comments";
+	flashvars.det13 = "favored";
+	flashvars.det14 = "category";
+	flashvars.det15 = "tags";
+	flashvars.det16 = "rate this video";
+	flashvars.det17 = "added to favorites";
+	flashvars.det18 = "save to favorites";
+	flashvars.det19 = "flag as inappropriate";
+	flashvars.det20 = "download original";
+	flashvars.dfi01 = "an error occured";
+	flashvars.dfi02 = "a security error occured";
+	flashvars.dfi03 = "downloading ";
+	flashvars.dfi04 = "url of file";
+	flashvars.dfi05 = "external download";
+	flashvars.dfi06 = "download in player";
+	flashvars.dfi07 = "re-download";
+	flashvars.dfi08 = "retry";
+	flashvars.over1 = "You have watched ";
+	flashvars.over2a = " minute of video today.";
+	flashvars.over2b = " minutes of video today.";
+	flashvars.over3 = "Please wait ";
+	flashvars.over4a = " minute or click here to enjoy unlimited use of Megavideo.";
+	flashvars.over4b = " minutes or click here to enjoy unlimited use of Megavideo.";
+
+	flashvars.limit1 = "you have watched [N1] minutes of video today."
+	flashvars.limit2 = "please wait [N2] minutes or click here to enjoy unlimited use of megavideo.";
+
+	flashvars.emb01 = "click on the following html code to copy it into clipboard and -paste it to your site's html code.";
+	flashvars.emb02 = "embedding disabled by video owner.";
+	flashvars.stf01 = "please check your email address";
+	flashvars.stf02 = "please check recepient's email address";
+	flashvars.stf03 = "your email was successfully sent.";
+	flashvars.stf04 = "an error occured, please try again later.";
+	flashvars.stf05 = "friend's e-mail";
+	flashvars.stf06 = "your email";
+	flashvars.stf07 = "your message";
+	flashvars.fav01 = "do you wish to add this video to your favorites?";
+	flashvars.fav02 = "processing, please wait...";
+	flashvars.fav03 = "added to favorites";
+	flashvars.fav04 = "an error occured, please try again later.";
+
+	flashvars.cha01 = "Megavideo chat";
+	flashvars.cha02 = "Now chatting";
+	flashvars.cha03 = "An error occured, please try again later.";
+	flashvars.cha04 = "You have joined the room.";
+	flashvars.cha05 = " has joined the room.";
+	flashvars.cha06 = " left the room";
+	flashvars.cha07 = "new message in chat"; 
+	flashvars.cha08 = "new messages in chat"; 
+
+	flashvars.user = "";
+
+	flashvars.com01 = "post new comment";
+	flashvars.com02 = "back to video";
+	flashvars.com03 = "loading data, please wait";
+	flashvars.com04 = "enter your comment";
+	flashvars.com05 = "comment posted.";
+	flashvars.com06 = "an error occured, please try again later.";
+	flashvars.com07 = "processing, please wait";
+	flashvars.com08 = "characters left: ";
+	flashvars.com09 = "this video has not been commented yet.";
+	flashvars.copycode = "copy code";
+		flashvars.latin = "1";
+	flashvars.detailslatin = "0";
+		flashvars.embed = "%3Cobject+width%3D%22669%22+height%3D%22360%22%3E%3Cparam+name%3D%22movie%22+value%3D%22http%3A%2F%2Fwww.megavideo.com%2Fv%2FQJOHMPRM572f3d0632fe1f943222f0c7086a0eea%22%3E%3C%2Fparam%3E%3Cparam+name%3D%22allowFullScreen%22+value%3D%22true%22%3E%3C%2Fparam%3E%3Cembed+src%3D%22http%3A%2F%2Fwww.megavideo.com%2Fv%2FQJOHMPRM572f3d0632fe1f943222f0c7086a0eea%22+type%3D%22application%2Fx-shockwave-flash%22+allowfullscreen%3D%22true%22+width%3D%22669%22+height%3D%22360%22%3E%3C%2Fembed%3E%3C%2Fobject%3E";
+	flashvars.language = "en";
+	flashvars.un = "94b4ce95481f4ac69e0df9e9de761e1e";
+	flashvars.k1 = "63241";
+	flashvars.k2 = "20845";
+	flashvars.s = "439";
+
+	
+	flashvars.v = "QJOHMPRM";
+
+	
+	
+	
+	var params = {};
+	
+	params.scale = "noscale";
+	params.salign = "tl";
+	params.wmode = "transparent";
+	params.swliveconnect = "true";
+	params.allowscriptaccess = "always";
+	params.allowfullscreen = "true";
+	
+	var attributes = {};
+	
+	attributes.id = "mvplayer";
+	swfobject.embedSWF("https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mv_player.swf", "playercontainer", "992", "558", "0", false, flashvars, params, attributes);
+
+	
+
+	document.relatedloaded=false;
+	document.largeplayer=true;
+	document.smallplayerloaded=false;
+	function showrelated()
+	{
+	  document.getElementById('embed_html').style.display='none';
+
+	  if (document.getElementById('mcadunit'))
+	  {
+	    document.getElementById('mcadunit').style.display='none';
+	  }
+
+	  if (document.relatedloaded == false)
+	  {
+	    document.getElementById('loading_ico').style.display = '';
+	    document.getElementById('relatedfrm').submit();
+	  }
+	  else
+	  {
+	    document.getElementById('related_bottom').style.display = '';
+	    document.getElementById('related_html').style.display = '';
+	    document.getElementById('related_header').style.display = '';
+
+	  }
+	}
+	function closerelated()
+	{
+	  document.getElementById('related_html').style.display = 'none';
+	  document.getElementById('related_header').style.display = 'none';
+      document.getElementById('related_bottom').style.display = 'none';
+	}
+	function adjustplayer()
+	{
+	  if (document.largeplayer)
+	  {
+	    document.getElementById('mvplayer').width = '640';
+	    document.getElementById('playerdiv').style.width = '640';
+	    document.getElementById('playerdiv').style.height = '360';
+	    document.getElementById('playerbg').style.backgroundImage='url("mvgui/small_vid_bg2.gif")';
+	    document.getElementById('mvplayer').height = '360';
+	    document.getElementById('playertd').height = '451';
+		document.largeplayer=false;
+	    document.getElementById('smallmenu').style.display = '';
+	    document.getElementById('bigmenu').style.display = 'none';
+		if (!document.smallplayerloaded)
+		{
+			
+			smallmenu1o.src = 'mvgui/en/ps_menu_o_01.gif';
+			smallmenu2o.src = 'mvgui/en/ps_menu_o_02.gif';
+			smallmenu3o.src = 'mvgui/en/ps_menu_o_03.gif';
+			smallmenu4o.src = 'mvgui/en/ps_menu_o_04.gif';
+			
+		}
+		document.smallplayerloaded=true;
+	  }
+	  else
+	  {
+	    document.getElementById('mvplayer').width = '992';
+	    document.getElementById('playerdiv').style.width = '992';
+	    document.getElementById('playerdiv').style.height = '558';
+	    document.getElementById('mvplayer').height = '558';
+	    document.getElementById('playertd').height = '649';
+		document.largeplayer=true;
+	    document.getElementById('playerbg').style.backgroundImage='url("mvgui/big_vid_bg2.gif")';
+	    document.getElementById('smallmenu').style.display = 'none';
+	    document.getElementById('bigmenu').style.display = '';
+	  }
+	}
+	
+	function embedvideo()
+	{
+	  document.getElementById('related_html').style.display='none';
+	  document.getElementById('related_header').style.display='none';
+	  document.getElementById('related_bottom').style.display='none';
+	  document.getElementById('embed_html').style.display='';
+	}
+
+	function embedclose()
+	{
+	  document.getElementById('related_html').style.display='none';
+	  document.getElementById('related_header').style.display='none';
+	  document.getElementById('related_bottom').style.display='none';
+	  document.getElementById('embed_html').style.display='none';
+	}
+
+	function resizing()
+	{
+	   if (cinmode == 1)
+	   {
+	     resizecinema();
+	   }
+	}
+
+
+	function playercomplete()
+	{
+	  document.allowresize=true;
+	}
+
+	function playerout()
+	{ 
+	  if (document.allowresize)
+	  {
+	    document.getElementById('mvplayer').hideNavigation();
+	  }
+	}
+	
+
+	document.allowresize=false;
+
+
+	</script>
+	</td>
+</tr>
+</table>
+
+
+
+
+<div style="position:relative; width:996px; height:265px; margin-top:-60px; display:none;" id="embed_html">
+
+<div style="position:absolute; left:0px; top:0px; width:996px; height:66px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/related_top.gif');"></div>
+<div style="position:absolute; left:0px; top:66px; width:996px; height:120px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/related_mid.gif');"></div>
+<div style="position:absolute; left:0px; top:186px; width:996px; height:16px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/related_bottom.gif');"></div>
+
+
+
+
+
+
+
+
+<div style="position:absolute; left:82px; top:25px; width:400px; text-align:left; font-weight:bold; font-size:12px;">Set the size of the player:</div>
+
+
+<div style="position:absolute; left:82px; top:65px; width:450px; text-align:left; font-weight:bold; font-size:12px;">
+<table cellpadding="0" cellspacing="0" style="font-size:12px;">
+<tr>
+	<td>width:&nbsp;</td>
+	<td><input type="text" name="width" id="embed_width" style="width:50px;" class="text" value="640" onkeyup="prefill_width(this.value);"></td>
+	<td>&nbsp;pixels</td>
+</tr>
+<tr>
+	<td colspan="3" height="28"></td>
+</tr>
+<tr>
+	<td>height:&nbsp;</td>
+	<td><input type="text" name="height" id="embed_height" style="width:50px;" class="text" value="360" onkeyup="prefill_height(this.value);"></td>
+	<td>&nbsp;pixels</td>
+</tr>
+</table>
+</div>
+
+
+<div style="position:absolute; left:82px; top:154px; width:400px; text-align:left; font-weight:bold; font-size:12px; color:#FD0819; display:none;" id="minimumwidthmsg">The minimum width is 440 pixels.</div>
+<div style="position:absolute; left:82px; top:154px; width:400px; text-align:left; font-weight:bold; font-size:12px; color:#FD0819; display:none;" id="minimumheightmsg">The minimum height is 330 pixels.</div>
+
+<div style="position:absolute; left:280px; top:65px; width:400px; text-align:left; font-weight:bold; font-size:12px;">
+<table cellpadding="0" cellspacing="0" style="font-size:12px;">
+<tr>
+	<td>size:&nbsp;</td>
+	<td>
+	<select onchange="selectchange();" id="sizeselectbox">
+	<option>Small</option>
+	<option selected>Normal</option>
+	<option>Large</option>
+	<option>XXL</option>
+	<option>Custom</option>
+	</select>
+	</td>
+	<td></td>
+</tr>
+<tr>
+	<td colspan="3" height="28"></td>
+</tr>
+<tr>
+	<td colspan="3"><input type="checkbox" checked id="aspectratio"> <font id="aspectratiotxt">Keep aspect ratio</font></td>
+</tr>
+</table>
+</div>
+
+<script type="text/javascript">
+
+embedcloseimg = new Image(23,24);
+embedcloseimgo = new Image(23,24);
+embedcloseimgo.src = 'mvgui/embed_closew_o.gif';
+
+</script>
+
+
+<div style="position:absolute; left:510px; top:25px; width:300px; text-align:left; font-weight:bold; font-size:12px;">Copy paste the following code:</div>
+
+<div style="position:absolute; left:620px; top:19px; width:360px; text-align:right; font-weight:bold; font-size:12px;"><a href="javascript:embedclose();"><img src="/web/20101020072501im_/http://www.megavideo.com/mvgui/embed_closew.gif" width="23" height="24" border="0" alt="" onmouseover="embedcloseimg.src=this.src; this.src=embedcloseimgo.src;" onmouseout="this.src=embedcloseimg.src;"></a></div>
+
+<div style="position:absolute; left:510px; top:52px; width:400px; text-align:left; font-weight:bold; font-size:12px;">
+<textarea style="width:400px; height:90px; border: 1px solid #A5ACB2;" id="embedcode" onclick="this.select();" readonly></textarea>
+</div>
+
+
+<div style="position:absolute; left:510px; top:161px; width:300px; text-align:left; font-weight:bold; font-size:12px;"><a href="javascript:previewplayer();" style="font-weight:bold; font-size:12px; text-decoration:none; color:#000000;">preview player</a></div>
+
+
+</div>
+
+<script type="text/javascript">
+
+customsetting=false;
+
+min_width = 440;
+min_height = 330;
+
+original_width = '416';
+original_height = '224';
+
+ewidth = 640;
+eheight = Math.floor((640/original_width)*original_height);
+
+custom_width = ewidth;
+custom_height = eheight;
+
+prefill_w = 640;
+prefill_h = eheight;
+
+document.getElementById('embed_width').value = ewidth;
+document.getElementById('embed_height').value = eheight;
+
+setembedcode(ewidth,eheight);
+
+
+
+
+function setplayersize(newwidth,newheight)
+{ 
+	  if (newheight == 0)
+	  {
+	    ewidth = newwidth;
+		eheight = Math.floor((newwidth/original_width)*original_height);
+
+		if (eheight < min_height)
+		{ 
+		  eheight = min_height;
+		  document.getElementById('aspectratio').disabled = true;
+		  document.getElementById('aspectratiotxt').color = '#757575';
+		  
+		}
+		else
+		{
+		  document.getElementById('aspectratio').disabled = false;
+		  document.getElementById('aspectratiotxt').color = '#000000';
+
+		}
+
+		document.getElementById('embed_width').value = ewidth;
+		document.getElementById('embed_height').value = eheight;
+		setembedcode(ewidth,eheight);
+	  }
+	  else if(newwidth == 0)
+	  {
+	    eheight = newheight;
+		
+		if (ewidth < min_width)
+		{ 
+		  ewidth = min_width;
+		  document.getElementById('aspectratio').disabled = true;
+		  document.getElementById('aspectratiotxt').color = '#757575';
+		}
+		else
+		{
+		  document.getElementById('aspectratio').disabled = false;
+		  document.getElementById('aspectratiotxt').color = '#000000';
+		}
+
+		ewidth = Math.floor((newheight/original_height)*original_width);
+		document.getElementById('embed_width').value = ewidth;
+		document.getElementById('embed_height').value = eheight;
+		setembedcode(ewidth,eheight);
+	  }
+	  else
+	  {
+	    ewidth = newwidth;
+	    eheight = newheight;
+	    document.getElementById('embed_width').value = newwidth;
+		document.getElementById('embed_height').value = newheight;
+		setembedcode(ewidth,eheight); 
+	  }
+	  
+}
+
+
+function prefill_width(newwidth)
+{
+  if (isUnsignedInteger(newwidth))
+  {
+    if (newwidth < min_width)
+    { 
+	  document.getElementById('minimumwidthmsg').style.display = '';
+	  document.getElementById('embed_width').style.borderColor = '#FD0819';
+	  
+    }
+	else
+	{
+	  document.getElementById('embed_width').style.borderColor = '#A5ACB2';
+	  document.getElementById('minimumwidthmsg').style.display = 'none';
+	  prefill_w = newwidth;
+	  
+	  if (document.getElementById('aspectratio').checked == true)
+	  {
+	    setplayersize(newwidth,0);
+	  }
+	  else
+	  {
+	    setplayersize(newwidth,eheight);
+	  }
+	    
+ 	  document.getElementById('sizeselectbox').selectedIndex = 4;
+	  customsetting=true;
+	  custom_width = ewidth;
+	  custom_height = eheight;
+	}
+  }
+  else
+  {
+    if (newwidth !== '')
+    {
+   	  document.getElementById('embed_width').value = prefill_w;
+	  
+      alert('Please enter a positive number.');
+	  
+	  document.getElementById('embed_width').style.borderColor = '#A5ACB2';
+	  document.getElementById('minimumwidthmsg').style.display = 'none';
+    }
+  }
+}
+
+
+function prefill_height(newheight)
+{
+  if (isUnsignedInteger(newheight))
+  {
+    if (newheight < min_height)
+    { 
+	  document.getElementById('minimumheightmsg').style.display = '';
+	  document.getElementById('embed_height').style.borderColor = '#FD0819';
+	  
+    }
+	else
+	{
+	  document.getElementById('embed_height').style.borderColor = '#A5ACB2';
+	  document.getElementById('minimumheightmsg').style.display = 'none';
+	  prefill_w = newheight;
+
+	  if (document.getElementById('aspectratio').checked == true)
+	  {
+	    setplayersize(0,newheight);
+  	  }
+	  else
+	  {
+	    setplayersize(ewidth,newheight);
+	  }
+ 	  document.getElementById('sizeselectbox').selectedIndex = 4;
+	  customsetting=true;
+	  custom_width = ewidth;
+	  custom_height = eheight;
+	}
+  }
+  else
+  {
+    if (newheight !== '')
+    {
+   	  document.getElementById('embed_height').value = prefill_h;
+      alert('Please enter a positive number.');
+	  document.getElementById('embed_height').style.borderColor = '#A5ACB2';
+	  document.getElementById('minimumheightmsg').style.display = 'none';
+    }
+  }
+}
+
+
+function isUnsignedInteger(s) 
+{
+  return (s.toString().search(/^[0-9]+$/) == 0);
+}
+
+
+
+function selectchange()
+{
+    document.getElementById('embed_width').style.borderColor = '#A5ACB2';
+    document.getElementById('minimumwidthmsg').style.display = 'none';
+    document.getElementById('embed_height').style.borderColor = '#A5ACB2';
+    document.getElementById('minimumheightmsg').style.display = 'none';
+
+	if (document.getElementById('sizeselectbox').selectedIndex == 0)
+	{
+	  // small
+	  setplayersize(450,0);
+	}
+	if (document.getElementById('sizeselectbox').selectedIndex == 1)
+	{
+	  // normal
+	  setplayersize(640,0); 
+	}
+	if (document.getElementById('sizeselectbox').selectedIndex == 2)
+	{
+	  // large
+	  setplayersize(800,0);
+
+	}
+	if (document.getElementById('sizeselectbox').selectedIndex == 3)
+	{
+	  // XXL
+	  setplayersize(1024,0);
+	}
+	if (document.getElementById('sizeselectbox').selectedIndex == 4)
+	{
+	  // custom
+	  if(customsetting)
+	  {
+	    setplayersize(custom_width,custom_height);
+	  }
+	}
+}
+
+function previewplayer()
+{
+  
+  window.open('previewplayer/?v=QJOHMPRM&width=' + ewidth + '&height=' + eheight + '&image=572f3d0632fe1f943222f0c7086a0eea',name,'width='+(ewidth)+',height='+(eheight)+',scrollbars=no,status=no,resizable=yes, toolbar=no'); 
+  
+}
+
+function setembedcode(cwidth,cheight)
+{
+  
+  document.getElementById('embedcode').value = '<object width="' + cwidth + '" height="' + cheight + '"><param name="movie" value="https://web.archive.org/web/20101020072501/http://www.megavideo.com/v/QJOHMPRM572f3d0632fe1f943222f0c7086a0eea"></param><param name="allowFullScreen" value="true"></param><embed src="https://web.archive.org/web/20101020072501/http://www.megavideo.com/v/QJOHMPRM572f3d0632fe1f943222f0c7086a0eea" type="application/x-shockwave-flash" allowfullscreen="true" width="' + cwidth + '" height="' + cheight + '"></embed></object>';
+  
+}
+
+
+
+</script>
+
+<div style="position:relative; padding-top:10px; margin-top:-60px; width:996px; height:66px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/related_top.gif'); display:none;" id="related_header">
+<div style="position:absolute; left:12px; top:18px; width:482px; height:25px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/under_head2.gif');">
+<div style="position:absolute; left:15px; top:4px; color:#FFFFFF; font-size:12px; width:450px; text-align:left;">Related videos</div>
+</div>
+<div style="position:absolute; left:500px; top:18px; width:482px; height:25px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/under_head2.gif');">
+<div style="position:absolute; left:15px; top:4px; color:#FFFFFF; font-size:12px; width:450px; text-align:left;">Other videos from this user</div>
+<div style="position:absolute; left:0px; top:4px; width:470px; text-align:right;"><a href="javascript:closerelated();" style="color:#FFFFFF; font-size:12px; font-weight:bold; text-decoration:none;">Close</a></div>
+</div>
+</div>
+
+<div style="position:relative; margin-top:-10px; width:996px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/related_mid.gif'); display:none;" id="related_html">&nbsp;</div>
+<div style="position:relative; margin-top:0px; width:996px; height:16px; background-image:url('/web/20101020072501im_/http://www.megavideo.com/mvgui/related_bottom.gif'); display:none;" id="related_bottom">&nbsp;</div>
+
+
+<div style="position:relative; margin-top:-60px; width:996px; margin-left:2px;" id="mcadunit">
+<iframe src="https://web.archive.org/web/20101020072501if_/http://www.megavideo.com/mcad.php?id=22" width="993" height="270" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"></iframe>
+
+</div>
+
+
+<div style="position:absolute; width:1px; height:1px;">
+
+<form method="POST" id="relatedfrm" action="relatedvideos.php" target="relatedframe">
+<input type="hidden" name="v" value="QJOHMPRM">
+</form>
+<iframe src="/web/20101020072501if_/http://www.megavideo.com/?v=QJOHMPRM&amp;" width="1" height="1" name="relatedframe" style="border:none;" border="0"></iframe>
+
+
+
+
+<div id="flash_cookie"></div>
+
+
+
+<script type="text/javascript">
+	var flashvars = {};
+	flashvars.u = "";
+	var params = {};
+	params.wmode = "transparent";
+	swfobject.embedSWF("https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/cookie.swf", "flash_cookie", "1", "1", "0", false, flashvars, params);
+</script>
+
+
+<script type="text/javascript"><!--
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+location.protocol=="https:"?EXprot="https":EXprot="http";
+top.document.referrer?EXref=top.document.referrer:EXref=EXd.referrer;
+EXd.write("<img src="+EXprot+"://nht-3.extreme-dm.com",
+"/n4.g?login=mega05&amp;url="+escape(document.URL)+"&amp;pv=&amp;",
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+"l="+escape(EXref)+" height=1 width=1>");//-->
+</script><noscript><div id="nneXTReMe"><img height="1" width="1" alt="" src="https://web.archive.org/web/20101020072501im_/http://nht-3.extreme-dm.com/n4.g?login=mega05&amp;url=nojs&amp;j=n&amp;jv=n&amp;pv="/>
+</div></noscript>
+
+
+<script type="text/javascript">
+
+var langImgs = new Array(19);
+var langOverImgs = new Array(19);
+var langArrowImgs = new Array(19);
+var locales = new Array(19);
+
+langImgs[0] = new Image(129, 25);
+langImgs[0].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/en.gif";
+langOverImgs[0] = new Image(129, 25);
+langOverImgs[0].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/en_o.gif";
+langImgs[1] = new Image(129, 21);
+langImgs[1].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/de.gif";
+langOverImgs[1] = new Image(129, 21);
+langOverImgs[1].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/de_o.gif";
+langImgs[2] = new Image(129, 21);
+langImgs[2].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/fr.gif";
+langOverImgs[2] = new Image(129, 21);
+langOverImgs[2].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/fr_o.gif";
+langImgs[3] = new Image(129, 21);
+langImgs[3].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/es.gif";
+langOverImgs[3] = new Image(129, 21);
+langOverImgs[3].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/es_o.gif";
+langImgs[4] = new Image(129, 21);
+langImgs[4].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/pt.gif";
+langOverImgs[4] = new Image(129, 21);
+langOverImgs[4].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/pt_o.gif";
+langImgs[5] = new Image(129, 21);
+langImgs[5].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/nl.gif";
+langOverImgs[5] = new Image(129, 21);
+langOverImgs[5].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/nl_o.gif";
+langImgs[6] = new Image(129, 21);
+langImgs[6].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/it.gif";
+langOverImgs[6] = new Image(129, 21);
+langOverImgs[6].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/it_o.gif";
+langImgs[7] = new Image(129, 21);
+langImgs[7].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/cn.gif";
+langOverImgs[7] = new Image(129, 21);
+langOverImgs[7].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/cn_o.gif";
+langImgs[8] = new Image(129, 21);
+langImgs[8].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/ct.gif";
+langOverImgs[8] = new Image(129, 21);
+langOverImgs[8].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/ct_o.gif";
+langImgs[9] = new Image(129, 21);
+langImgs[9].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/jp.gif";
+langOverImgs[9] = new Image(129, 21);
+langOverImgs[9].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/jp_o.gif";
+langImgs[10] = new Image(129, 21);
+langImgs[10].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/kr.gif";
+langOverImgs[10] = new Image(129, 21);
+langOverImgs[10].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/kr_o.gif";
+langImgs[11] = new Image(129, 21);
+langImgs[11].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/ru.gif";
+langOverImgs[11] = new Image(129, 21);
+langOverImgs[11].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/ru_o.gif";
+langImgs[12] = new Image(129, 21);
+langImgs[12].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/fi.gif";
+langOverImgs[12] = new Image(129, 21);
+langOverImgs[12].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/fi_o.gif";
+langImgs[13] = new Image(129, 21);
+langImgs[13].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/se.gif";
+langOverImgs[13] = new Image(129, 21);
+langOverImgs[13].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/se_o.gif";
+langImgs[14] = new Image(129, 21);
+langImgs[14].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/dk.gif";
+langOverImgs[14] = new Image(129, 21);
+langOverImgs[14].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/dk_o.gif";
+langImgs[15] = new Image(129, 21);
+langImgs[15].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/tr.gif";
+langOverImgs[15] = new Image(129, 21);
+langOverImgs[15].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/tr_o.gif";
+langImgs[16] = new Image(129, 21);
+langImgs[16].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/sa.gif";
+langOverImgs[16] = new Image(129, 21);
+langOverImgs[16].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/sa_o.gif";
+langImgs[17] = new Image(129, 21);
+langImgs[17].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/vn.gif";
+langOverImgs[17] = new Image(129, 21);
+langOverImgs[17].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/vn_o.gif";
+langImgs[18] = new Image(129, 21);
+langImgs[18].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/pl.gif";
+langOverImgs[18] = new Image(129, 21);
+langOverImgs[18].src="https://web.archive.org/web/20101020072501/http://wwwstatic.megavideo.com/mvgui/language_object/pl_o.gif";
+
+</script>
+
+
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 07:25:01 Oct 20, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:00:34 Nov 09, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.682
+  exclusion.robots: 0.05
+  exclusion.robots.policy: 0.041
+  esindex: 0.012
+  cdx.remote: 6.678
+  LoadShardBlock: 55.069 (3)
+  PetaboxLoader3.datanode: 95.492 (4)
+  load_resource: 353.244
+  PetaboxLoader3.resolve: 152.849
+  nav: 0.13 (6)
+-->

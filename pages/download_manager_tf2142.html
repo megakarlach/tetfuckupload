@@ -45,23 +45,17 @@ $.getJSON(url, function(data) {
 // the function that selects the mirror provider
 function provider(name, type) {
     if (name == 'archive') {
-        document.getElementById('mirror').innerHTML = '<br />Mirror: Archive (outdated)';
-        fcwait('https://archive.org/details/tetfuck-2142', 'true')
+        document.getElementById('mirror').innerHTML = '<br />Mirror: Archive';
+        fcwait('https://archive.org/details/the-tetfuck-box-v11.0.0', 'true')
     }
     if (name == 'github') {
         document.getElementById('mirror').innerHTML = '<br />Mirror: GitHub - Releases (direct download)';
-        fcwait('https://github.com/megakarlach/tetfuckupload/releases/tag/11.0.0', 'true')
+        fcwait('https://github.com/megakarlach/tetfuckupload/releases', 'true')
     }
-	
-<!--	if (name == 'pixeldrain') {
-        document.getElementById('mirror').innerHTML = '<br />Mirror: PixelDrain';
-        fcwait('https://pd.cybar.xyz/c8VovBVE', 'true')
-    }
--->
 
     if (name == 'megaupload') {
         document.getElementById('mirror').innerHTML = '<br />Mirror: MEGA';
-        fcwait('', 'true')
+        fcwait('about:blank', 'true')
     }
 	
     if (name == 'torrent') {
@@ -92,11 +86,11 @@ function fcwait(url, direct) {
         document.getElementById("divDLStart").style.display = 'block';
         if (direct == 'true') {
             sendDownload(url);
-            track("http://web.archive.org/web/20130324115735/http://blackmesasource.com/stats.php?tracker=download");
+            track("");
             // alert("i am sending a ping to track the Download!");
         } else {
             launchDownload(url);
-            track("http://web.archive.org/web/20130324115735/http://blackmesasource.com/stats.php?tracker=cdn");
+            track("");
             // alert("i am sending a ping to track the CDN!");
         }
         document.getElementById('divDLStart').innerHTML = 'If your download, or redirect does not start automatically, please <a target="_blank" href="' + url + '">click here.</a> ';
@@ -127,8 +121,9 @@ a:hover {color:#333;}
 	  <h4 style="margin:0;">Includes: TetFuck 2142, 4K, V and Pussyo Pussyo: Kunny Krysis</h4>
 	  <br>
       <div style="color:#ccc; font-size:12px">
-        <strong>tfbox-setup-11.0.0.exe</strong> - Automatic installer.<!-- <br><s><strong>tetfuck-collectors-edition-setup-10.0.6.2.exe</strong> - Coming soon (Collectors Edition)</s>--><br>
-        <div id="mirror">
+        <strong>tfbox-setup-11.0.0.exe</strong> - Automatic installer, 3 part.<!-- <br><s><strong>tetfuck-collectors-edition-setup-10.0.6.2.exe</strong> - Coming soon (Collectors Edition)</s>--><br>
+        <strong>TetFuck Box Patch 11.0.1.exe</strong> - Patch to fix TetFuck 4K DDraw issue/crashes.
+		<div id="mirror">
         </div>
          The TetFuck Box total download size: ~4.00GB <br>
         <br><br>
@@ -144,14 +139,14 @@ a:hover {color:#333;}
         <strong>Global:</strong><br>
         <!-- a onClick="provider('gamespot')" href="#">GameSpot</a><br / -->
         <!-- a onClick="provider('fileshack')" href="#">FileShack</a><br/ -->
-        <a onclick="provider('archive')" href="#">Archive.org (outdated, 10.0.6)</a><br>
+        <a onclick="provider('archive')" href="#">Archive.org (11.0.1)</a><br>
 		<!-- <a onclick="provider('pixeldrain')" href="#">Pixeldrain (bypassed limit, 11.0.0)</a><br> -->
-        <a onclick="provider('github')" href="#">GitHub (11.0.0)</a><br>
+        <a onclick="provider('github')" href="#">GitHub (11.0.1)</a><br>
         <!-- <span id="maxcdn"><a onclick="provider('maxcdn','direct')" href="#">MaxCDN</a><br/></span> -->
         <br>
         </div>
 		<clear>
-        <div style="position:absolute; top:212px; left:200px;">
+        <div style="position:absolute; top:238px; left:200px;">
         <strong>TORRENT:</strong><br><a onclick="provider('torrent')" href="#">Coming soon</a><br>
         </div>
         <!--
