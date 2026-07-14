@@ -14,7 +14,7 @@
 				background-color: #000;	<!-- og rule34 color was #aae5a4 -->
 				background-size: cover;
 				background-attachment: fixed; 
-				font-family: Stratum2Md, Helvetica, Arial, sans-serif;
+				font-family: Knul Medium, Helvetica, Arial, sans-serif;
 			}
 			a {
 				color: lightblue;
@@ -40,7 +40,7 @@
 				width: 100%;
 				max-width: 600px;
 			}
-			@font-face { font-family: Stratum2Md; src: url('stratum2.ttf'); } 
+			@font-face { font-family: Knul Medium; src: url('\fonts\Knul-Medium.ttf'); } 
 			overflow: hidden; /* Hide scrollbars */
 		</style>
 				<link rel="icon" href="..\favicon.ico">
@@ -56,8 +56,10 @@
 								<p>• Install DirectX Runtime</a> (if you have already, skip this step)</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•• NOTE: You must quit the launcher/game before installing DirectX. Look up Microsoft website or Google for download links.</p>
 								<p>• Open TetFuck 4K Configuration app (TetFuck 4K > Options on TetFuck Launcher) or setup.exe/tf_config.exe, then do one of the two fixes below:</p>
-								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•• Change resolution to match your monitor resolutions (or try 800x600 as fallback).</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In some cases, when TetFuck 4K was released, we may accidentally ship a config file that only allows the game to boot on 1920x1080 monitor or higher, and this will crash the game if 1920x1080 option wasn't available.
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•• Change resolution to match your monitor resolutions (or try 800x600 or 640x480 (if available) as fallback).</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In some cases, when TetFuck 4K was released, we may accidentally ship a config file that only allows the game to boot on 1920x1080 monitor or higher, and this will crash the game if 1920x1080 option wasn't available.</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•• If you use MIDI soundtrack, remove all of them or disable it via TetFuck 4K Configuration app. You may also try to add your own MIDI tracks if you want.</p>
+								<p>• Using MacType? TetFuck 4K Enhanced crashed but not regular (Legacy) version?</p>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•• Please add "TetFuck4K_Enhanced.exe", "setup.exe" and "tf_config.exe" to [UnloadDll] section inside "MacType.ini". This will fix crashes related to MacType.</p>
 								<p>If done correctly, this should fix any crashes. If not, we think that TetFuck 4K is just simply dogshit, and we tried our best to fix this shit (especically on modern Windows).</p>
 			</li>
 		</ul>
